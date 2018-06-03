@@ -1,0 +1,103 @@
+form[id='4045463'] .form-label-auto label, form[id='4045463'] .form-label-top label, form[id='4045463'] .form-label-left label, form[id='4045463'] .form-label-right label {
+  font-family: Arial;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #fab87e;
+  font-weight: bold;
+  background: #bc1245;
+  padding: 5px;
+  width: 109%;
+  display: inline-block;
+  margin-bottom: 4px;
+  padding-left: 14px;
+  margin-left: -35px;
+}
+
+form[id='4045463'] div#formContainer .form-label-top, form[id='4045463'] .form-label-left label {
+  font-size: 20px;
+}
+
+form[id='4045463'] .form-all .label-message {
+  font-family: Arial;
+  background: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-transform: none;
+  letter-spacing: 0;
+  margin-left: 0;
+  font-size: 15px;
+  color: #835603;
+}
+
+form[id='4045463'] .form-line {
+  background-color: #fff6e5;
+  width: 600px;
+  margin: 20px auto;
+}
+
+body.mobile form[id='4045463'] .form-line {
+  width: 95vw;
+}
+
+form[id='4045463'] div#text_1 img {
+  max-width: 100%;
+}
+
+/*HIDE BG FOR CERTAIN AREAS*/
+
+form[id='4045463'] li#id_2, form[id='4045463'] li#id_1, form[id='4045463'] li#id_3 {
+  background: rgba(255, 255, 255, 0);
+  border-bottom: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+form[id='4045463'] h2.form-header {
+  font-family: Arial;
+  font-size: 2em;
+  font-weight: bold;
+  border-bottom: 2px solid #fff6e5;
+  color: #835603;
+}
+
+form[id='4045463'] img.form-image {
+  width: 100%;
+}
+
+form[id="4045463"] div#raffle-deets {
+  width: 80%;
+  background: #fff6e5;
+  color: #835603;
+  padding: 25px;
+  margin: 20px auto;
+  text-align: center;
+  border: white double 11px;
+}
+
+form[id="4045463"] div#raffle-deets p {
+  color: #835603;
+}
+
+form[id="4045463"] div#raffle-deets p:nth-child(1) {
+  font-size: 20px;
+  border-bottom: 1px solid white;
+}
+
+/*4 tickets bold */
+
+label#label_input_4_2 {
+  font-weight: bold;
+}
+
+/* Footnote Disclaimer */
+
+#id_10 {
+  background: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
