@@ -11,7 +11,7 @@ p {
 
 body.mobile div#chabad_body_page,
 body.cco_templateless_page {
-  background: #bc2737 !important;
+  background: #403546 !important;
 }
 
 div#cco_body .content_tditle_container .overlay {
@@ -160,7 +160,7 @@ div#chabad_head .chabad_navigator_bar ul li:last-child {
 
 .chabad_navigator_bar ul li a {
   float: left;
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   font-weight: 300;
   height: 100%;
   padding: 25px;
@@ -816,14 +816,15 @@ div.chabad_header img {
 
 .cco_templateless_template {
   background: none;
-  font-family: 'IBM Plex Sans', sans-serif !important;
+  font-family: "IBM Plex Sans", sans-serif !important;
   overflow: hidden;
+  border-top: 5px solid #c9ac89;
 }
 
 .cco_templateless_template a {
   text-transform: none !important;
   color: white;
-  font-family: 'IBM Plex Sans', sans-serif !important;
+  font-family: "IBM Plex Sans", sans-serif !important;
   opacity: 0.3;
   transform: scale(0.8);
   position: absolute;
@@ -838,6 +839,10 @@ body.mobile #content-wrap {
 
 body.mobile div#formContainer {
   width: 95vw;
+}
+
+p#home {
+  margin: 0;
 }
 
 .footer,
