@@ -11,7 +11,7 @@
           entries.forEach((entry) => {
             donors.push(entry.gsx$donors.$t);
           });
-          console,log(donors);
+          console.log(donors);
       });
 
     });
