@@ -17,6 +17,7 @@
             .appendTo($latestDonors);
           });
           $('#current-text').text('$' + amountNumber.toLocaleString());
+          $('#current-wrapper').height(amountNumber / 500000 * 100);
       });
 
     });
