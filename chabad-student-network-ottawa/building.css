@@ -5,6 +5,7 @@ body,
 .co_body .content li,
 li,
 .co_body .content p,
+.article-body h1, .article-body h2, .article-body h3, H2.form-header,
 p {
   font-family: "IBM Plex Sans", sans-serif;
 }
@@ -960,6 +961,7 @@ div#formContainer .form-label-top, .form-label-left label {
   text-transform: none;
   letter-spacing: 0;
   margin-left: 0;
+  width: 100%;
 }
 
 .form-line {
@@ -972,10 +974,9 @@ body.mobile .form-line {
   width: 95vw;
 }
 
-li#id_2, #id_10, form[id='3957400'] li#id_6 {
+#id_12 {
   background: transparent;
   border-bottom: 0;
-  box-shadow: none;
 }
 
 span[id='7-form-required'] {
