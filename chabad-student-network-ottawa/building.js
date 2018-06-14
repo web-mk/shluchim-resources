@@ -8,12 +8,15 @@
       })
       .then((data) => {
           var $latestDonors = $('#latest-donors');
+          var currentAmount = data.feed.entry[0].gsx$thermometer.$t;
+          var amountNumber = parseInt(currentAmount);
           data.feed.entry.forEach((entry) => {
             var donor = entry.gsx$donors.$t;
             var $li = $('<li/>');
             $li.text(donor)
             .appendTo($latestDonors);
           });
+          $('#current-text').text(amountNumber.toLocaleString());
       });
 
     });
