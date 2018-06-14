@@ -866,6 +866,8 @@ p#home {
 
 #current-wrapper {
   min-height: 30px;
+  display: flex;
+  align-items: flex-end;
 }
 
 div#goal-text {
