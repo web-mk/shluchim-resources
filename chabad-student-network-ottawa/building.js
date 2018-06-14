@@ -1,6 +1,7 @@
 (function defer() {
   if (window.jQuery) {
     jQuery(document).ready(function(e) {
+      debugger;
       $.ajax({
         method: 'get',
         // with thanks to https://sandbox.idre.ucla.edu/sandbox/general/databasing-google-spreadsheets-to-json

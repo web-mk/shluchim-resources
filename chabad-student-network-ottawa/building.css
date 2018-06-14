@@ -960,6 +960,7 @@ div#formContainer .form-label-top, .form-label-left label {
   text-transform: none;
   letter-spacing: 0;
   margin-left: 0;
+  padding-left: 0;
   width: 100%;
 }
 
