@@ -859,10 +859,13 @@ p#home {
   height: 100%;
   border-radius: 100px;
   width: 100%;
-  min-height: 30px;
   -moz-animation: grow 2s 1;
   -webkit-animation: grow 2s 1;
   animation: grow 2s 1;
+}
+
+#current-wrapper {
+  min-height: 30px;
 }
 
 div#goal-text {
