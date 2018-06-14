@@ -175,7 +175,7 @@ div#chabad_head .chabad_navigator_bar ul li a.first {
   padding-left: 0;
 }
 
-div#chabad_main_content {
+#chabad_main_content {
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
@@ -183,15 +183,18 @@ div#chabad_main_content {
   width: 975px;
 }
 
-div.chabad_left_column {
+.chabad_left_column {
   float: left;
   margin-bottom: 30px;
   width: 975px;
   background: white;
+}
+
+#content_page {
   padding: 30px;
 }
 
-div.content_full_width .chabad_left_column {
+.content_full_width .chabad_left_column {
   float: none;
   width: auto;
 }
