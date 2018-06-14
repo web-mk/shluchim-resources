@@ -845,7 +845,7 @@ p#home {
 
 #current {
   width: 10px;
-  background: #012444;
+  background: #403546;
   height: 100%;
   border-radius: 100px;
   width: 100%;
@@ -982,6 +982,52 @@ body.mobile .form-line {
   border-bottom: 0;
 }
 
-span[id='7-form-required'] {
-  display: none;
+/* TICKER */
+
+#latest {
+  background: #403546;
+  padding-top: 20px;
+  font-size: 16px;
+}
+
+#latest:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#latest-title {
+  width: 20%;
+  float: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  border-right: 2px solid #b7b29a;
+}
+
+#latest marquee {
+  width: 79%;
+  float: right;
+}
+
+#latest-donors {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#latest-donors li {
+  display: inline-block;
+  margin-right: 15px;
+  color: #d5caae;
+}
+
+#latest-donors li:after {
+  content: '\2022';
+  margin-left: 15px;
+  color:#736d4e;
+}
+
+#latest-donors li:last-child {
+  content: '';
 }
