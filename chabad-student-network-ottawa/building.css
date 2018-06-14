@@ -925,7 +925,6 @@ div#goal-text {
   font-size: 40px;
   border-bottom: 3px solid #d4d0bf;
   margin-bottom: 30px;
-  max-width: 730px;
 }
 
 /* DEDICATION PAGE */
@@ -974,7 +973,7 @@ body.mobile .form-line {
   width: 95vw;
 }
 
-#id_12 {
+#id_2, #id_12 {
   background: transparent;
   border-bottom: 0;
 }
