@@ -16,7 +16,7 @@
             $li.text(donor)
             .appendTo($latestDonors);
           });
-          $('#current-text').text(amountNumber.toLocaleString());
+          $('#current-text').text('$' + amountNumber.toLocaleString());
       });
 
     });
