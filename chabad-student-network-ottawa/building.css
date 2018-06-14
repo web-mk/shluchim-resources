@@ -1028,6 +1028,6 @@ body.mobile .form-line {
   color:#736d4e;
 }
 
-#latest-donors li:last-child {
+#latest-donors li:last-child:after {
   content: '';
 }
