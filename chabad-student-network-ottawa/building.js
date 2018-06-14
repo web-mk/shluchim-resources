@@ -1,25 +1,24 @@
 (function defer() {
   if (window.jQuery) {
     jQuery(document).ready(function(e) {
-      debugger;
-      $.ajax({
+      jQuery.ajax({
         method: 'get',
         // with thanks to https://sandbox.idre.ucla.edu/sandbox/general/databasing-google-spreadsheets-to-json
         url: `https://spreadsheets.google.com/feeds/list/1VqxIarzdTnAKcPoD9Xvx6r1VHvnSaH8fccL1woxQPjg/od6/public/values?alt=json`,
       })
       .then((data) => {
-          var $latestDonors = $('#latest-donors');
+          var $latestDonors = jQuery('#latest-donors');
           var currentAmount = data.feed.entry[0].gsx$thermometer.$t;
           var amountNumber = parseInt(currentAmount);
           var percentComplete = amountNumber / 500000 * 100;
           data.feed.entry.forEach((entry) => {
             var donor = entry.gsx$donors.$t;
-            var $li = $('<li/>');
+            var $li = jQuery('<li/>');
             $li.text(donor)
             .appendTo($latestDonors);
           });
-          $('#current-text').text('$' + amountNumber.toLocaleString());
-          $('#current-wrapper').height(percentComplete + '%');
+          jQuery('#current-text').text('$' + amountNumber.toLocaleString());
+          jQuery('#current-wrapper').height(percentComplete + '%');
       });
 
     });
