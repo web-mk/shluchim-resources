@@ -184,9 +184,10 @@ div#chabad_main_content {
 
 div.chabad_left_column {
   float: left;
-  /*margin: 15px;*/
-  margin-bottom: 0;
+  margin-bottom: 30px;
   width: 975px;
+  background: white;
+  padding: 30px;
 }
 
 div.content_full_width .chabad_left_column {
@@ -914,4 +915,69 @@ div#goal-text {
   100% {
     height: 100%;
   }
+}
+
+
+/* TITLE */
+.article-body h1, .article-body h2, .article-body h3, H2.form-header {
+  color: #403546;
+  font-size: 40px;
+  border-bottom: 3px solid #d4d0bf;
+  margin-bottom: 30px;
+  max-width: 730px;
+}
+
+/* DEDICATION PAGE */
+
+#cid_1 .form-header-group {
+  padding: 0;
+  margin: 0;
+}
+
+div#formContainer .form-label-top, .form-label-left label {
+  font-size: 20px;
+}
+
+.form-label-auto label, .form-label-top label, .form-label-left label, .form-label-right label, div.co_body h3 {
+  font-family: "IBM Plex Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 24px;
+  letter-spacing: 3px;
+  color: white;
+  font-weight: bold;
+  background: #012444;
+  padding: 5px;
+  width: 109%;
+  display: inline-block;
+  margin-bottom: 4px;
+  padding-left: 14px;
+  margin-left: -36px;
+}
+
+.form-all .label-message {
+  font-family: "IBM Plex Sans", sans-serif;
+  background: none;
+  text-transform: none;
+  letter-spacing: 0;
+  margin-left: 0;
+}
+
+.form-line {
+  background-color: #e8ebec;
+  width: 600px;
+  margin: 20px auto;
+}
+
+body.mobile .form-line {
+  width: 95vw;
+}
+
+li#id_2, #id_10, form[id='3957400'] li#id_6 {
+  background: transparent;
+  border-bottom: 0;
+  box-shadow: none;
+}
+
+span[id='7-form-required'] {
+  display: none;
 }
