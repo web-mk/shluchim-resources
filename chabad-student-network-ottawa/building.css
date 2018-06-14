@@ -167,7 +167,7 @@ div#chabad_head .chabad_navigator_bar ul li.active a.parent,
 div#chabad_head .chabad_navigator_bar ul li a.selected,
 div#chabad_head .chabad_navigator_bar ul li a:hover {
   background-color: #d3d0bf;
-  color: #bc2737;
+  color: #403546;
 }
 
 div#chabad_head .chabad_navigator_bar ul li a.first {
@@ -199,12 +199,9 @@ div.chabad_left_colum .content_page_full {
   margin: 0 15px;
 }
 
-div#chabad_right_colum,
-div.chabad_right_colum,
-div.chabad_right_column {
-  float: left;
-  margin-top: 15px;
-  width: 245px;
+.chabad_right_column {
+  position: fixed;
+  right: 0;
 }
 
 div#chabad_right_colum > div {
