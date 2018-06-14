@@ -190,17 +190,13 @@ div#chabad_main_content {
   width: 975px;
 }
 
-div#chabad_left_colum,
-div.chabad_left_colum,
 div.chabad_left_column {
   float: left;
   /*margin: 15px;*/
   margin-bottom: 0;
-  width: 685px;
+  width: 975px;
 }
 
-div.content_full_width #chabad_left_colum,
-div.content_full_width .chabad_left_colum,
 div.content_full_width .chabad_left_column {
   float: none;
   width: auto;
