@@ -10,6 +10,7 @@
           var $latestDonors = $('#latest-donors');
           var currentAmount = data.feed.entry[0].gsx$thermometer.$t;
           var amountNumber = parseInt(currentAmount);
+          var percentComplete = amountNumber / 500000 * 100;
           data.feed.entry.forEach((entry) => {
             var donor = entry.gsx$donors.$t;
             var $li = $('<li/>');
@@ -17,7 +18,7 @@
             .appendTo($latestDonors);
           });
           $('#current-text').text('$' + amountNumber.toLocaleString());
-          $('#current-wrapper').height(amountNumber / 500000 * 100);
+          $('#current-wrapper').height(percentComplete + '%');
       });
 
     });
