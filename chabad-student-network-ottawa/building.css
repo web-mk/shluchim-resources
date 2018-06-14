@@ -27,15 +27,11 @@ div.widget_header {
 }
 
 div#chabad_head {
-  float: none !important;
   width: initial !important;
-  /*margin-top: 20px;*/
-}
-
-.chabad_header {
-  /*width: 335px;*/
-  float: left;
-  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
 }
 
 td.chabad_logo {
