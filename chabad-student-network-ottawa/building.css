@@ -63,11 +63,7 @@ td.chabad_text_head img {
 }
 
 div#chabad_head .chabad_navigator_bar {
-  background-size: 100%;
-  /*width: 640px;*/
-  /* float: right; */
-  height: 36px;
-  display: inline-block;
+  display: flex;
 }
 
 .navi li.parent:first-child {
