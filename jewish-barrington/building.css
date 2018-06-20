@@ -155,9 +155,9 @@ div#chabad_head .chabad_navigator_bar ul li:last-child {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   height: 100%;
-  padding: 25px;
-  font-size: 25px;
-  color: #d3d0bf;
+  padding: 25px 15px;
+  font-size: 23px;
+  color: white;
   text-decoration: none;
 }
 
@@ -169,8 +169,8 @@ div#chabad_head .chabad_navigator_bar ul li:last-child {
 div#chabad_head .chabad_navigator_bar ul li.active a.parent,
 div#chabad_head .chabad_navigator_bar ul li a.selected,
 div#chabad_head .chabad_navigator_bar ul li a:hover {
-  background-color: #d3d0bf;
-  color: #403546;
+  background-color: #f6c17c;
+  color: black;
 }
 
 div#chabad_head .chabad_navigator_bar ul li a.first {
@@ -189,11 +189,12 @@ div#chabad_head .chabad_navigator_bar ul li a.first {
   float: left;
   margin-bottom: 30px;
   width: 975px;
-  background: white;
+  /* background: white; */
 }
 
 #content_page {
   padding: 30px;
+  background: white;
 }
 
 .content_full_width .chabad_left_column {
@@ -227,7 +228,7 @@ div#chabad_body_content {
   clear: both;
   /*padding-bottom: 15px;*/
   width: 975px;
-  background-color: white;
+  /* background-color: white; */
   margin-bottom: 20px;
 }
 
@@ -927,7 +928,7 @@ div#goal-text {
 
 /* TITLE */
 .article-body h1, .article-body h2, .article-body h3, H2.form-header {
-  color: #403546;
+  color: black;
   font-size: 40px;
   border-bottom: 3px solid #d4d0bf;
   margin-bottom: 30px;
@@ -988,7 +989,6 @@ body.mobile .form-line {
 /* TICKER */
 
 #latest {
-  background: #403546;
   padding-top: 20px;
   font-size: 16px;
 }
