@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,700");
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
 *,
 body,
@@ -7,7 +7,7 @@ li,
 .co_body .content p,
 .article-body h1, .article-body h2, .article-body h3, H2.form-header,
 p {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body.mobile div#chabad_body_page,
@@ -152,7 +152,7 @@ div#chabad_head .chabad_navigator_bar ul li:last-child {
 
 .chabad_navigator_bar ul li a {
   float: left;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   height: 100%;
   padding: 25px;
@@ -799,7 +799,7 @@ div.chabad_header img {
 
 .cco_templateless_template {
   background: none;
-  font-family: "IBM Plex Sans", sans-serif !important;
+  font-family: 'Montserrat', sans-serif !important;
   overflow: hidden;
   border-top: 5px solid #f6c17c;
 }
@@ -807,7 +807,7 @@ div.chabad_header img {
 .cco_templateless_template a {
   text-transform: none !important;
   color: white;
-  font-family: "IBM Plex Sans", sans-serif !important;
+  font-family: 'Montserrat', sans-serif !important;
   opacity: 0.3;
   transform: scale(0.8);
   position: absolute;
@@ -836,7 +836,7 @@ p#home {
 /*THERMOMETER*/
 
 #thermometer {
-  background: #dddddd;
+  background: white;
   height: 300px;
   width: 50px;
   border-radius: 100px;
@@ -848,7 +848,7 @@ p#home {
 
 #current {
   width: 10px;
-  background: #403546;
+  background: #bbd196;
   height: 100%;
   border-radius: 100px;
   width: 100%;
@@ -945,7 +945,7 @@ div#formContainer .form-label-top, .form-label-left label {
 }
 
 .form-label-auto label, .form-label-top label, .form-label-left label, .form-label-right label, div.co_body h3 {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-size: 24px;
   letter-spacing: 3px;
@@ -961,7 +961,7 @@ div#formContainer .form-label-top, .form-label-left label {
 }
 
 .form-all .label-message {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background: none;
   text-transform: none;
   letter-spacing: 0;
