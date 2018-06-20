@@ -10,7 +10,7 @@
           var $latestDonors = jQuery('#latest-donors');
           var currentAmount = data.feed.entry[0].gsx$thermometer.$t;
           var amountNumber = parseInt(currentAmount);
-          var percentComplete = amountNumber / 500000 * 100;
+          var percentComplete = amountNumber / 1400000 * 100;
           data.feed.entry.reverse().forEach((entry) => {
             var donor = entry.gsx$donors.$t;
             var $li = jQuery('<li/>');
