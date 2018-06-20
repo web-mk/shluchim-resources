@@ -12,7 +12,9 @@ p {
 
 body.mobile div#chabad_body_page,
 body.cco_templateless_page {
-  background: #403546 !important;
+  background-image: url(https://jewishbarrington.com/media/images/1055/FuoX10558832.jpg) !important;
+  background-size: cover !important;
+  background-attachment: fixed !important;
 }
 
 div#cco_body .content_tditle_container .overlay {
@@ -799,7 +801,7 @@ div.chabad_header img {
   background: none;
   font-family: "IBM Plex Sans", sans-serif !important;
   overflow: hidden;
-  border-top: 5px solid #c9ac89;
+  border-top: 5px solid #f6c17c;
 }
 
 .cco_templateless_template a {

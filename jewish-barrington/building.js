@@ -4,7 +4,7 @@
         jQuery.ajax({
           method: 'get',
           // with thanks to https://sandbox.idre.ucla.edu/sandbox/general/databasing-google-spreadsheets-to-json
-          url: `https://spreadsheets.google.com/feeds/list/1VqxIarzdTnAKcPoD9Xvx6r1VHvnSaH8fccL1woxQPjg/od6/public/values?alt=json`,
+          url: `https://spreadsheets.google.com/feeds/list/1wenxlh8h2CVMjZboTkscevfWGnGy8xhmALkk_-soTQw/od6/public/values?alt=json`,
         })
         .then((data) => {
             var $latestDonors = jQuery('#latest-donors');
