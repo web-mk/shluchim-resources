@@ -207,6 +207,7 @@ div.chabad_left_colum .content_page_full {
 .chabad_right_column {
   position: fixed;
   right: 0;
+  width: 100px;
 }
 
 div#chabad_right_colum > div {
