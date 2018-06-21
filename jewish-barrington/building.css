@@ -163,6 +163,7 @@ div#chabad_head .chabad_navigator_bar ul li:last-child {
   font-size: 22px;
   color: white;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .chabad_navigator_bar ul li a.arrow {
