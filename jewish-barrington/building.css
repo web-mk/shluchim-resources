@@ -1043,3 +1043,18 @@ body.mobile .form-line {
 #latest-donors li:last-child:after {
   content: '';
 }
+
+#campaign-name {
+  width: 33%;
+  float: left;
+}
+
+#latest-items-wrapper {
+  width: 66%;
+  float: left;
+  display: flex;
+}
+
+#latest-items-wrapper > div {
+  width: 100%;
+}
