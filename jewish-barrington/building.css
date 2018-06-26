@@ -851,10 +851,10 @@ p#home {
 #thermometer {
   background: white;
   width: 300px;
-  height: 30px;
+  height: 20px;
   border-radius: 100px;
   display: flex;
-  padding: 5px;
+  padding: 3px;
   margin: auto;
   margin-top: 10px;
 }
@@ -871,7 +871,7 @@ p#home {
 }
 
 #current-wrapper {
-  min-width: 20px;
+  min-width: 14px;
   display: flex;
   align-items: flex-end;
 }
@@ -960,9 +960,9 @@ div#formContainer .form-label-top, .form-label-left label {
   text-transform: uppercase;
   font-size: 24px;
   letter-spacing: 3px;
-  color: white;
+  color: black;
   font-weight: bold;
-  background: #012444;
+  background: #f7c17c;
   padding: 5px;
   width: 109%;
   display: inline-block;
@@ -982,7 +982,7 @@ div#formContainer .form-label-top, .form-label-left label {
 }
 
 .form-line {
-  background-color: #e8ebec;
+  background-color: #f8fbf4;
   width: 600px;
   margin: 20px auto;
 }
@@ -1082,4 +1082,28 @@ body.mobile .form-line {
 
 #complete-container {
   text-align: right;
+}
+
+#id_3 .form-line input[type=checkbox]:after {
+  content: '\f10c';
+  font-family: FontAwesome;
+  background: #f8fbf4;
+  font-size: 18px;
+  position: relative;
+  color: #1b5c5f;
+  bottom: 5px;
+  left: -2px;
+}
+
+#id_3 .form-line input[type=checkbox]:checked:after {
+  content: "\f058";
+}
+
+#cid_3 label {
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+#cid_3 .form-checkbox-item {
+  margin-bottom: 12px;
 }
