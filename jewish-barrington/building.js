@@ -18,7 +18,7 @@
               .appendTo($latestDonors);
             });
             jQuery('#current-text').text('$' + amountNumber.toLocaleString());
-            jQuery('#current-wrapper').height(percentComplete + '%');
+            jQuery('#current-wrapper').width(percentComplete + '%');
         });
   
       });

@@ -188,6 +188,7 @@ div#chabad_head .chabad_navigator_bar ul li a.first {
   overflow: hidden;
   text-align: left;
   width: 975px;
+  margin-top: 120px;
 }
 
 .chabad_left_column {
@@ -837,30 +838,37 @@ p#home {
 
 /*THERMOMETER*/
 
+#thermometer-wrapper {
+  background: url(https://jewishbarrington.com/media/images/1056/GEUI10561615.jpg);
+  background-size: cover;
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
 #thermometer {
   background: white;
-  height: 300px;
-  width: 50px;
+  width: 300px;
+  height: 50px;
   border-radius: 100px;
   display: flex;
   padding: 10px;
-  flex-direction: column;
-  justify-content: flex-end;
 }
 
 #current {
-  width: 10px;
+  height: 10px;
   background: #bbd196;
-  height: 100%;
-  border-radius: 100px;
   width: 100%;
+  border-radius: 100px;
+  height: 100%;
   -moz-animation: grow 2s 1;
   -webkit-animation: grow 2s 1;
   animation: grow 2s 1;
 }
 
 #current-wrapper {
-  min-height: 30px;
+  min-width: 30px;
   display: flex;
   align-items: flex-end;
 }
@@ -901,28 +909,28 @@ div#goal-text {
 
 @-moz-keyframes grow {
   0% {
-    height: 30px;
+    width: 30px;
   }
   100% {
-    height: 100%;
+    width: 100%;
   }
 }
 
 @-webkit-keyframes grow {
   0% {
-    height: 30px;
+    width: 30px;
   }
   100% {
-    height: 100%;
+    width: 100%;
   }
 }
 
 @keyframes grow {
   0% {
-    height: 30px;
+    width: 30px;
   }
   100% {
-    height: 100%;
+    width: 100%;
   }
 }
 
