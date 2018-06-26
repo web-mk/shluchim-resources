@@ -1084,26 +1084,35 @@ body.mobile .form-line {
   text-align: right;
 }
 
-#id_3 .form-checkbox:after {
+#id_3 .form-checkbox:after,
+#id_4 .form-checkbox:after,
+#id_5 .form-checkbox:after {
   content: '\f10c';
   font-family: FontAwesome;
   background: #f8fbf4;
-  font-size: 18px;
+  font-size: 23px;
   position: relative;
-  color: #1b5c5f;
-  bottom: 5px;
+  color: #f8c17c;
+  bottom: 8px;
   left: -2px;
 }
 
-#id_3 .form-checkbox:checked:after {
+#id_3 .form-checkbox:checked:after,
+#id_4 .form-checkbox:checked:after,
+#id_5 .form-checkbox:checked:after {
   content: "\f058";
+  color: #1b5c5f;
 }
 
-#cid_3 label {
+#cid_3 label,
+#cid_4 label,
+#cid_5 label {
   font-size: 20px;
-  margin-left: 5px;
+  margin-left: 12px;
 }
 
-#cid_3 .form-checkbox-item {
+#cid_3 .form-checkbox-item,
+#cid_4 .form-checkbox-item,
+#cid_5 .form-checkbox-item {
   margin-bottom: 12px;
 }
