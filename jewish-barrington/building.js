@@ -17,8 +17,8 @@
               $li.text(donor)
               .appendTo($latestDonors);
             });
-            jQuery('#current-text').text('$' + amountNumber.toLocaleString() + ' Total Raised');
-            jQuery('#complete-percent').text(percentComplete.toString().substring(0, 2) + ' complete');
+            jQuery('#current-text').text('$' + amountNumber.toLocaleString());
+            jQuery('#complete-percent').text(percentComplete.toString().split('.')[0]);
             jQuery('#current-wrapper').width(percentComplete + '%');
         });
   

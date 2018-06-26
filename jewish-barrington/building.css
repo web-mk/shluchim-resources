@@ -844,7 +844,7 @@ p#home {
   width: 100vw;
   position: absolute;
   left: 0;
-  top: 0;
+  top: 5px;
 }
 
 #thermometer {
