@@ -1119,9 +1119,9 @@ body.mobile .form-line {
   border: 0;
 }
 
-#id_7 .form-label-top,
-#id_12 .form-label-top,
-#id_8 .form-label-top {
+#id_7 .form-label-top label,
+#id_12 .form-label-top label,
+#id_8 .form-label-top label {
   width: auto;
   background: none;
   margin: 0;
@@ -1136,4 +1136,12 @@ body.mobile .form-line {
 #id_8 {
   margin: 0 auto;
   border: 0;
+}
+
+#id_16, #id_17 {
+  background: none;
+  border-bottom: 2px solid green;
+  padding: 0;
+  width: 700px;
+  font-size: 25px;
 }
