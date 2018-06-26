@@ -33,7 +33,7 @@ div.widget_header {
   width: 975px;
 }
 
-div#chabad_head {
+#building-nav {
   width: initial !important;
   display: flex;
   justify-content: space-between;
