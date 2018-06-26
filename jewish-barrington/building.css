@@ -845,16 +845,18 @@ p#home {
   position: absolute;
   left: 0;
   top: 5px;
+  padding: 15px 0;
 }
 
 #thermometer {
   background: white;
   width: 300px;
-  height: 50px;
+  height: 30px;
   border-radius: 100px;
   display: flex;
-  padding: 10px;
+  padding: 5px;
   margin: auto;
+  margin-top: 10px;
 }
 
 #current {
@@ -869,18 +871,24 @@ p#home {
 }
 
 #current-wrapper {
-  min-width: 30px;
+  min-width: 20px;
   display: flex;
   align-items: flex-end;
 }
 
-div#goal-text {
+#goal-text {
   color: white;
-  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
 }
 
 #current-text {
   color: white;
+  font-size: 20px;
+}
+
+#complete-percent {
+  font-size: 20px;
 }
 
 #donate-btn {
@@ -1040,6 +1048,14 @@ body.mobile .form-line {
 #campaign-name {
   width: 33%;
   float: left;
+  font-size: 25px;
+}
+
+#campaign-name span {
+  display: block;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #123435;
 }
 
 #latest-items-wrapper {
@@ -1059,6 +1075,11 @@ body.mobile .form-line {
 #therm-footer-stats {
   width: 300px;
   margin: auto;
+  margin-top:10px;
   display: flex;
   justify-content: space-between;
+}
+
+#complete-container {
+  text-align: right;
 }
