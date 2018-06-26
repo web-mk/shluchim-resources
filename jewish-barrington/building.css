@@ -991,10 +991,6 @@ body.mobile .form-line {
   width: 95vw;
 }
 
-#id_2, #id_12 {
-  background: transparent;
-  border-bottom: 0;
-}
 
 /* TICKER */
 
@@ -1115,4 +1111,29 @@ body.mobile .form-line {
 #cid_4 .form-checkbox-item,
 #cid_5 .form-checkbox-item {
   margin-bottom: 12px;
+}
+
+#id_2, #id_6 {
+  background: none;
+  padding: 0;
+  border: 0;
+}
+
+#id_7 .form-label-top,
+#id_12 .form-label-top,
+#id_8 .form-label-top {
+  width: auto;
+  background: none;
+  margin: 0;
+  text-transform: none;
+  letter-spacing: 0;
+  font-weight: 300;
+  padding: 0;
+}
+
+#id_7, 
+#id_12, 
+#id_8 {
+  margin: 0 auto;
+  border: 0;
 }
