@@ -1045,6 +1045,10 @@ body.mobile .form-line {
   width: 33%;
   float: left;
   font-size: 25px;
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  height: 110px;
 }
 
 #campaign-name span {
