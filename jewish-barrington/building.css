@@ -1055,3 +1055,10 @@ body.mobile .form-line {
 #cta-section {
   text-align: center;
 }
+
+#therm-footer-stats {
+  width: 300px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}

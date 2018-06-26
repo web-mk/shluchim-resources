@@ -18,7 +18,7 @@
               .appendTo($latestDonors);
             });
             jQuery('#current-text').text('$' + amountNumber.toLocaleString());
-            jQuery('#complete-percent').text(percentComplete.toString().split('.')[0]);
+            jQuery('#complete-percent').text(percentComplete.toString().split('.')[0] + '%');
             jQuery('#current-wrapper').width(percentComplete + '%');
         });
   
