@@ -7,16 +7,24 @@
           url: `https://spreadsheets.google.com/feeds/list/1wenxlh8h2CVMjZboTkscevfWGnGy8xhmALkk_-soTQw/od6/public/values?alt=json`,
         })
         .then((data) => {
-            var $latestDonors = jQuery('#latest-donors');
+            var $latestDonors = jQuery('#latest-donors-appear');
             var currentAmount = data.feed.entry[0].gsx$thermometer.$t;
             var amountNumber = parseInt(currentAmount);
             var percentComplete = amountNumber / 150000 * 100;
+            var donors = [];
             data.feed.entry.reverse().forEach((entry) => {
               var donor = entry.gsx$donors.$t;
-              var $li = jQuery('<li/>');
-              $li.text(donor)
-              .appendTo($latestDonors);
+              donors.push(donor);
             });
+            var counter = 0;
+            function change() {
+              $latestDonors.text(donors[counter]);
+              counter++;
+              if (counter >= donors.length) {
+                counter = 0;
+              }
+            }
+            var inst = setInterval(change, 1000);
             jQuery('#current-text').text('$' + amountNumber.toLocaleString());
             jQuery('#complete-percent').text(percentComplete.toString().split('.')[0] + '%');
             jQuery('#current-wrapper').width(percentComplete + '%');
