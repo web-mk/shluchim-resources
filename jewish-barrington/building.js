@@ -24,7 +24,7 @@
                 counter = 0;
               }
             }
-            var inst = setInterval(change, 1000);
+            var inst = setInterval(change, 2500);
             jQuery('#current-text').text('$' + amountNumber.toLocaleString());
             jQuery('#complete-percent').text(percentComplete.toString().split('.')[0] + '%');
             jQuery('#current-wrapper').width(percentComplete + '%');
