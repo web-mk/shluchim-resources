@@ -893,19 +893,21 @@ p#home {
 
 #donate-btn {
   display: inline-block;
-  padding: 10px 15px;
-  width: 165px;
-  border-bottom: 3px solid #c7bfbf;
+  padding: 10px 20px;
+  font-size: 19px;
+  border-bottom: 3px solid #1f7173;
   text-transform: uppercase;
   border-radius: 5px;
   text-align: center;
   margin-top: 30px;
-  background: #dddddd;
+  background: #318e92;
+  font-weight: bold;
+  color: white;
 }
 
 #donate-btn:hover {
   text-decoration: none;
-  background: #c7bfbf;
+  background: #217073;
 }
 
 @-moz-keyframes grow {
@@ -1049,9 +1051,10 @@ body.mobile .form-line {
   justify-content: center;
   vertical-align: middle;
   height: 110px;
+  align-items: center;
 }
 
-#campaign-name span {
+#campaign-name div:last-child {
   display: block;
   font-size: 35px;
   text-transform: uppercase;
@@ -1066,6 +1069,7 @@ body.mobile .form-line {
 
 #latest-items-wrapper > div {
   width: 100%;
+  text-align: center;
 }
 
 #cta-section {
@@ -1178,4 +1182,22 @@ li#id_16:after, li#id_17:after, li#id_18:after {
   height: 3px;
   position: relative;
   bottom: 28px;
+}
+
+#latest-section h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+#latest-donors-appear {
+  font-size: 16px;
+  color: white;
+}
+
+#latest-section {
+  border-right: 1px solid #dacbbb;
+  border-left: 1px solid #dacbbb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
