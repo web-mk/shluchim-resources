@@ -1142,10 +1142,33 @@ body.mobile .form-line {
   border: 0;
 }
 
-#id_16, #id_17 {
-  background: none;
-  border-bottom: 2px solid green;
+#id_16, #id_17, #id_18 {
+  z-index: 10;
+  position: relative;
+  color: #474e4e;
   padding: 0;
-  width: 700px;
-  font-size: 25px;
+  background: none;
+  width: 90%;
+  font-size: 35px;
+  margin: 40px auto;
+  text-align: center;
+  border: 0;
+}
+
+#id_16 h5, #id_17 h5, #id_18 h5 {
+  position: relative;
+  display: inline-block;
+  background: white;
+  z-index: 10;
+  padding: 0 10px;
+}
+
+li#id_16:after, li#id_17:after, li#id_18:after {
+  content: '';
+  background: #f8c17c;
+  display: block;
+  width: 100%;
+  height: 3px;
+  position: relative;
+  bottom: 28px;
 }
