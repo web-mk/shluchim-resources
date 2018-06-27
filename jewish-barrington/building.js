@@ -24,6 +24,8 @@
                 counter = 0;
               }
             }
+            $latestDonors.text(donors[counter]);
+            counter ++;
             var inst = setInterval(change, 2500);
             jQuery('#current-text').text('$' + amountNumber.toLocaleString());
             jQuery('#complete-percent').text(percentComplete.toString().split('.')[0] + '%');

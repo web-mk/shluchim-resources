@@ -1054,11 +1054,18 @@ body.mobile .form-line {
   align-items: center;
 }
 
-#campaign-name div:last-child {
+#campaign-name > div {
+  border: 4px double #e6a764;
+  padding: 5px 17px;
+  background: #217073;
+  color: white;
+}
+
+#campaign-title {
   display: block;
   font-size: 35px;
   text-transform: uppercase;
-  color: #123435;
+  color: #f7c17c;
 }
 
 #latest-items-wrapper {
