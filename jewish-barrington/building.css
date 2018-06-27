@@ -387,11 +387,8 @@ body.mobile #menu li.item.parent:not(:first-child) {
 }
 
 body.mobile div#chabad_head .chabad_navigator_bar {
-  /*width: auto;*/
-  width: calc(100% - 100px);
   height: auto;
   margin-top: 0;
-  /*float:none;*/
   float: left;
 }
 
@@ -1245,4 +1242,18 @@ li#id_16:after, li#id_17:after, li#id_18:after {
 
 .mobile .chabad_header {
   display: none;
+}
+
+.mobile #chabad-name {
+  font-size: 20px;
+  text-align: center;
+}
+
+.mobile #campaign-title {
+  font-size: 25px;
+  text-align: center;
+}
+
+.mobile #content_page {
+  padding: 8px 3px;
 }
