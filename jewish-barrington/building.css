@@ -899,6 +899,7 @@ p#home {
 
 #complete-percent {
   font-size: 20px;
+  color: #217073;
 }
 
 #donate-btn {
@@ -1219,4 +1220,29 @@ li#id_16:after, li#id_17:after, li#id_18:after {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.mobile #campaign-name {
+  width: 100%;
+}
+
+.mobile #latest-items-wrapper {
+  width: 100%;
+  display: block;
+}
+
+.mobile #chabad_main_content {
+  margin-top: 320px;
+}
+
+.mobile #latest-section {
+  display: none;
+}
+
+.mobile .chabad_navigator_bar {
+  width: 100%;
+}
+
+.mobile .chabad_header {
+  display: none;
 }
