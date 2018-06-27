@@ -882,9 +882,19 @@ p#home {
   font-size: 18px;
 }
 
+#goal-text span {
+  color: #226e73;
+  font-weight: bold;
+}
+
 #current-text {
-  color: white;
+  color: #226e73;
   font-size: 20px;
+  text-align: left;
+}
+
+#current-container {
+  color: white;
 }
 
 #complete-percent {
@@ -1093,6 +1103,7 @@ body.mobile .form-line {
 
 #complete-container {
   text-align: right;
+  color: white;
 }
 
 #id_3 .form-checkbox:after,
@@ -1194,6 +1205,7 @@ li#id_16:after, li#id_17:after, li#id_18:after {
 #latest-section h4 {
   font-size: 20px;
   text-transform: uppercase;
+  color: #226f73;
 }
 
 #latest-donors-appear {
