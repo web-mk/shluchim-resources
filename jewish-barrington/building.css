@@ -1257,3 +1257,8 @@ li#id_16:after, li#id_17:after, li#id_18:after {
 .mobile #content_page {
   padding: 8px 3px;
 }
+
+.form-label-top label {
+  width: 100%;
+  margin: 0;
+}
