@@ -1258,7 +1258,20 @@ li#id_16:after, li#id_17:after, li#id_18:after {
   padding: 8px 3px;
 }
 
-.form-label-top label {
+.mobile .form-label-top label {
   width: 100%;
   margin: 0;
+}
+
+/* ADDED DOLLAR LABEL TO OTHER AMOUNT */
+#cid_14:before {
+  content: '$';
+  margin-right: 5px;
+}
+
+
+/* HIDE NUMBER SPINNERS */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
 }
