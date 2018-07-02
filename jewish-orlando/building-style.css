@@ -1,0 +1,214 @@
+#footerHR {
+  display: none;
+}
+body {
+  background: #ffffff !important; /* Old browsers */
+  background: -moz-linear-gradient(
+    -45deg,
+    #ffffff 0%,
+    #e5e5e5 100%
+  ) !important; /* FF3.6+ */
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    color-stop(0%, #ffffff),
+    color-stop(100%, #e5e5e5)
+  ) !important; /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(
+    -45deg,
+    #ffffff 0%,
+    #e5e5e5 100%
+  ) !important; /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(
+    -45deg,
+    #ffffff 0%,
+    #e5e5e5 100%
+  ) !important; /* Opera 11.10+ */
+  background: -ms-linear-gradient(
+    -45deg,
+    #ffffff 0%,
+    #e5e5e5 100%
+  ) !important; /* IE10+ */
+  background: linear-gradient(
+    135deg,
+    #ffffff 0%,
+    #e5e5e5 100%
+  ) !important; /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=1 ) !important; /* IE6-9 fallback on horizontal gradient */
+}
+
+#chabad_main_content {
+  overflow: hidden;
+
+  margin-left: auto;
+  width: 960px;
+  margin-right: auto;
+}
+#chabad_body_content {
+  width: 960px;
+}
+#chabad_head .chabad_header {
+  border-top: medium none;
+  height: 210px;
+  border-right: medium none;
+  border-bottom: medium none;
+  border-left: medium none;
+  background-color: #eeeeee;
+}
+#chabad_head .chabad_navigator_bar {
+  border-top: medium none;
+  height: 39px;
+  border-right: medium none;
+  border-bottom: medium none;
+  border-left: medium none;
+  margin-top: 0px;
+  width: 960px;
+  background-color: #270f0d;
+  text-align: center !important;
+}
+#chabad_head .chabad_navigator_bar .chabad_menu_content {
+  float: center;
+  width: 960px;
+  text-align: center !important;
+}
+#chabad_head .chabad_navigator_bar ul {
+  padding-bottom: 0px;
+  padding-top: 0px;
+  padding-left: 0px;
+  margin: 0px;
+  padding-right: 0px;
+}
+#chabad_head .chabad_navigator_bar ul li {
+  position: relative;
+  color: #ffffff;
+  padding-top: 10px;
+  z-index: 1;
+  display: inline;
+}
+#chabad_head .chabad_navigator_bar ul li .sub_menu {
+  background: #eeeeee 0px 0px;
+  min-width: 180px;
+  position: absolute;
+  left: -4px;
+  top: 33px;
+  display: none;
+  top: 37px;
+  /*    _WIDTH: 300px;*/
+}
+#chabad_head .chabad_navigator_bar ul li.active .sub_menu {
+  display: block;
+}
+#chabad_head .chabad_navigator_bar ul li ul {
+  float: none;
+}
+
+#chabad_head .chabad_navigator_bar ul li ul li {
+  /* HEIGHT: auto; */
+  border-right: medium none;
+  border-bottom: #ffffff 1px solid;
+  float: none;
+  padding-top: 0px;
+  /*MIN-HEIGHT: 23px; 
+_height:23px;*/
+  margin-top: 3px;
+}
+#chabad_head .chabad_navigator_bar ul li ul li.last {
+  border: none;
+}
+#chabad_head .chabad_navigator_bar ul li ul li a {
+  margin-bottom: 6px;
+  font-size: 12px;
+  padding: 2px 7px 0 12px;
+  text-transform: none;
+  /*HEIGHT: auto;*/
+  float: none;
+  padding-bottom: 0px;
+  padding-top: 2px;
+  padding-left: 0px;
+  display: block;
+  padding-right: 0px;
+  width: 100%;
+  color: #423931;
+  font-weight: normal;
+}
+#chabad_head .chabad_navigator_bar ul li ul li a:hover {
+  background: none;
+}
+#chabad_head .chabad_navigator_bar ul li.last {
+  border-right: none;
+}
+#chabad_head .chabad_navigator_bar ul li a {
+  font-size: 13px;
+  height: 26px;
+  font-family: "Helvetica Neue", "Helvetica Light", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  word-spacing: 0px;
+  color: #ffffff;
+  padding-top: 1px;
+  padding-left: 13px;
+  margin-left: 5px;
+  text-decoration: none;
+  letter-spacing: 1.5px;
+  padding-right: 13px;
+  margin-right: 0px;
+  line-height: 35px;
+  font-weight: bold;
+}
+#chabad_head .chabad_navigator_bar ul li a.arrow {
+  background: url(/images/shluchim/minisites/down_triangle_black.gif) no-repeat
+    right 7px;
+  padding-right: 22px;
+  margin-right: 4px;
+}
+#chabad_head .chabad_navigator_bar ul li.active a.parent {
+  color: #afafaf;
+  text-align: center !important;
+}
+#chabad_head .chabad_navigator_bar ul li a.selected {
+  color: #afafaf;
+  text-align: center !important;
+}
+#chabad_head .chabad_navigator_bar ul li a:hover {
+  color: #c59a52;
+}
+#chabad_head .chabad_navigator_bar ul li a.first {
+  padding-left: 0px;
+}
+.chabad_left_column {
+  overflow-x: hidden;
+  float: left;
+  margin-top: 10px;
+  width: 100%;
+}
+.chabad_right_column {
+  overflow-x: hidden;
+  float: right;
+  margin-top: 10px;
+  width: 190px;
+}
+#chabad_right_colum {
+  overflow-x: hidden;
+  float: right;
+  margin-top: 10px;
+  width: 190px;
+}
+.co_content_title_row {
+  display: none;
+}
+.cco_templateless_template {
+  font-size: 10px;
+  font-family: tahoma;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+.cco_templateless_template a {
+  font-size: 10px;
+  font-family: tahoma;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
