@@ -821,7 +821,8 @@ div.co_body h3 {
   margin-left: 0;
 }
 
-.form-radio-item:nth-of-type(2) {
+/* HIDE MINIMUM PAYMENT */
+#id_6 .form-radio-item:nth-of-type(2) {
   display: none;
 }
 
