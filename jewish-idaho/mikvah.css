@@ -1,10 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700');
-*, body, .co_body .content p, .co_body .content li, .article-body h1, .article-body h2, .article-body h3, .co_body h2, .co_body h2 a {
-  font-family: 'Libre Baskerville', serif;
+@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700");
+*,
+body,
+.co_body .content p,
+.co_body .content li,
+.article-body h1,
+.article-body h2,
+.article-body h3,
+.co_body h2,
+.co_body h2 a {
+  font-family: "Libre Baskerville", serif;
 }
 
-body.mobile div#chabad_body_page, body.cco_templateless_page {
-  background-image: url('https://chabadorg.clhosting.org/media/images/1044/GKNP10445692.jpg');
+body.mobile div#chabad_body_page,
+body.cco_templateless_page {
+  background-image: url("https://chabadorg.clhosting.org/media/images/1044/GKNP10445692.jpg");
   background-size: cover;
 }
 
@@ -40,7 +49,9 @@ td.chabad_logo {
   text-decoration: none;
 }
 
-td.chabad_logo a, td.chabad_logo h1, td.chabad_logo div {
+td.chabad_logo a,
+td.chabad_logo h1,
+td.chabad_logo div {
   font-size: 40px;
 }
 
@@ -103,7 +114,7 @@ div#chabad_head .chabad_navigator_bar ul li ul {
 }
 
 div#chabad_head .chabad_navigator_bar ul li ul li {
-  border-bottom: 1px solid #FFFFFF;
+  border-bottom: 1px solid #ffffff;
   border-right: none;
   float: none;
   font-size: 12px;
@@ -141,7 +152,7 @@ div#chabad_head .chabad_navigator_bar ul li:last-child {
 
 .chabad_navigator_bar ul li a {
   float: left;
-  font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville", serif;
   font-weight: bold;
   height: 100%;
   color: #dddddd;
@@ -152,11 +163,13 @@ div#chabad_head .chabad_navigator_bar ul li:last-child {
 }
 
 .chabad_navigator_bar ul li a.arrow {
-  background: url('') no-repeat right center;
+  background: url("") no-repeat right center;
   padding-right: 26px;
 }
 
-div#chabad_head .chabad_navigator_bar ul li.active a.parent, div#chabad_head .chabad_navigator_bar ul li a.selected, div#chabad_head .chabad_navigator_bar ul li a:hover {
+div#chabad_head .chabad_navigator_bar ul li.active a.parent,
+div#chabad_head .chabad_navigator_bar ul li a.selected,
+div#chabad_head .chabad_navigator_bar ul li a:hover {
   background-color: #ddd;
   color: #012444;
 }
@@ -197,7 +210,7 @@ div#chabad_main_content {
   right: 0;
 }
 
-#chabad_right_colum>div {
+#chabad_right_colum > div {
   margin: 0 0 10px;
   overflow: visible;
   padding: 1px;
@@ -209,7 +222,22 @@ div#chabad_main_content {
   margin-bottom: 20px;
 }
 
-#navigation, .chabad_menu_content, #chabad_head .chabad_content_head, .chabad_banner_content, .chabad_banner_content .chabad_image_content, .chabad_image_banner, .chabad_box_content_first, .chabad_box_content_second, .chabad_box_content_third, .chabad_title_box.no_line, .chabad_box_content_body, .chabad_box_gradient, .chabad_announce, .chabad_text_box, .chabad_text_box, .content_box_custom {
+#navigation,
+.chabad_menu_content,
+#chabad_head .chabad_content_head,
+.chabad_banner_content,
+.chabad_banner_content .chabad_image_content,
+.chabad_image_banner,
+.chabad_box_content_first,
+.chabad_box_content_second,
+.chabad_box_content_third,
+.chabad_title_box.no_line,
+.chabad_box_content_body,
+.chabad_box_gradient,
+.chabad_announce,
+.chabad_text_box,
+.chabad_text_box,
+.content_box_custom {
   float: none;
   width: initial;
 }
@@ -231,7 +259,13 @@ div#chabad_main_content {
   overflow: hidden;
 }
 
-#chabad_head .flowers, #co_calendar .co_calendar_body .co_calendar_gradient .co_calendar_text .item .image {
+#chabad_head .flowers,
+#co_calendar
+  .co_calendar_body
+  .co_calendar_gradient
+  .co_calendar_text
+  .item
+  .image {
   float: left;
 }
 
@@ -240,7 +274,9 @@ div#chabad_main_content {
   overflow: hidden;
 }
 
-.chabad_box_content_first, .chabad_box_content_second, .chabad_box_content_third {
+.chabad_box_content_first,
+.chabad_box_content_second,
+.chabad_box_content_third {
   overflow-x: initial !important;
 }
 
@@ -257,17 +293,27 @@ div#chabad_main_content {
   font-size: 14px;
 }
 
-.co_section_head, .co_photo_gallery_head, .chabad_updates_head, .co_calendar_head {
+.co_section_head,
+.co_photo_gallery_head,
+.chabad_updates_head,
+.co_calendar_head {
   color: #fff;
   font-size: 20px;
   margin: 0 -1px;
 }
 
-.co_section_body, .co_photo_gallery_body, .chabad_updates_body, .co_calendar_body, .chabad_box_text_body {
+.co_section_body,
+.co_photo_gallery_body,
+.chabad_updates_body,
+.co_calendar_body,
+.chabad_box_text_body {
   margin: 10px;
 }
 
-.co_section_text .item:last-child, .co_photo_gallery_text .item:last-child, .chabad_updates_text .item:last-child, .co_calendar_text .item:last-child {
+.co_section_text .item:last-child,
+.co_photo_gallery_text .item:last-child,
+.chabad_updates_text .item:last-child,
+.co_calendar_text .item:last-child {
   border-bottom: none !important;
 }
 
@@ -293,7 +339,7 @@ div#chabad_main_content {
 }
 
 .mobile_menu.open .mobile_menu_nav_button:after {
-  content: '\25b2';
+  content: "\25b2";
 }
 
 body.mobile #chabad_head .chabad_navigator_bar {
@@ -338,11 +384,11 @@ body.mobile #chabad_head .chabad_navigator_bar ul li a {
 }
 
 .mobile_menu.open .mobile_menu_nav_button:after {
-  content: '\25b2';
+  content: "\25b2";
 }
 
 body.mobile .chabad_navigator_bar .chabad_menu_content {
-  width: 100%!important;
+  width: 100% !important;
   position: relative;
   z-index: 2;
 }
@@ -380,7 +426,14 @@ body.mobile .chabad_navigator_bar .chabad_menu_content li a {
   text-align: left;
 }
 
-body.mobile #chabad_head .chabad_navigator_bar .chabad_menu_content li a.arrow, body.mobile #chabad_head .chabad_navigator_bar .chabad_menu_content ul li a.arrow {
+body.mobile #chabad_head .chabad_navigator_bar .chabad_menu_content li a.arrow,
+body.mobile
+  #chabad_head
+  .chabad_navigator_bar
+  .chabad_menu_content
+  ul
+  li
+  a.arrow {
   background: none;
   padding-right: initial;
 }
@@ -397,7 +450,7 @@ body.mobile .chabad_navigator_bar .chabad_menu_content .sub_menu ul {
 body.mobile .chabad_navigator_bar .chabad_menu_content .sub_menu li {
   float: none;
   border-right: none;
-  border-bottom: 1px solid #FFF;
+  border-bottom: 1px solid #fff;
   height: auto;
   padding: 0;
   display: block;
@@ -431,20 +484,23 @@ body.mobile .chabad_navigator_bar #menu .item.heading {
 }
 
 body.mobile .chabad_navigator_bar #menu .item.heading a {
-  background: url(/images/1/global/bullets/down_triangle_blue.png) no-repeat right center;
+  background: url(/images/1/global/bullets/down_triangle_blue.png) no-repeat
+    right center;
   padding-right: 20px;
 }
 
 body.mobile .chabad_navigator_bar .sub_menu_toggle {
   display: inline-block;
   position: absolute;
-  background: url(/images/1/global/bullets/down_triangle_blue.png) no-repeat center center;
+  background: url(/images/1/global/bullets/down_triangle_blue.png) no-repeat
+    center center;
   color: transparent;
   width: 10px;
   height: auto;
 }
 
-body.mobile .chabad_navigator_bar #menu .item.heading.expanded a, body.mobile .chabad_navigator_bar .sub_menu_toggle.expanded {
+body.mobile .chabad_navigator_bar #menu .item.heading.expanded a,
+body.mobile .chabad_navigator_bar .sub_menu_toggle.expanded {
   background-image: url(/images/1/global/bullets/up_triangle_blue.png);
 }
 
@@ -457,13 +513,15 @@ body.mobile #menu li.item.selected a {
   border: none;
 }
 
-body.mobile #navigation.chabad_navigator_bar #menu, body.mobile #navigation.chabad_navigator_bar #menu .sub_menu {
+body.mobile #navigation.chabad_navigator_bar #menu,
+body.mobile #navigation.chabad_navigator_bar #menu .sub_menu {
   /*overflow: hidden;*/
   overflow: visible;
-  transition: height .5s;
+  transition: height 0.5s;
 }
 
-body.mobile #navigation.chabad_navigator_bar #menu .sub_menu, body.mobile #chabad_head .chabad_navigator_bar .sub_menu {
+body.mobile #navigation.chabad_navigator_bar #menu .sub_menu,
+body.mobile #chabad_head .chabad_navigator_bar .sub_menu {
   position: initial;
   display: block;
   width: auto;
@@ -473,12 +531,12 @@ body.mobile #navigation.chabad_navigator_bar #menu .sub_menu, body.mobile #chaba
   height: 0;
 }
 
-body.mobile .chabad_navigator_bar .sub_menu_toggle:not(.expanded)+.sub_menu {
+body.mobile .chabad_navigator_bar .sub_menu_toggle:not(.expanded) + .sub_menu {
   height: 0;
 }
 
 body.mobile .chabad_navigator_bar #menu .sub_menu ul {
-  border-left: 3px solid #BEBEBE;
+  border-left: 3px solid #bebebe;
 }
 
 body.mobile .chabad_navigator_bar .sub_menu li.last {
@@ -494,7 +552,9 @@ body.mobile {
   margin: 0;
 }
 
-body.mobile .chabad_text_head img, body.mobile .chabad_image_banner img, body.mobile .chabad_header img {
+body.mobile .chabad_text_head img,
+body.mobile .chabad_image_banner img,
+body.mobile .chabad_header img {
   width: 100%;
   height: 100%;
 }
@@ -504,11 +564,19 @@ body.mobile .chabad_header {
   padding: 10px;
 }
 
-body.mobile .chabad_banner_content, body.mobile #chabad_body_content, body.mobile .chabad_right_column, body.mobile #chabad_box_text, body.mobile #chabad_head .chabad_content_head, body.mobile .chabad_title_box.no_line {
+body.mobile .chabad_banner_content,
+body.mobile #chabad_body_content,
+body.mobile .chabad_right_column,
+body.mobile #chabad_box_text,
+body.mobile #chabad_head .chabad_content_head,
+body.mobile .chabad_title_box.no_line {
   float: initial;
 }
 
-body.mobile #chabad_main_content, body.mobile #chabad_head .chabad_content_head, body.mobile #chabad_body_content, body.mobile .chabad_banner_content {
+body.mobile #chabad_main_content,
+body.mobile #chabad_head .chabad_content_head,
+body.mobile #chabad_body_content,
+body.mobile .chabad_banner_content {
   width: auto;
   box-sizing: border-box;
   min-width: initial;
@@ -525,18 +593,26 @@ body.mobile #chabad_body_content {
   overflow: hidden;
 }
 
-body.mobile #chabad_updates, body.mobile #co_calendar, body.mobile .co_section, body.mobile #chabad_box_text, body.mobile #co_photo_gallery {
+body.mobile #chabad_updates,
+body.mobile #co_calendar,
+body.mobile .co_section,
+body.mobile #chabad_box_text,
+body.mobile #co_photo_gallery {
   margin-top: 10px;
   margin-bottom: 0;
   vertical-align: top;
 }
 
-body.mobile .chabad_banner_content .chabad_text_banner, body.mobile .chabad_box_content_first, body.mobile .chabad_box_content_second, body.mobile .chabad_box_content_third {
+body.mobile .chabad_banner_content .chabad_text_banner,
+body.mobile .chabad_box_content_first,
+body.mobile .chabad_box_content_second,
+body.mobile .chabad_box_content_third {
   padding-right: 10px;
   padding-left: 10px;
 }
 
-body.mobile #chabad_body_page, body.mobile.cco_templateless_page {
+body.mobile #chabad_body_page,
+body.mobile.cco_templateless_page {
   padding-top: initial;
 }
 
@@ -594,7 +670,8 @@ body.mobile .chabad_right_column {
   margin-bottom: 15px;
 }
 
-body.mobile #chabad_updates, body.mobile #co_calendar, body.mobile .co_section, body.mobile #co_photo_gallery, body.mobile #chabad_box_text {
+body.mobile .co_section,
+body.mobile #chabad_box_text {
   text-align: initial;
 }
 
@@ -607,7 +684,8 @@ body.mobile #footer .footer_inner_container {
   text-align: center;
 }
 
-body.mobile #BodyContainer, body.mobile .g960.footer {
+body.mobile #BodyContainer,
+body.mobile .g960.footer {
   width: auto;
   max-width: 100%;
   margin: 0;
@@ -615,14 +693,27 @@ body.mobile #BodyContainer, body.mobile .g960.footer {
   display: block;
 }
 
-body.mobile .co_body img, body.mobile #chabad_main_content img {
+body.mobile .co_body img,
+body.mobile #chabad_main_content img {
   max-width: 100%;
   height: auto;
 }
 
-body.mobile div#chabad_body_content, body.mobile .chabad_banner_content, body.mobile div.chabad_left_column, body.mobile div#chabad_left_column, body.mobile div#chabad_left_column .content_page, body.mobile div.chabad_left_column .content_page, body.mobile div#chabad_left_column .content_page_full, body.mobile div.chabad_left_column .content_page_full, body.mobile div.chabad_right_column {
+body.mobile #chabad_body_content,
+body.mobile .chabad_banner_content,
+body.mobile .chabad_left_column,
+body.mobile #chabad_left_column,
+body.mobile #chabad_left_column .content_page,
+body.mobile .chabad_left_column .content_page,
+body.mobile #chabad_left_column .content_page_full,
+body.mobile .chabad_left_column .content_page_full,
+body.mobile .chabad_right_column {
   margin-left: 0;
   margin-right: 0;
+}
+
+.mobile .chabad_left_column {
+  background-image: none;
 }
 
 div.chabad_header img {
@@ -631,14 +722,14 @@ div.chabad_header img {
 
 .cco_templateless_template {
   background: none;
-  font-family: 'Libre Baskerville', serif !important;
+  font-family: "Libre Baskerville", serif !important;
   overflow: hidden;
 }
 
 .cco_templateless_template a {
   text-transform: none !important;
   color: white;
-  font-family: 'Libre Baskerville', serif !important;
+  font-family: "Libre Baskerville", serif !important;
   opacity: 0.3;
   transform: scale(0.8);
   position: absolute;
@@ -655,7 +746,8 @@ body.mobile div#formContainer {
   width: 95vw;
 }
 
-.footer, .footer a {
+.footer,
+.footer a {
   color: white;
 }
 
@@ -672,7 +764,10 @@ body.mobile div#formContainer {
 
 /* PAGE */
 
-.article-body h1, .article-body h2, .article-body h3, H2.form-header {
+.article-body h1,
+.article-body h2,
+.article-body h3,
+h2.form-header {
   color: #012444;
   font-size: 40px;
   border-bottom: 3px solid #dddddd;
@@ -691,17 +786,22 @@ body.mobile div#formContainer {
   margin: 0;
 }
 
-div#formContainer .form-label-top, .form-label-left label {
+div#formContainer .form-label-top,
+.form-label-left label {
   font-size: 20px;
 }
 
 #id_26 p {
-  font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville", serif;
   font-size: 16px;
 }
 
-.form-label-auto label, .form-label-top label, .form-label-left label, .form-label-right label, div.co_body h3 {
-  font-family: 'Libre Baskerville', serif;
+.form-label-auto label,
+.form-label-top label,
+.form-label-left label,
+.form-label-right label,
+div.co_body h3 {
+  font-family: "Libre Baskerville", serif;
   text-transform: uppercase;
   font-size: 24px;
   letter-spacing: 3px;
@@ -717,7 +817,7 @@ div#formContainer .form-label-top, .form-label-left label {
 }
 
 .form-all .label-message {
-  font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville", serif;
   background: none;
   text-transform: none;
   letter-spacing: 0;
@@ -735,13 +835,15 @@ body.mobile .form-line {
   width: 95vw;
 }
 
-li#id_2, #id_10, form[id='3957400'] li#id_6 {
+li#id_2,
+#id_10,
+form[id="3957400"] li#id_6 {
   background: transparent;
   border-bottom: 0;
   box-shadow: none;
 }
 
-span[id='7-form-required'] {
+span[id="7-form-required"] {
   display: none;
 }
 
