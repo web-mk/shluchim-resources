@@ -714,6 +714,7 @@ body.mobile .chabad_right_column {
 
 .mobile .chabad_left_column {
   background-image: none;
+  padding: 0;
 }
 
 div.chabad_header img {
