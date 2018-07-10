@@ -210,6 +210,10 @@ div#chabad_main_content {
   right: 0;
 }
 
+.mobile .chabad_right_column {
+  position: static;
+}
+
 #chabad_right_colum > div {
   margin: 0 0 10px;
   overflow: visible;
