@@ -821,6 +821,10 @@ div.co_body h3 {
   margin-left: 0;
 }
 
+.form-radio-item:nth-of-type(2) {
+  display: none;
+}
+
 .form-all .label-message {
   font-family: "Libre Baskerville", serif;
   background: none;
