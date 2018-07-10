@@ -32,8 +32,6 @@ div#chabad_head {
   margin-bottom: 30px;
 }
 
-.chabad_header {}
-
 td.chabad_logo {
   float: none;
 }
@@ -64,10 +62,6 @@ div#chabad_head .chabad_navigator_bar {
   display: flex;
 }
 
-.navi li.parent:first-child {
-  /* display: none !important;*/
-}
-
 body.mobile .navi li.parent:first-child {
   display: inline !important;
 }
@@ -80,8 +74,6 @@ body.mobile .navi li.parent:first-child {
 div#chabad_main_content .chabad_navigator_bar .chabad_menu_content {
   height: 100%;
 }
-
-div#chabad_head .chabad_navigator_bar .chabad_menu_content {}
 
 div#chabad_head .chabad_navigator_bar ul#menu {
   height: 36px;
@@ -188,17 +180,13 @@ div#chabad_main_content {
   background: white;
   padding: 30px;
   background-image: url(https://chabadorg.clhosting.org/media/images/1044/mKPI10448056.png);
-  background-repeat-x: no-repeat;
+  background-repeat: repeat-y;
   background-position-x: 100%;
 }
 
 .content_full_width .chabad_left_column {
   float: none;
   width: auto;
-}
-
-#chabad_left_colum .content_page_full, div.chabad_left_colum .content_page_full {
-  margin: 0 15px;
 }
 
 .chabad_right_column {
@@ -215,17 +203,13 @@ div#chabad_right_colum>div {
   padding: 1px;
 }
 
-#chabad_right_colum [class$=body] {
-  font-size: 12px;
-}
-
 #chabad_body_content {
   clear: both;
   width: 975px;
   margin-bottom: 20px;
 }
 
-#navigation, .chabad_menu_content, div#chabad_head .chabad_content_head, .chabad_banner_content, .chabad_banner_content .chabad_image_content, .chabad_image_banner, div#chabad_left_colum .content_page, div.chabad_left_colum .content_page, .chabad_box_content_first, .chabad_box_content_second, .chabad_box_content_third, .chabad_title_box.no_line, .chabad_box_content_body, .chabad_box_gradient, .chabad_announce, .chabad_text_box, .chabad_text_box, .content_box_custom {
+#navigation, .chabad_menu_content, #chabad_head .chabad_content_head, .chabad_banner_content, .chabad_banner_content .chabad_image_content, .chabad_image_banner, .chabad_box_content_first, .chabad_box_content_second, .chabad_box_content_third, .chabad_title_box.no_line, .chabad_box_content_body, .chabad_box_gradient, .chabad_announce, .chabad_text_box, .chabad_text_box, .content_box_custom {
   float: none;
   width: initial;
 }
@@ -247,9 +231,7 @@ div#chabad_right_colum>div {
   overflow: hidden;
 }
 
-div#content_banner {}
-
-div#chabad_head .flowers, div#co_calendar .co_calendar_body .co_calendar_gradient .co_calendar_text div.item .image {
+#chabad_head .flowers, #co_calendar .co_calendar_body .co_calendar_gradient .co_calendar_text .item .image {
   float: left;
 }
 
@@ -289,30 +271,6 @@ div#chabad_head .flowers, div#co_calendar .co_calendar_body .co_calendar_gradien
   border-bottom: none !important;
 }
 
-#co_photo_gallery .co_photo_gallery_head {}
-
-.co_photo_gallery a {
-  display: block;
-  float: none !important;
-  margin: 0 5px 10px;
-  overflow: hidden;
-}
-
-.co_photo_gallery a:last-child {
-  margin-bottom: 0;
-}
-
-.co_photo_gallery a img {
-  border: none;
-  overflow: hidden;
-  width: 100%;
-  height: auto;
-}
-
-div#co_photo_gallery .co_photo_gallery_footer a {
-  float: right;
-}
-
 .chabad_logo p {
   margin: 0;
 }
@@ -338,16 +296,10 @@ div#co_photo_gallery .co_photo_gallery_footer a {
   content: '\25b2';
 }
 
-body.mobile #menu li.item.parent:not(:first-child) {
-  /*display: none;*/
-}
-
 body.mobile div#chabad_head .chabad_navigator_bar {
-  /*width: auto;*/
   width: calc(100% - 100px);
   height: auto;
   margin-top: 0;
-  /*float:none;*/
   float: left;
 }
 
@@ -357,18 +309,14 @@ body.mobile div#chabad_head .chabad_navigator_bar ul {
 }
 
 body.mobile div#chabad_head .chabad_navigator_bar ul li {
-  /*float: none;*/
   float: left;
   display: block;
   height: auto;
 }
 
 body.mobile div#chabad_head .chabad_navigator_bar ul li a {
-  /*float: none;*/
   float: left;
   padding: 5px;
-  /*
-	height: 15px;*/
   height: 100%;
 }
 
@@ -426,10 +374,8 @@ body.mobile .chabad_navigator_bar .chabad_menu_content li.custom_separator {
 
 body.mobile .chabad_navigator_bar .chabad_menu_content li a {
   font-size: 13px;
-  display: inline-block;
   font-weight: bold;
   text-decoration: none;
-  /*float: none;*/
   float: left;
   text-align: left;
 }
@@ -558,28 +504,28 @@ body.mobile .chabad_header {
   padding: 10px;
 }
 
-body.mobile .chabad_banner_content, body.mobile div#chabad_body_content, body.mobile div#chabad_left_colum, body.mobile div.chabad_left_colum, body.mobile div#chabad_right_colum, body.mobile div.chabad_right_column, body.mobile div#chabad_box_text, body.mobile div#chabad_head .chabad_content_head, body.mobile .chabad_title_box.no_line {
+body.mobile .chabad_banner_content, body.mobile #chabad_body_content, body.mobile .chabad_right_column, body.mobile #chabad_box_text, body.mobile #chabad_head .chabad_content_head, body.mobile .chabad_title_box.no_line {
   float: initial;
 }
 
-body.mobile div#chabad_main_content, body.mobile div#chabad_head .chabad_content_head, body.mobile div#chabad_body_content, body.mobile .chabad_banner_content, body.mobile div#chabad_left_colum .content_page, body.mobile div.chabad_left_colum .content_page, body.mobile div#chabad_left_colum .content_page_full, body.mobile div.chabad_left_colum .content_page_full, body.mobile div#chabad_right_colum, body.mobile div.chabad_right_column {
+body.mobile #chabad_main_content, body.mobile #chabad_head .chabad_content_head, body.mobile #chabad_body_content, body.mobile .chabad_banner_content {
   width: auto;
   box-sizing: border-box;
   min-width: initial;
 }
 
-body.mobile div#chabad_left_colum, body.mobile div.chabad_left_column, body.mobile div.chabad_left_colum {
+body.mobile .chabad_left_column {
   width: auto;
   float: none;
   margin-bottom: 15px;
 }
 
-body.mobile div#chabad_body_content {
+body.mobile #chabad_body_content {
   padding: 0 7px;
   overflow: hidden;
 }
 
-body.mobile div#chabad_updates, body.mobile div#co_calendar, body.mobile div.co_section, body.mobile div#chabad_box_text, body.mobile div#chabad_left_colum .chabad_box_content_first, body.mobile div#chabad_left_colum .chabad_box_content_second, body.mobile div#chabad_left_colum .chabad_box_content_third, body.mobile div#chabad_left_colum .content_box_custom, body.mobile div#co_photo_gallery {
+body.mobile div#chabad_updates, body.mobile div#co_calendar, body.mobile div.co_section, body.mobile div#chabad_box_text, body.mobile div#co_photo_gallery {
   margin-top: 10px;
   margin-bottom: 0;
   vertical-align: top;
@@ -643,7 +589,7 @@ body.mobile div#chabad_head .chabad_text_head {
   display: none;
 }
 
-body.mobile div#chabad_right_colum, body.mobile div.chabad_right_column {
+body.mobile div.chabad_right_column {
   text-align: center;
   margin-bottom: 15px;
 }
@@ -674,7 +620,7 @@ body.mobile .co_body img, body.mobile #chabad_main_content img {
   height: auto;
 }
 
-body.mobile div#chabad_body_content, body.mobile .chabad_banner_content, body.mobile div.chabad_left_colum, body.mobile div.chabad_left_column, body.mobile div#chabad_left_colum, body.mobile div#chabad_left_column, body.mobile div#chabad_left_colum .content_page, body.mobile div.chabad_left_colum .content_page, body.mobile div#chabad_left_colum .content_page_full, body.mobile div.chabad_left_colum .content_page_full, body.mobile div#chabad_left_column .content_page, body.mobile div.chabad_left_column .content_page, body.mobile div#chabad_left_column .content_page_full, body.mobile div.chabad_left_column .content_page_full, body.mobile div#chabad_right_colum, body.mobile div.chabad_right_column {
+body.mobile div#chabad_body_content, body.mobile .chabad_banner_content, body.mobile div.chabad_left_column, body.mobile div#chabad_left_column, body.mobile div#chabad_left_column .content_page, body.mobile div.chabad_left_column .content_page, body.mobile div#chabad_left_column .content_page_full, body.mobile div.chabad_left_column .content_page_full, body.mobile div.chabad_right_column {
   margin-left: 0;
   margin-right: 0;
 }
