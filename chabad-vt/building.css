@@ -38,24 +38,24 @@
   margin-top: -10px;
 }
 
-div#chabad-head-wrap {
+#chabad-head-wrap {
   box-shadow: 1px 1px 10px lightgray;
   padding-top: 40px;
   background-image: url("https://chabadorg.clhosting.org/media/images/979/QNyY9793183.jpg");
   background-size: cover;
 }
 
-div#cco_body .content_tditle_container .overlay {
+#cco_body .content_tditle_container .overlay {
   display: none;
 }
 
-div.widget_header {
+.widget_header {
   display: none;
 }
 #border_bottom {
   width: 975px;
 }
-div#chabad_head {
+#chabad_head {
   float: none !important;
   width: 1200px;
   height: 135px;
@@ -93,23 +93,23 @@ td.chabad_text_head {
 td.chabad_text_head img {
   float: right;
 }
-div#chabad_head .chabad_navigator_bar {
+#chabad_head .chabad_navigator_bar {
   background-size: 100%;
   width: 900px;
   height: 36px;
   float: right;
 }
 
-.mobile div#chabad_head .chabad_navigator_bar {
+.mobile #chabad_head .chabad_navigator_bar {
   width: 100%;
   height: auto;
 }
 
-div#chabad_main_content .chabad_navigator_bar .chabad_menu_content {
+#chabad_main_content .chabad_navigator_bar .chabad_menu_content {
   height: 100%;
 }
 
-div#chabad_head .chabad_navigator_bar ul#menu {
+#chabad_head .chabad_navigator_bar ul#menu {
   height: 92px;
   line-height: 92px;
   margin: 0;
@@ -119,7 +119,7 @@ div#chabad_head .chabad_navigator_bar ul#menu {
   float: right;
 }
 
-div#chabad_head .chabad_navigator_bar ul li {
+#chabad_head .chabad_navigator_bar ul li {
   float: left;
   font-size: 13px;
   list-style: none;
@@ -128,7 +128,7 @@ div#chabad_head .chabad_navigator_bar ul li {
   margin-right: 20px;
 }
 
-div#chabad_head .chabad_navigator_bar ul li .sub_menu {
+#chabad_head .chabad_navigator_bar ul li .sub_menu {
   /*display: none;*/
   visibility: hidden;
   opacity: 0;
@@ -140,11 +140,11 @@ div#chabad_head .chabad_navigator_bar ul li .sub_menu {
   z-index: 99999;
 }
 
-div#chabad_head .chabad_navigator_bar ul li ul {
+#chabad_head .chabad_navigator_bar ul li ul {
   padding: 0;
 }
 
-div#chabad_head .chabad_navigator_bar ul li ul li {
+#chabad_head .chabad_navigator_bar ul li ul li {
   border-bottom: 1px solid #ffffff;
   border-right: none;
   float: none;
@@ -155,17 +155,17 @@ div#chabad_head .chabad_navigator_bar ul li ul li {
   padding: 3px 0;
 }
 
-div#chabad_head .chabad_navigator_bar ul li.active .sub_menu {
+#chabad_head .chabad_navigator_bar ul li.active .sub_menu {
   /* display: block;*/
   visibility: visible;
   opacity: 1;
 }
 
-div#chabad_head .chabad_navigator_bar ul li ul li:last-child {
+#chabad_head .chabad_navigator_bar ul li ul li:last-child {
   border: none;
 }
 
-div#chabad_head .chabad_navigator_bar ul li ul li a {
+#chabad_head .chabad_navigator_bar ul li ul li a {
   display: inline-block;
   float: none;
   font-size: 16px;
@@ -175,12 +175,12 @@ div#chabad_head .chabad_navigator_bar ul li ul li a {
   padding: 2px 15px 0 15px;
 }
 
-div#chabad_head .chabad_navigator_bar ul li ul li a:hover {
+#chabad_head .chabad_navigator_bar ul li ul li a:hover {
   background: none;
   border-top: none;
 }
 
-div#chabad_head .chabad_navigator_bar ul li:last-child {
+#chabad_head .chabad_navigator_bar ul li:last-child {
   border-right: none;
 }
 
@@ -203,18 +203,18 @@ div#chabad_head .chabad_navigator_bar ul li:last-child {
   padding-right: 17px;
 }
 
-div#chabad_head .chabad_navigator_bar ul li.active a.parent,
-div#chabad_head .chabad_navigator_bar ul li a.selected,
-div#chabad_head .chabad_navigator_bar ul li a:hover {
+#chabad_head .chabad_navigator_bar ul li.active a.parent,
+#chabad_head .chabad_navigator_bar ul li a.selected,
+#chabad_head .chabad_navigator_bar ul li a:hover {
   color: #40acbe;
   border-top: 5px solid #f7e9d0;
   transition: border-top 0.3s ease;
 }
 
-div#chabad_head .chabad_navigator_bar ul li a.first {
+#chabad_head .chabad_navigator_bar ul li a.first {
   padding-left: 0;
 }
-div#chabad_main_content {
+#chabad_main_content {
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
@@ -222,39 +222,25 @@ div#chabad_main_content {
   width: 100vw;
 }
 
-div.chabad_left_column {
+.chabad_left_column {
   float: left;
   /* margin: 15px;*/
   margin-bottom: 0;
   width: 100%;
 }
 
-div.content_full_width .chabad_left_column {
+.content_full_width .chabad_left_column {
   float: none;
   width: auto;
 }
 
-div#chabad_left_colum .content_page_full,
-div.chabad_left_colum .content_page_full {
-  margin: 0 15px;
-}
-
-div.chabad_right_column {
+.chabad_right_column {
   float: left;
   margin-top: 15px;
   width: 245px;
 }
-div#chabad_right_colum > div {
-  margin: 0 0 10px;
-  overflow: visible;
-  padding: 1px;
-}
 
-#chabad_right_colum [class$="body"] {
-  font-size: 12px;
-}
-
-div#chabad_body_content {
+#chabad_body_content {
   float: left;
   padding-bottom: 15px;
   width: 100vw !important;
@@ -262,12 +248,10 @@ div#chabad_body_content {
 
 #navigation,
 .chabad_menu_content,
-div#chabad_head .chabad_content_head,
+#chabad_head .chabad_content_head,
 .chabad_banner_content,
 .chabad_banner_content .chabad_image_content,
 .chabad_image_banner,
-div#chabad_left_colum .content_page,
-div.chabad_left_colum .content_page,
 .chabad_box_content_first,
 .chabad_box_content_second,
 .chabad_box_content_third,
@@ -299,12 +283,12 @@ div.chabad_left_colum .content_page,
   overflow: hidden;
 }
 
-div#chabad_head .flowers,
-div#co_calendar
+#chabad_head .flowers,
+#co_calendar
   .co_calendar_body
   .co_calendar_gradient
   .co_calendar_text
-  div.item
+  .item
   .image {
   float: left;
 }
@@ -374,7 +358,7 @@ div#co_calendar
   height: auto;
 }
 
-div#co_photo_gallery .co_photo_gallery_footer a {
+#co_photo_gallery .co_photo_gallery_footer a {
   float: right;
 }
 
@@ -401,23 +385,25 @@ div#co_photo_gallery .co_photo_gallery_footer a {
   content: "\25b2";
 }
 
-body.mobile div#chabad_head .chabad_navigator_bar {
+.mobile #chabad_head .chabad_navigator_bar {
   width: auto;
   height: auto;
   margin-top: 0;
   float: none;
 }
-body.mobile div#chabad_head .chabad_navigator_bar ul {
+
+.mobile #chabad_head .chabad_navigator_bar ul {
   float: none;
   display: block;
 }
 
-body.mobile div#chabad_head .chabad_navigator_bar ul li {
+.mobile #chabad_head .chabad_navigator_bar ul li {
   float: none;
   display: block;
   height: auto;
 }
-body.mobile div#chabad_head .chabad_navigator_bar ul li a {
+
+.mobile #chabad_head .chabad_navigator_bar ul li a {
   float: none;
 }
 .mobile_menu_nav_button {
@@ -429,25 +415,30 @@ body.mobile div#chabad_head .chabad_navigator_bar ul li a {
   font-size: 14px;
   color: inherit;
 }
+
 .mobile_menu_nav_button:after {
   content: "\25bc";
   left: 10px;
   position: relative;
   color: inherit;
 }
+
 .mobile_menu.open .mobile_menu_nav_button:after {
   content: "\25b2";
 }
-body.mobile .chabad_navigator_bar .chabad_menu_content {
+
+.mobile .chabad_navigator_bar .chabad_menu_content {
   width: 100% !important;
   position: relative;
   z-index: 2;
 }
-body.mobile .chabad_navigator_bar .chabad_menu_content ul {
+
+.mobile .chabad_navigator_bar .chabad_menu_content ul {
   margin: 0;
   padding: 0 15px;
 }
-body.mobile .chabad_navigator_bar .chabad_menu_content li {
+
+.mobile .chabad_navigator_bar .chabad_menu_content li {
   display: inline-block;
   position: relative;
   z-index: 2;
@@ -455,13 +446,13 @@ body.mobile .chabad_navigator_bar .chabad_menu_content li {
   list-style: none;
 }
 
-body.mobile .chabad_navigator_bar .chabad_menu_content li.last {
+.mobile .chabad_navigator_bar .chabad_menu_content li.last {
   border-right: none;
 }
-body.mobile .chabad_navigator_bar .chabad_menu_content li.custom_separator {
+.mobile .chabad_navigator_bar .chabad_menu_content li.custom_separator {
   display: none;
 }
-body.mobile .chabad_navigator_bar .chabad_menu_content li a {
+.mobile .chabad_navigator_bar .chabad_menu_content li a {
   font-size: 13px;
   display: inline-block;
   font-weight: bold;
@@ -469,30 +460,19 @@ body.mobile .chabad_navigator_bar .chabad_menu_content li a {
   float: none;
   text-align: left;
 }
-body.mobile
-  div#chabad_head
-  .chabad_navigator_bar
-  .chabad_menu_content
-  li
-  a.arrow,
-body.mobile
-  div#chabad_head
-  .chabad_navigator_bar
-  .chabad_menu_content
-  ul
-  li
-  a.arrow {
+.mobile #chabad_head .chabad_navigator_bar .chabad_menu_content li a.arrow,
+.mobile #chabad_head .chabad_navigator_bar .chabad_menu_content ul li a.arrow {
   background: none;
   padding-right: initial;
 }
-body.mobile .chabad_navigator_bar .chabad_menu_content li a.first {
+.mobile .chabad_navigator_bar .chabad_menu_content li a.first {
   padding-left: 0;
 }
-body.mobile .chabad_navigator_bar .chabad_menu_content .sub_menu ul {
+.mobile .chabad_navigator_bar .chabad_menu_content .sub_menu ul {
   float: none;
   padding: 0;
 }
-body.mobile .chabad_navigator_bar .chabad_menu_content .sub_menu li {
+.mobile .chabad_navigator_bar .chabad_menu_content .sub_menu li {
   float: none;
   border-right: none;
   border-bottom: 1px solid #fff;
@@ -500,10 +480,10 @@ body.mobile .chabad_navigator_bar .chabad_menu_content .sub_menu li {
   padding: 0;
   display: block;
 }
-body.mobile .chabad_navigator_bar .chabad_menu_content .sub_menu li.last {
+.mobile .chabad_navigator_bar .chabad_menu_content .sub_menu li.last {
   border-bottom-width: 2px;
 }
-body.mobile .chabad_navigator_bar .chabad_menu_content .sub_menu a {
+.mobile .chabad_navigator_bar .chabad_menu_content .sub_menu a {
   font-size: 14px;
   padding: 7px 18px 6px;
   font-weight: bold;
@@ -512,49 +492,47 @@ body.mobile .chabad_navigator_bar .chabad_menu_content .sub_menu a {
   height: auto;
   margin-bottom: 2px;
 }
-body.mobile .chabad_navigator_bar .chabad_menu_content .sub_menu a:hover {
+.mobile .chabad_navigator_bar .chabad_menu_content .sub_menu a:hover {
   background: none;
 }
-body.mobile .mobile_menu_nav_button {
+.mobile .mobile_menu_nav_button {
   display: none;
 }
-body.mobile .chabad_navigator_bar #menu .item.heading {
+.mobile .chabad_navigator_bar #menu .item.heading {
   display: block;
   text-align: center;
 }
-body.mobile .chabad_navigator_bar #menu .item.heading a {
-  background: url(/images/1/global/bullets/down_triangle_blue.png) no-repeat
-    right center;
+.mobile .chabad_navigator_bar #menu .item.heading a {
+  background: url(/images/1/global/bullets/down_triangle_blue.png) no-repeat right center;
   padding-right: 20px;
 }
-body.mobile .chabad_navigator_bar .sub_menu_toggle {
+.mobile .chabad_navigator_bar .sub_menu_toggle {
   display: inline-block;
   position: absolute;
-  background: url(/images/1/global/bullets/down_triangle_blue.png) no-repeat
-    center center;
+  background: url(/images/1/global/bullets/down_triangle_blue.png) no-repeat center center;
   color: transparent;
   width: 10px;
   height: auto;
 }
-body.mobile .chabad_navigator_bar #menu .item.heading.expanded a,
-body.mobile .chabad_navigator_bar .sub_menu_toggle.expanded {
+.mobile .chabad_navigator_bar #menu .item.heading.expanded a,
+.mobile .chabad_navigator_bar .sub_menu_toggle.expanded {
   background-image: url(/images/1/global/bullets/up_triangle_blue.png);
 }
-body.mobile #menu li.item.parent {
+.mobile #menu li.item.parent {
   display: block;
   text-align: left;
 }
 
-body.mobile #menu li.item.selected a {
+.mobile #menu li.item.selected a {
   border: none;
 }
-body.mobile #navigation.chabad_navigator_bar #menu,
-body.mobile #navigation.chabad_navigator_bar #menu .sub_menu {
+.mobile #navigation.chabad_navigator_bar #menu,
+.mobile #navigation.chabad_navigator_bar #menu .sub_menu {
   overflow: hidden;
   transition: height 0.5s;
 }
-body.mobile #navigation.chabad_navigator_bar #menu .sub_menu,
-body.mobile #chabad_head div.chabad_navigator_bar .sub_menu {
+.mobile #navigation.chabad_navigator_bar #menu .sub_menu,
+.mobile #chabad_head .chabad_navigator_bar .sub_menu {
   position: initial;
   display: block;
   width: auto;
@@ -563,117 +541,103 @@ body.mobile #chabad_head div.chabad_navigator_bar .sub_menu {
   background: none;
   height: 0;
 }
-body.mobile .chabad_navigator_bar .sub_menu_toggle:not(.expanded) + .sub_menu {
+.mobile .chabad_navigator_bar .sub_menu_toggle:not(.expanded) + .sub_menu {
   height: 0;
 }
-body.mobile div.chabad_navigator_bar #menu .sub_menu ul {
+.mobile .chabad_navigator_bar #menu .sub_menu ul {
   border-left: 3px solid #bebebe;
 }
-body.mobile div.chabad_navigator_bar .sub_menu li.last {
+.mobile .chabad_navigator_bar .sub_menu li.last {
   border-bottom: none;
 }
-body.mobile #menu .sub_menu a {
+.mobile #menu .sub_menu a {
   font-weight: normal;
 }
-body.mobile {
+.mobile {
   border: none;
   margin: 0;
 }
-body.mobile .chabad_text_head img,
-body.mobile .chabad_image_banner img,
-body.mobile .chabad_header img {
+.mobile .chabad_text_head img,
+.mobile .chabad_image_banner img,
+.mobile .chabad_header img {
   width: 100%;
   height: 100%;
 }
-body.mobile .chabad_banner_content,
-body.mobile div#chabad_body_content,
-body.mobile div#chabad_left_colum,
-body.mobile div.chabad_left_colum,
-body.mobile div#chabad_right_colum,
-body.mobile div.chabad_right_column,
-body.mobile div#chabad_box_text,
-body.mobile div#chabad_head .chabad_content_head,
-body.mobile .chabad_title_box.no_line {
+.mobile .chabad_banner_content,
+.mobile #chabad_body_content,
+.mobile .chabad_right_column,
+.mobile #chabad_box_text,
+.mobile #chabad_head .chabad_content_head,
+.mobile .chabad_title_box.no_line {
   float: initial;
 }
-body.mobile div#chabad_main_content,
-body.mobile div#chabad_head .chabad_content_head,
-body.mobile div#chabad_body_content,
-body.mobile .chabad_banner_content,
-body.mobile div#chabad_left_colum .content_page,
-body.mobile div.chabad_left_colum .content_page,
-body.mobile div#chabad_left_colum .content_page_full,
-body.mobile div.chabad_left_colum .content_page_full,
-body.mobile div#chabad_right_colum,
-body.mobile div.chabad_right_column {
+.mobile #chabad_main_content,
+.mobile #chabad_head .chabad_content_head,
+.mobile #chabad_body_content,
+.mobile .chabad_banner_content,
+.mobile .chabad_right_column {
   width: auto;
   box-sizing: border-box;
   min-width: initial;
 }
-body.mobile div#chabad_left_colum,
-body.mobile div.chabad_left_column,
-body.mobile div.chabad_left_colum {
+.mobile .chabad_left_column {
   width: auto;
   float: none;
   margin-bottom: 15px;
 }
-body.mobile div#chabad_body_content {
+.mobile #chabad_body_content {
   padding: 0 7px;
   overflow: hidden;
 }
-body.mobile div#chabad_updates,
-body.mobile div#co_calendar,
-body.mobile div.co_section,
-body.mobile div#chabad_box_text,
-body.mobile div#chabad_left_colum .chabad_box_content_first,
-body.mobile div#chabad_left_colum .chabad_box_content_second,
-body.mobile div#chabad_left_colum .chabad_box_content_third,
-body.mobile div#chabad_left_colum .content_box_custom,
-body.mobile div#co_photo_gallery {
+.mobile #chabad_updates,
+.mobile #co_calendar,
+.mobile .co_section,
+.mobile #chabad_box_text,
+.mobile #co_photo_gallery {
   margin-top: 10px;
   margin-bottom: 0;
   vertical-align: top;
 }
-body.mobile .chabad_banner_content .chabad_text_banner,
-body.mobile .chabad_box_content_first,
-body.mobile .chabad_box_content_second,
-body.mobile .chabad_box_content_third {
+.mobile .chabad_banner_content .chabad_text_banner,
+.mobile .chabad_box_content_first,
+.mobile .chabad_box_content_second,
+.mobile .chabad_box_content_third {
   padding-right: 10px;
   padding-left: 10px;
 }
-body.mobile div#chabad_body_page,
-body.mobile.cco_templateless_page {
+.mobile #chabad_body_page,
+.mobile.cco_templateless_page {
   padding-top: initial;
 }
-body.mobile div#chabad_body_page,
+.mobile #chabad_body_page,
 body.cco_templateless_page {
   background: none;
   overflow-x: hidden;
 }
-body.mobile .co_local_menu {
+.mobile .co_local_menu {
   margin-bottom: initial;
 }
-body.mobile div#chabad_head .chabad_logo a {
+.mobile #chabad_head .chabad_logo a {
   text-decoration: none;
   display: inline-block;
 }
-body.mobile div#chabad_head .chabad_logo a div {
+.mobile #chabad_head .chabad_logo a div {
   font-size: 27px;
 }
-body.mobile div#chabad_head {
+.mobile #chabad_head {
   width: 100%;
   float: initial;
   height: auto;
 }
-body.mobile div#chabad_head table img {
+.mobile #chabad_head table img {
   max-width: 100%;
   height: auto;
 }
-body.mobile div#chabad_head .chabad_content_head {
+.mobile #chabad_head .chabad_content_head {
   position: relative;
   height: auto;
 }
-body.mobile div#chabad_head .chabad_logo {
+.mobile #chabad_head .chabad_logo {
   margin: 0;
   position: relative;
   z-index: 1;
@@ -682,64 +646,56 @@ body.mobile div#chabad_head .chabad_logo {
   width: auto;
   box-sizing: border-box;
 }
-body.mobile div#chabad_head .logocell {
+.mobile #chabad_head .logocell {
   padding: 0;
   display: block;
   margin: 0 20px 0 0;
 }
-body.mobile div#chabad_head .chabad_text_head {
+.mobile #chabad_head .chabad_text_head {
   display: none;
 }
-body.mobile div#chabad_right_colum,
-body.mobile div.chabad_right_column {
+.mobile .chabad_right_column {
   text-align: center;
   margin-bottom: 15px;
 }
 
-body.mobile div#chabad_updates,
-body.mobile div#co_calendar,
-body.mobile div.co_section,
-body.mobile div#co_photo_gallery,
-body.mobile div#chabad_box_text {
+.mobile #chabad_updates,
+.mobile #co_calendar,
+.mobile .co_section,
+.mobile #co_photo_gallery,
+.mobile #chabad_box_text {
   text-align: initial;
 }
-body.mobile div#chabad_box_text .chabad_box_text_body {
+.mobile #chabad_box_text .chabad_box_text_body {
   padding: 10px 15px;
   margin: 0;
 }
-body.mobile #footer .footer_inner_container {
+.mobile #footer .footer_inner_container {
   text-align: center;
 }
-body.mobile #BodyContainer,
-body.mobile .g960.footer {
+.mobile #BodyContainer,
+.mobile .g960.footer {
   width: auto;
   max-width: 100%;
   margin: 0;
   float: none;
   display: block;
 }
-body.mobile .co_body img,
-body.mobile #chabad_main_content img {
+.mobile .co_body img,
+.mobile #chabad_main_content img {
   max-width: 100%;
   height: auto;
 }
 
-body.mobile div#chabad_body_content,
-body.mobile .chabad_banner_content,
-body.mobile div.chabad_left_colum,
-body.mobile div.chabad_left_column,
-body.mobile div#chabad_left_colum,
-body.mobile div#chabad_left_column,
-body.mobile div#chabad_left_colum .content_page,
-body.mobile div.chabad_left_colum .content_page,
-body.mobile div#chabad_left_colum .content_page_full,
-body.mobile div.chabad_left_colum .content_page_full,
-body.mobile div#chabad_left_column .content_page,
-body.mobile div.chabad_left_column .content_page,
-body.mobile div#chabad_left_column .content_page_full,
-body.mobile div.chabad_left_column .content_page_full,
-body.mobile div#chabad_right_colum,
-body.mobile div.chabad_right_column {
+.mobile #chabad_body_content,
+.mobile .chabad_banner_content,
+.mobile .chabad_left_column,
+.mobile #chabad_left_column,
+.mobile #chabad_left_column .content_page,
+.mobile .chabad_left_column .content_page,
+.mobile #chabad_left_column .content_page_full,
+.mobile .chabad_left_column .content_page_full,
+.mobile .chabad_right_column {
   margin-left: 0;
   margin-right: 0;
 }
@@ -770,7 +726,7 @@ HOME PAGE - OTHER AREAS
   font-weight: bold;
 }
 
-div.container img {
+.container img {
   max-width: 100%;
   border-top-left-radius: 30px;
   border-bottom-right-radius: 30px;
@@ -801,7 +757,7 @@ div.container img {
   background: #f7e9d0;
   border-bottom: 1px solid black;
 }
-div.container img:hover {
+.container img:hover {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   transition: 1s ease;
@@ -848,6 +804,7 @@ h3.form-header {
 
 /* THERMOMETER */
 #therm-contain {
+  display: none;
   position: fixed;
   bottom: 20px;
   left: 20px;
@@ -949,19 +906,19 @@ h3.form-header {
 }
 
 @media (min-width: 768px) {
-  div#cco_body {
+  #cco_body {
     width: 750px;
     margin: auto;
   }
 }
 @media (min-width: 992px) {
-  div#cco_body {
+  #cco_body {
     width: 970px;
     margin: auto;
   }
 }
 @media (min-width: 1200px) {
-  div#cco_body {
+  #cco_body {
     width: 1170px;
     margin: auto;
   }
@@ -977,17 +934,17 @@ h3.form-header {
     display: block;
     margin: auto;
   }
-  div#chabad_head .chabad_navigator_bar ul#menu {
+  #chabad_head .chabad_navigator_bar ul#menu {
     width: 100%;
   }
-  body.mobile #menu li.item.parent {
+  .mobile #menu li.item.parent {
     display: inline-block;
   }
   .sub_menu_toggle,
   .sub_menu {
     display: none !important;
   }
-  body.mobile #navigation.chabad_navigator_bar #menu {
+  .mobile #navigation.chabad_navigator_bar #menu {
     text-align: center;
   }
   .hero h1 {
