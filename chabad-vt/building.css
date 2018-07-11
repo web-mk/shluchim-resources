@@ -31,7 +31,6 @@
 
 div#chabad-head-wrap {
   box-shadow: 1px 1px 10px lightgray;
-  margin-bottom: 50px;
   padding-top: 40px;
   background-image: url("https://chabadorg.clhosting.org/media/images/979/QNyY9793183.jpg");
   background-size: cover;
@@ -736,172 +735,11 @@ body.mobile div.chabad_right_column {
   margin-right: 0;
 }
 
-/*
-Fade content bs-carousel with hero headers
-Code snippet by maridlcrmn (Follow me on Twitter @maridlcrmn) for Bootsnipp.com
-Image credits: unsplash.com
-*/
-
-div#bs-carousel {
-  margin-top: -50px;
-}
-
-/********************************/
-/*       Fade Bs-carousel       */
-/********************************/
-
-.fade-carousel {
-  position: relative;
+#hero-rendering {
   height: calc(100vh - 175px);
-}
-.fade-carousel .carousel-inner .item {
-  height: calc(100vh - 175px);
-}
-.fade-carousel .carousel-indicators > li {
-  margin: 0 2px;
-  background-color: #40acbe;
-  border-color: #40acbe;
-  opacity: 0.7;
-}
-.fade-carousel .carousel-indicators > li.active {
-  width: 10px;
-  height: 10px;
-  opacity: 1;
-}
-
-/********************************/
-/*          Hero Headers        */
-/********************************/
-.hero {
-  position: absolute;
-  /* top: 50%;
-    left: 50%;*/
-  top: 90px;
-  left: 90px;
-  z-index: 3;
-  color: #fff;
-  /* text-align: center;*/
-  text-align: left;
-  /*transform: translate3d(-50%,-50%,0);*/
-  /*text-transform: uppercase;*/
-}
-.hero h1 {
-  font-size: 4em;
-  font-weight: normal;
-  margin: 0;
-  padding: 0;
-  color: #e4d1af;
-  /*text-shadow: 0 1px 0 #B7AA9D,
-               0 2px 0 #B7AA9D,
-               0 3px 0 #B7AA9D,
-               0 4px 0 #B7AA9D,
-               0 5px 0 #B7AA9D,
-               0 6px 1px rgba(0,0,0,.1),
-               0 0 5px rgba(0,0,0,.1),
-               0 1px 3px rgba(0,0,0,.3),
-               0 3px 5px rgba(0,0,0,.2),
-               0 5px 10px rgba(0,0,0,.25),
-               0 10px 10px rgba(0,0,0,.2),
-               0 20px 20px rgba(0,0,0,.15);*/
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.65);
-  /*  -webkit-transform: translate3d(-50%,-50%,0);
-         -moz-transform: translate3d(-50%,-50%,0);
-          -ms-transform: translate3d(-50%,-50%,0);
-           -o-transform: translate3d(-50%,-50%,0);
-              transform: translate3d(-50%,-50%,0);*/
-}
-.hero h1 .highlight {
-  color: #40acbe;
-  font-weight: bold;
-}
-
-.fade-carousel .carousel-inner .item .hero {
-  opacity: 0;
-  -webkit-transition: 2s all ease-in-out 0.1s;
-  -moz-transition: 2s all ease-in-out 0.1s;
-  -ms-transition: 2s all ease-in-out 0.1s;
-  -o-transition: 2s all ease-in-out 0.1s;
-  transition: 2s all ease-in-out 0.1s;
-}
-.fade-carousel .carousel-inner .item.active .hero {
-  opacity: 1;
-  -webkit-transition: 2s all ease-in-out 0.1s;
-  -moz-transition: 2s all ease-in-out 0.1s;
-  -ms-transition: 2s all ease-in-out 0.1s;
-  -o-transition: 2s all ease-in-out 0.1s;
-  transition: 2s all ease-in-out 0.1s;
-}
-
-/********************************/
-/*            Overlay           */
-/*******************************
-.overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: 2;
-    background-color: #080d15;
-    opacity: 0;
-}*/
-
-/********************************/
-/*          Custom Buttons      */
-/********************************/
-.btn.btn-lg {
-  padding: 10px 40px;
-}
-.btn.btn-hero,
-.btn.btn-hero:hover,
-.btn.btn-hero:focus {
-  color: #f5f5f5;
-  background-color: #1abc9c;
-  border-color: #1abc9c;
-  outline: none;
-  margin: 20px auto;
-}
-
-/********************************/
-/*       Slides backgrounds     */
-/********************************/
-.fade-carousel .slides .slide-1,
-.fade-carousel .slides .slide-2,
-.fade-carousel .slides .slide-3 {
-  height: 100vh;
-  background-size: cover;
-  background-position: center center;
+  background: url('https://chabadvt.org/media/images/1058/kIfU10580947.jpg');
   background-repeat: no-repeat;
-}
-.fade-carousel .slides .slide-1 {
-  background-image: url(http://jewishbrevard.com/media/images/979/sCmo9793160.jpg);
-}
-.fade-carousel .slides .slide-2 {
-  background-image: url(http://jewishbrevard.com/media/images/979/ONUf9793159.jpg);
-}
-.fade-carousel .slides .slide-3 {
-  background-image: url(http://jewishbrevard.com/media/images/979/ONUf9793159.jpg);
-}
-
-/********************************/
-/*          Media Queries       */
-/********************************/
-
-@media screen and (min-width: 980px) {
-  .hero {
-    width: 90%;
-  }
-  .hero h1 {
-    font-size: 4em;
-  }
-}
-@media screen and (min-width: 1824px) {
-  .hero h1 {
-    font-size: 5em;
-  }
-}
-@media screen and (max-width: 640px) {
-  .hero h1 {
-    font-size: 3em;
-  }
+  background-size: cover;
 }
 
 /*********************************
