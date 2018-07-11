@@ -5,7 +5,7 @@
         $(window).scroll(function(){
           $('#therm-contain').css('opacity', 1 - $(window).scrollTop() / 800);
         });
-        jQuery('.footer3').prepend('<div><p>Mikvah Campaign & Chabad Expansion for Chabad of the Space & Treasure Coasts. Chabad is a 501(c)3 charity and all contributions to it are tax deductible.</p></div>');
+        jQuery('.footer3').prepend('<div><p>Expansion for Chabad of Vermont text etc..</p><p>Chabad is a 501(c)3 charity and all contributions to it are tax deductible.</p></div>');
         jQuery('.cco_templateless_template').remove();
 
         var script = document.createElement('script'); 
