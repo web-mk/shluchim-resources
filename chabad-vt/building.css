@@ -5,6 +5,15 @@
 * {
   font-family: "Montserrat", sans-serif !important;
 }
+
+.co_content_container {
+  padding-top: 0;
+}
+
+.remove-empty {
+  display: none;
+}
+
 #BodyContainer {
   width: 100% !important;
 }
