@@ -7,24 +7,24 @@
         url: `https://spreadsheets.google.com/feeds/list/1VqxIarzdTnAKcPoD9Xvx6r1VHvnSaH8fccL1woxQPjg/od6/public/values?alt=json`,
       })
       .then((data) => {
-          // if (data.feed.entry.length > 10) {
-          // var $latestDonors = jQuery('#latest-donors');
-          var currentAmount = data.feed.entry[0].gsx$thermometer.$t;
-          var amountNumber = parseInt(currentAmount);
-          var percentComplete = amountNumber / 1400000 * 100;
-          // data.feed.entry.reverse().forEach((entry) => {
-          //   var donor = entry.gsx$donors.$t;
-          //   var $li = jQuery('<li/>');
-          //   $li.text(donor)
-          //   .appendTo($latestDonors);
-          // });
-          // }
-          // else {
+        var currentAmount = data.feed.entry[0].gsx$thermometer.$t;
+        var amountNumber = parseInt(currentAmount);
+        var percentComplete = amountNumber / 1400000 * 100;
+        if (data.feed.entry.length > 5) {
+          var $latestDonors = jQuery('#latest-donors');
+          data.feed.entry.reverse().forEach((entry) => {
+            var donor = entry.gsx$donors.$t;
+            var $li = jQuery('<li/>');
+            $li.text(donor)
+            .appendTo($latestDonors);
+          });
+        }
+        else {
           var $latest = jQuery('#latest');
           $latest.hide();
-          // }
-          jQuery('#current-text').text('$' + amountNumber.toLocaleString());
-          jQuery('#current-wrapper').height(percentComplete + '%');
+        }
+        jQuery('#current-text').text('$' + amountNumber.toLocaleString());
+        jQuery('#current-wrapper').height(percentComplete + '%');
       });
 
     });
