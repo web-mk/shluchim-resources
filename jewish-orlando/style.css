@@ -1,0 +1,505 @@
+/* TOP LINKS, SITE HEADER IMAGE etc. */
+
+body {
+  background: url("https://jewishorlandocom.clhosting.org/media/images/877/KCiS8772056.jpg") !important;
+  background-size: cover !important;
+  background-attachment: fixed !important;
+}
+a.site_title {
+  text-indent: -9999em;
+  height: 108px;
+}
+body.cco_body #header_branding {
+  background: url("https://jewishorlandocom.clhosting.org/media/images/877/gSns8772058.png")
+    no-repeat left center;
+  margin-left: 0;
+  margin-bottom: -15px;
+  height: 90px;
+}
+
+.menu .center_logo {
+  padding: 8px;
+}
+
+.mobile .center_logo .margin_center {
+  background: url("https://jewishorlandocom.clhosting.org/media/images/877/gSns8772058.png") no-repeat center center;
+  background-size: contain;
+  width: 100%;
+}
+
+.mobile .footer_container, .mobile .menu {
+  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+}
+
+.center_logo a span {
+  text-indent: -9999em;
+}
+
+#header_container .links,
+#header_container .links a,
+#header_container .topBarLink a,
+.top_bar_item {
+  color: white;
+}
+#header_container .links,
+#header_container .links a,
+#header_container .topBarLink a,
+.top_bar_item {
+  color: #21a8a4;
+}
+
+/* SEARCH */
+
+#header_container .cco_search_header #MainSearchForm {
+  background-color: transparent;
+}
+#header_container .cco_search_header #MainSearchForm,
+.co_global_input {
+  border-color: #27c3bf;
+  background-color: transparent;
+}
+#header_container .cco_search_header {
+  padding-top: 32px;
+}
+
+.co_search_form {
+  position: relative;
+  top: 5px !important;
+  left: 15px !important;
+}
+
+/* MENU DROPDOWNS */
+body.cco_body
+  #tabContentMain
+  .co_menu_item.multi_level
+  .co_submenu_container
+  a.item.hover,
+body.cco_body
+  #tabContentMain
+  .co_menu_item.multi_level
+  .co_submenu_container
+  a.item:hover {
+  background-color: #f0f2f1;
+  color: #33b6b1;
+  font-weight: bold;
+  border: none;
+}
+body #co_menu_container #tabContentMain .co_menu_item.selected {
+  background-color: white;
+}
+.co_menu_item .co_submenu_container {
+  -moz-box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.15);
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+body #co_menu_container .co_menu_item.multi_level .co_submenu_container a.item {
+  border-bottom: none !important;
+  border-top: none !important;
+}
+
+body.cco_body
+  #tabContentMain
+  .co_menu_item.multi_level
+  .co_submenu_container
+  a.item {
+  border: none;
+}
+
+body.cco_body
+  #tabContentMain
+  .co_menu_item.multi_level
+  .co_submenu_container
+  a.item {
+  background-color: #ffffff;
+  border-top-color: none;
+  border-bottom-color: none;
+}
+body.cco_body #tabContentMain .co_submenu_container .co_column a {
+  color: #425156;
+}
+.co_menu_item.multi_level .co_submenu_container .column_wrapper {
+  background-color: #ffffff;
+  border: none;
+}
+.co_menu_item.multi_level .co_submenu_container a.item {
+  border-bottom: none;
+  border-top: none;
+}
+.co_menu_item.multi_level .co_submenu_container a.item span {
+  display: inline-block;
+  max-width: 175px;
+  color: #425156 !important;
+  font-weight: normal;
+}
+body #tabContentMain .co_menu_item span.parent,
+body #tabContentMain .co_menu_item span.parent a,
+body #tabContentMain .co_menu_item.hover span.parent,
+body #tabContentMain .co_menu_item.hover span.parent a,
+body.cco_body #tabContentMain .co_menu_item span.parent,
+body.cco_body #tabContentMain .co_menu_item span.parent a,
+body.cco_body #tabContentMain .co_menu_item.hover span.parent,
+body.cco_body #tabContentMain .co_menu_item.hover span.parent a {
+  color: #ffb51e;
+}
+body.cco_body
+  #tabContentMain
+  .co_menu_item.multi_level
+  .co_submenu_container
+  .menu_child {
+  background: white;
+  border: none;
+}
+body #co_menu_container #tabContentMain .co_menu_item {
+  font-size: 12px;
+  background-image: none;
+}
+body #co_menu_container #tabContentMain .co_menu_item_divider {
+  background-image: none;
+}
+body
+  #co_menu_container
+  #tabContentMain
+  .co_menu_item.multi_level
+  .co_submenu_container
+  a.item.hover,
+body
+  #co_menu_container
+  #tabContentMain
+  .co_menu_item.multi_level
+  .co_submenu_container
+  a.item:hover {
+  background-color: #f0f2f1;
+  color: #33b6b1;
+  font-weight: bold;
+  border: none;
+}
+
+body #co_menu_container #tabContentMain .co_menu_item.arrow.hover span.parent,
+body
+  #co_menu_container
+  #tabContentMain
+  .co_menu_item.arrow.selected
+  span.parent {
+  background: url("https://jewishorlandocom.clhosting.org/media/images/880/xYxN8800387.png")
+    no-repeat right 12px center !important;
+}
+
+.dir_ltr .co_menu_item .co_submenu_container .menu_child {
+  box-shadow: inset 1px 0 #d8b068, 3px 3px 6px rgba(0, 0, 0, 0.15);
+}
+.dir_ltr .co_menu_item .co_submenu_container.reversed .menu_child {
+  box-shadow: inset -1px 0 #41b2de, 3px 3px 6px rgba(0, 0, 0, 0.15);
+}
+.dir_ltr .co_menu_item.multi_level .co_submenu_container a.item img.arrow,
+.dir_rtl
+  .co_menu_item.multi_level
+  .co_submenu_container.reversed
+  a.item
+  img.arrow {
+  border-left-color: #26b6d6;
+  border-right-color: transparent;
+}
+.dir_rtl .co_menu_item.multi_level .co_submenu_container a.item img.arrow,
+.dir_ltr
+  .co_menu_item.multi_level
+  .co_submenu_container.reversed
+  a.item
+  img.arrow {
+  border-left-color: transparent;
+  border-right-color: #26b6d6;
+}
+
+body
+  #co_menu_container
+  .co_menu_item.multi_level
+  .co_submenu_container
+  .co_column {
+  border-bottom: none;
+}
+
+/* BUTTON FOR NAV */
+.promo_slider .cycle-directionNav a {
+  background: url("https://jewishorlandocom.clhosting.org/media/images/877/gyNy8772061.png")
+    no-repeat 0 0;
+}
+.promo_slider .cycle-controlNav a {
+  background: url("https://jewishorlandocom.clhosting.org/media/images/877/gyNy8772061.png")
+    no-repeat -447px -17px;
+}
+.promo_slider .cycle-directionNav {
+  background: url("https://jewishorlandocom.clhosting.org/media/images/877/gyNy8772061.png")
+    no-repeat 0 0;
+  right: -10px !important;
+  left: auto;
+  background-position: -75px 0;
+}
+.promo_slider .cycle-directionNav a {
+  background: url("https://jewishorlandocom.clhosting.org/media/images/877/gyNy8772061.png")
+    no-repeat 0 0;
+}
+.promo_slider .cycle-directionNav {
+  background: url("https://jewishorlandocom.clhosting.org/media/images/877/gyNy8772061.png")
+    no-repeat 0 0;
+  right: -10px !important;
+  left: auto;
+  background-position: -75px 0;
+}
+.promo_slider a.cycle-nextNav {
+  background-position: -75px 0;
+}
+.promo_slider a.cycle-nextNav {
+  right: -10px !important;
+  left: auto;
+  background-position: -75px 0;
+}
+.promo_slider .cycle-directionNav a {
+  display: block;
+  position: absolute;
+  width: 53px;
+  height: 53px;
+  top: 85px;
+  cursor: pointer;
+  text-indent: -99999px;
+  z-index: 2;
+  overflow: hidden;
+}
+
+/* MENU BAR */
+
+body .co_menu_container,
+body.cco_body .co_menu_container {
+  background: url("https://jewishorlandocom.clhosting.org/media/images/877/Udcd8772065.png");
+}
+body #co_menu_container.co_menu_container,
+body.cco_body #co_menu_container.co_menu_container {
+  background: url("https://jewishorlandocom.clhosting.org/media/images/877/Udcd8772065.png");
+}
+body #tabContentMain .co_menu_item,
+body.cco_body #tabContentMain .co_menu_item {
+  background: none;
+}
+body #tabContentMain .co_menu_item_divider,
+body.cco_body #tabContentMain .co_menu_item_divider {
+  background: none;
+}
+.co_menu_item a.bg_extension {
+  background: white !important;
+  position: absolute;
+  height: 61px;
+  width: 100%;
+  padding: 0;
+  display: none;
+  top: 0;
+  z-index: 5;
+}
+body #co_menu_container #tabContentMain .co_menu_home_image {
+  background-image: url("https://chabadorg.clhosting.org/media/images/877/hNqq8772067.png");
+}
+body #co_menu_container #tabContentMain .co_menu_home_image.hover {
+  background-image: url("https://chabadorg.clhosting.org/media/images/877/hNqq8772067.png");
+}
+body.cco_body #tabContentMain .co_menu_item span.parent,
+body.cco_body #tabContentMain .co_menu_item span.parent a {
+  color: #24b4af !important;
+}
+body #co_menu_container #tabContentMain .co_menu_item.arrow span.parent {
+  background: none;
+}
+body #co_menu_container #tabContentMain .co_menu_item.hover span.parent,
+body #co_menu_container #tabContentMain .co_menu_item.hover span.parent a,
+body #co_menu_container #tabContentMain .co_menu_item.selected span.parent a {
+  color: #ffb51e !important;
+}
+
+/* REMOVE UGLY BOX SHADOW */
+.widget-4 {
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
+div.widget-4.v140 {
+  height: 226px;
+}
+
+/* ICONS - MAIN AREA ON HOMEPAGE */
+#iconsarea {
+  background-image: url("https://chabadorg.clhosting.org/media/images/877/DNia8772027.png");
+  height: 472px;
+  width: 913px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 22px;
+  margin-top: 22px;
+}
+#touristiconsarea {
+  margin-top: 25px;
+  margin-left: 6px;
+  margin-bottom: 37px;
+}
+.touristicons {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.localicons {
+  margin-left: 26px;
+}
+.miniicons {
+  margin-bottom: 8px;
+}
+#miniiconarea {
+  width: 146px;
+  float: left;
+}
+#localiconsarea1,
+#localiconsarea2 {
+  width: 380px;
+  float: left;
+}
+
+/* QUICK LINKS */
+h1#titlequicklinks {
+  font-size: 13px;
+  color: #5a918b;
+  text-transform: uppercase;
+  border-bottom: #ffba15 2px solid;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.quicklinkscolumns {
+  width: 25%;
+  float: left;
+}
+a.otherquicklinks {
+  font-size: 13px;
+  text-decoration: none !important;
+  color: #27c3be;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a.otherquicklinks:hover {
+  border-bottom: 2px dotted #ffba32;
+}
+
+#titleline {
+  border-bottom: #f3f3f1 2px solid;
+  float: left;
+  width: 79%;
+  margin-left: 15px;
+  font-size: 13px;
+  margin-top: -2px;
+}
+.titlequicklinkscolumns {
+  width: 170px;
+  float: left;
+}
+#quicklinkarea {
+  width: 913px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+#quicklinkarea:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.no_margin.g960.no_margin {
+  padding-bottom: 10px;
+}
+@media only screen and (max-width: 480px) {
+  #iconsarea {
+    background-image: none;
+    height: auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 22px;
+    margin-top: 22px;
+    background: rgb(255, 186, 51);
+    background: -moz-linear-gradient(
+      -45deg,
+      rgba(255, 186, 51, 1) 0%,
+      rgba(39, 195, 190, 1) 98%
+    );
+    background: -webkit-linear-gradient(
+      -45deg,
+      rgba(255, 186, 51, 1) 0%,
+      rgba(39, 195, 190, 1) 98%
+    );
+    background: linear-gradient(
+      135deg,
+      rgba(255, 186, 51, 1) 0%,
+      rgba(39, 195, 190, 1) 98%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffba33', endColorstr='#27c3be',GradientType=1 );
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  #iconsarea:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  #touristiconsarea {
+    margin-top: 25px;
+    margin-left: 6px;
+    margin-bottom: 37px;
+  }
+  .touristicons {
+    width: 38%;
+    margin-bottom: 8px;
+  }
+  .localicons {
+    margin-left: 13px;
+    margin-right: 13px;
+    margin-bottom: 13px;
+  }
+  .miniicons {
+    margin-bottom: 8px;
+  }
+  #miniiconarea {
+    display: inline-block;
+    width: auto;
+    float: none;
+    margin: 30px auto 10px auto;
+  }
+  #localiconsarea1,
+  #localiconsarea2 {
+    width: calc(100vw - 5%);
+  }
+  .titlequicklinks {
+    font-size: 19px;
+    text-align: right;
+    color: #ffba32;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .otherquicklinks {
+    font-size: 13px;
+    text-decoration: none !important;
+    color: #27c3be;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .otherquicklinks:hover {
+    border-bottom: 2px dotted #ffba32;
+  }
+  .dot {
+    color: #ffba32;
+  }
+
+  .quicklinkscolumns {
+    width: 50%;
+    float: left;
+  }
+  #quicklinkarea {
+    width: 100vw;
+  }
+  #titleline {
+    display: none;
+  }
+  img#touristhead {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+  }
+}
