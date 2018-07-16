@@ -232,7 +232,7 @@ td.chabad_text_head img {
 #chabad_head .chabad_navigator_bar ul li.active a.parent,
 #chabad_head .chabad_navigator_bar ul li a.selected,
 #chabad_head .chabad_navigator_bar ul li a:hover {
-  color: #40acbe;
+  color: #cdb8a7;
   border-top: 5px solid #f7e9d0;
   transition: border-top 0.3s ease;
 }
@@ -737,7 +737,7 @@ body.cco_templateless_page {
 HOME PAGE - OTHER AREAS
 *************/
 #descrip-section {
-  background: #40acbe;
+  background: #cdb8a7;
 }
 #descrip-wrap {
   max-width: 900px;
@@ -764,7 +764,7 @@ HOME PAGE - OTHER AREAS
 #mikvah-col h4 {
   font-size: 23px;
   font-weight: 700;
-  color: #40acbe;
+  color: #f44c72;
 }
 #need-col p,
 #plans-col p,
@@ -775,7 +775,7 @@ HOME PAGE - OTHER AREAS
 #plans-col a.button,
 #mikvah-col a.button {
   padding: 5px 10px;
-  color: #40acbe;
+  color: #cdb8a7;
   font-size: 17px;
   font-weight: bold;
   text-decoration: none;
@@ -812,7 +812,7 @@ HOME PAGE - OTHER AREAS
   font-size: 18px;
 }
 .col-md-12 h1 {
-  color: #40acbe;
+  color: #cdb8a7;
   font-size: 35px;
   margin-bottom: 20px;
 }
