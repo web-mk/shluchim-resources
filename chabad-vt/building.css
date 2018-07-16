@@ -41,8 +41,6 @@
 #chabad-head-wrap {
   box-shadow: 1px 1px 10px lightgray;
   padding-top: 40px;
-  background-image: url("https://chabadorg.clhosting.org/media/images/979/QNyY9793183.jpg");
-  background-size: cover;
 }
 
 #cco_body .content_tditle_container .overlay {
@@ -218,9 +216,9 @@ td.chabad_text_head img {
   padding-left: 6px;
   text-decoration: none;
   font-size: 1.4em;
-  color: #b7aa9d;
+  color: #e21723;
   transition: border-top 0.3s ease;
-  border-top: 0px solid #b7aa9d;
+  border-top: 0px solid #e21723;
 }
 
 .chabad_navigator_bar ul li a.arrow {
@@ -739,6 +737,7 @@ HOME PAGE - OTHER AREAS
 #descrip-section {
   background: #cdb8a7;
 }
+
 #descrip-wrap {
   max-width: 900px;
   margin: auto;
@@ -750,6 +749,7 @@ HOME PAGE - OTHER AREAS
 .kivun-subtitle {
   font-size: 34px;
   font-weight: bold;
+  color: #f44c72;
 }
 
 .container img {
