@@ -64,6 +64,32 @@
 .chabad_header {
   width: 300px;
   float: left;
+  display: flex;
+  align-items: center;
+}
+
+.chabad_header img {
+  height: 100px;
+}
+
+.chabad_header a:last-child {
+  margin-left: 20px;
+}
+
+.chabad_header a:hover {
+  text-decoration: none;
+}
+
+.chabad_header a:hover span {
+  color: #f44c72;
+}
+
+.chabad_header span {
+  font-size: 30px;
+  line-height: 34px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ff9403;
 }
 
 td.chabad_logo {
