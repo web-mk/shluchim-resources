@@ -725,7 +725,7 @@ body.cco_templateless_page {
 }
 
 #hero-rendering {
-  height: calc(100vh - 175px);
+  height: calc(100vh - 165px);
   background: url('https://chabadvt.org/media/images/1058/kIfU10580947.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -989,4 +989,24 @@ h3.form-header {
     top: 80px;
     left: 30px;
   }
+}
+
+
+/* INDEX PAGE */
+.co_index .item .title {
+  color: #e21722;
+  font-size: 25px;
+}
+
+.co_index .item .title:before {
+  content: "\f0a9";
+  font-family: FontAwesome;
+  font-size: 20px;
+  color: #ff9403;
+  display: inline-block;
+  margin-right: 10px;
+}
+/* PAGE GENERAL */
+.co_body .container {
+  margin-top: 40px;
 }
