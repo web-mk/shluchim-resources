@@ -815,10 +815,11 @@ HOME PAGE - OTHER AREAS
 .col-md-12 p {
   font-size: 18px;
 }
-.col-md-12 h1 {
+.col-md-12 h1, .co_body h2, .co_body h2 a {
   color: #cdb8a7;
   font-size: 35px;
   margin-bottom: 20px;
+  border: 0;
 }
 
 .co_index .item {
@@ -1031,10 +1032,24 @@ div#formContainer .form-label-top, .form-label-left label {
   background: #f7c17c;
   padding: 5px;
   width: 109%;
+  max-width: 109%;
   display: inline-block;
   margin-bottom: 4px;
   padding-left: 14px;
   margin-left: -36px;
+}
+
+li#id_2, li#id_3 {
+  background: none;
+  border: 0;
+}
+
+li#id_3 p {
+  font-size: 20px;
+}
+
+.form-section {
+  margin: 40px 0;
 }
 
 .form-all .label-message {
