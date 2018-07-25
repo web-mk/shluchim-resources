@@ -735,7 +735,10 @@ body.cco_templateless_page {
 HOME PAGE - OTHER AREAS
 *************/
 #descrip-section {
-  background: #cdb8a7;
+  background: url('https://chabadvt.org/media/images/1060/GBfA10600927.jpg');
+  background-size: 100% auto;
+  background-position: 0%;
+  background-repeat: no-repeat;
 }
 
 #descrip-wrap {
@@ -747,9 +750,9 @@ HOME PAGE - OTHER AREAS
   color: white;
 }
 .kivun-subtitle {
-  font-size: 34px;
+  font-size: 45px;
   font-weight: bold;
-  color: #f44c72;
+  color: #ccb9a9;
 }
 
 .container img {
@@ -762,9 +765,10 @@ HOME PAGE - OTHER AREAS
 #need-col h4,
 #plans-col h4,
 #mikvah-col h4 {
-  font-size: 23px;
+  font-size: 27px;
   font-weight: 700;
   color: #f44c72;
+  margin: 20px 0;
 }
 #need-col p,
 #plans-col p,
@@ -775,13 +779,14 @@ HOME PAGE - OTHER AREAS
 #plans-col a.button,
 #mikvah-col a.button {
   padding: 5px 10px;
-  color: #cdb8a7;
+  color: white;
   font-size: 17px;
   font-weight: bold;
   text-decoration: none;
   border-radius: 6px;
-  background: #f7e9d0;
-  border-bottom: 1px solid black;
+  background: #cdb7a7;
+  border-bottom: 2px solid #a7846e;
+}
 }
 .container img:hover {
   -webkit-filter: grayscale(100%);
