@@ -787,7 +787,6 @@ HOME PAGE - OTHER AREAS
   background: #cdb7a7;
   border-bottom: 2px solid #a7846e;
 }
-}
 .container img:hover {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
@@ -1009,4 +1008,51 @@ h3.form-header {
 /* PAGE GENERAL */
 .co_body .container {
   margin-top: 40px;
+}
+
+/* DEDICATION PAGE */
+
+#cid_1 .form-header-group {
+  padding: 0;
+  margin: 0;
+}
+
+div#formContainer .form-label-top, .form-label-left label {
+  font-size: 20px;
+}
+
+.form-label-auto label, .form-label-top label, .form-label-left label, .form-label-right label, div.co_body h3 {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 24px;
+  letter-spacing: 3px;
+  color: black;
+  font-weight: bold;
+  background: #f7c17c;
+  padding: 5px;
+  width: 109%;
+  display: inline-block;
+  margin-bottom: 4px;
+  padding-left: 14px;
+  margin-left: -36px;
+}
+
+.form-all .label-message {
+  font-family: 'Montserrat', sans-serif;
+  background: none;
+  text-transform: none;
+  letter-spacing: 0;
+  margin-left: 0;
+  padding-left: 0;
+  width: 100%;
+}
+
+.form-line {
+  background-color: #f8fbf4;
+  width: 600px;
+  margin: 20px auto;
+}
+
+body.mobile .form-line {
+  width: 95vw;
 }
