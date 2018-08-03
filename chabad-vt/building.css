@@ -729,6 +729,7 @@ body.cco_templateless_page {
   background: url('https://chabadvt.org/media/images/1058/kIfU10580947.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 /*********************************
@@ -736,7 +737,7 @@ HOME PAGE - OTHER AREAS
 *************/
 #descrip-section {
   background: url('https://chabadvt.org/media/images/1060/GBfA10600927.jpg');
-  background-size: 100% auto;
+  background-size: cover;
   background-position: 0%;
   background-repeat: no-repeat;
 }
