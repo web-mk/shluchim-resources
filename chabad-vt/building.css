@@ -716,6 +716,10 @@ body.cco_templateless_page {
   height: auto;
 }
 
+.mobile .chabad_header img {
+  max-width: 20%;
+}
+
 .mobile #chabad_body_content,
 .mobile .chabad_banner_content,
 .mobile .chabad_left_column,
