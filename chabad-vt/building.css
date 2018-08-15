@@ -74,11 +74,6 @@
   margin-left: 20px;
 }
 
-.mobile .chabad_header a:last-child {
-  float: right;
-  width: 75%;
-}
-
 .chabad_header a:hover {
   text-decoration: none;
 }
@@ -717,10 +712,6 @@ body.cco_templateless_page {
   height: auto;
 }
 
-.mobile .chabad_header img {
-  max-width: 20%;
-}
-
 .mobile #chabad_body_content,
 .mobile .chabad_banner_content,
 .mobile .chabad_left_column,
@@ -977,8 +968,9 @@ h3.form-header {
   .chabad_header {
     width: 90%;
     float: none;
-    display: block;
+    display: flex;
     margin: auto;
+    padding-bottom: 20px;
   }
   #chabad_head .chabad_navigator_bar ul#menu {
     width: 100%;
