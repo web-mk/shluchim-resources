@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta:400,700');
+
+#chabad_body_page * {
+  font-family: 'Mukta', sans-serif;
+}
+
 div#cco_body .content_tditle_container .overlay {
   display: none;
 }
@@ -136,7 +142,6 @@ div#chabad_head .chabad_navigator_bar ul li:last-child {
 
 .chabad_navigator_bar ul li a {
   float: left;
-  font-family: arial;
   font-weight: bold;
   height: 100%;
   padding: 0 16px;
@@ -298,8 +303,22 @@ div#co_calendar
   height: auto;
 }
 
-div#co_photo_gallery .co_photo_gallery_footer a {
+#co_photo_gallery .co_photo_gallery_footer a {
   float: right;
+}
+
+.co_photo_gallery_footer a {
+  font-size: 0;
+}
+
+.co_photo_gallery_footer a:before {
+  content: '\f144';
+  font-family: FontAwesome;
+  font-size: 40px;
+}
+
+#co_photo_gallery .co_photo_gallery_footer a:hover {
+  text-decoration: none;
 }
 
 .chabad_logo p {
