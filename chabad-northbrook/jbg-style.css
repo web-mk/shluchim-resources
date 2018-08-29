@@ -260,14 +260,39 @@ div#co_calendar
 .chabad_text_box div {
   font-size: 14px;
 }
-.co_section_head,
-.co_photo_gallery_head,
-.chabad_updates_head,
-.co_calendar_head {
-  color: #fff;
 
+.co_section_head, .co_photo_gallery_head, .chabad_updates_head, .co_calendar_head {
+  color: #fff;
   font-size: 20px;
   margin: 0 -1px;
+  background: #c4743c;
+  padding: 4px 10px;
+  position: relative;
+}
+
+.co_section_head:before, .co_photo_gallery_head:before, .chabad_updates_head, .co_calendar_head:before {
+  content: '';
+  display: block;
+  height: 2px;
+  background: #c4743c;
+  position: relative;
+  top: -4px;
+}
+
+.co_photo_gallery_head:after, .co_calendar_head:after {
+  position: absolute;
+  font-family: 'FontAwesome';
+  top: 11px;
+  right: 15px;
+  color: #ebbc9b;
+}
+
+.co_photo_gallery_head:after {
+  content: '\f030';
+}
+
+.co_calendar_head:after {
+  content: '\f073';
 }
 
 .co_section_body,
@@ -276,6 +301,11 @@ div#co_calendar
 .co_calendar_body,
 .chabad_box_text_body {
   margin: 10px;
+}
+
+#co_photo_gallery, #co_calendar {
+  background: #ebbc9c;
+  padding-bottom: 10px;
 }
 
 .co_section_text .item:last-child,
