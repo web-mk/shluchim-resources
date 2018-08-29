@@ -307,16 +307,13 @@ div#co_calendar
 #co_photo_gallery, #co_calendar {
   background: #ebbc9c;
   margin-bottom: 20px;
+  padding-bottom: 5px;
 }
 
 .co_title_calendar {
   font-weight: bold;
   font-size: 17px;
   color: #24408f;
-}
-
-#co_photo_gallery {
-  padding-bottom: 5px;
 }
 
 .co_section_text .item:last-child,
@@ -718,4 +715,32 @@ body.mobile div.chabad_right_column {
   font-size: 30px;
   color: #24408f;
   border-bottom: 2px solid #ebbc9c;
+}
+
+/* COMMITTEE */
+ul#committee {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+ul#committee li {
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+ul#committee strong {
+  font-size: 20px;
+  color: #24408f;
+}
+
+ul#committee img {
+  display: block;
+  margin: auto;
+  border-radius: 100%;
+  margin-bottom: 20px;
+  border: 1px dotted #ebbc9c;
+  padding: 10px;
 }
