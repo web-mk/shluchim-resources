@@ -16,16 +16,16 @@ div.widget_header {
 div#chabad_head {
   float: none !important;
   width: initial !important;
+}
+
+.branding {
   background: url("https://chabadnorthbrook.com/media/images/1063/DlXT10631845.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 30px;
 }
 
-.chabad_header {
-  padding: 20px;
-}
-
-.chabad_header img {
+.branding img {
   height: 160px;
 }
 
@@ -56,13 +56,13 @@ td.chabad_text_head {
 td.chabad_text_head img {
   float: right;
 }
-div#chabad_head .chabad_navigator_bar {
+#chabad_head .chabad_navigator_bar {
   background-size: 100%;
   width: 975px;
-  height: 36px;
+  background: #24408f;
 }
 
-.mobile div#chabad_head .chabad_navigator_bar {
+.mobile #chabad_head .chabad_navigator_bar {
   width: 100%;
   height: auto;
 }
@@ -71,13 +71,12 @@ div#chabad_main_content .chabad_navigator_bar .chabad_menu_content {
   height: 100%;
 }
 
-div#chabad_head .chabad_navigator_bar ul#menu {
-  height: 36px;
-  line-height: 36px;
+#chabad_head .chabad_navigator_bar #menu {
   margin: 0;
-  padding: 0;
+  padding: 10px;
   position: relative;
   z-index: 2;
+  display: flex;
 }
 
 div#chabad_head .chabad_navigator_bar ul li {
@@ -142,6 +141,8 @@ div#chabad_head .chabad_navigator_bar ul li:last-child {
   height: 100%;
   padding: 0 16px;
   text-decoration: none;
+  color: #f1f1f1;
+  font-size: 20px;
 }
 
 .chabad_navigator_bar ul li a.arrow {
