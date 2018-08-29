@@ -744,3 +744,7 @@ ul#committee img {
   border: 1px dotted #ebbc9c;
   padding: 10px;
 }
+
+.co_body .content p, .co_body .content li {
+  font-size: 16px;
+}
