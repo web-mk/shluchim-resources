@@ -35,6 +35,10 @@ div#chabad_head {
   height: 160px;
 }
 
+.mobile .branding img {
+  max-width: 50vw !important;
+}
+
 td.chabad_logo {
   float: none;
 }
