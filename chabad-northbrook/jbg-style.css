@@ -93,6 +93,10 @@ div#chabad_main_content .chabad_navigator_bar .chabad_menu_content {
   display: block;
 }
 
+.mobile li.heading.item {
+  width: 100%;
+}
+
 div#chabad_head .chabad_navigator_bar ul li {
   float: left;
   font-size: 13px;
