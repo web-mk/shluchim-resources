@@ -1,0 +1,28 @@
+a.site_title {
+  text-indent: -9999em;
+  height: 108px;
+}
+
+body.cco_body #header_branding {
+  height: 116px;
+  background: url("https://chabadlittleneck.com/media/images/915/saeB9154707.png")
+    no-repeat left center;
+  margin-left: 0;
+}
+
+.cco_body #header_branding {
+  background-image: none;
+  height: 118px;
+  margin-left: -32px;
+}
+
+.widget-4 .wrapper {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.widget-4,
+.sneak_peek {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
