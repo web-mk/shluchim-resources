@@ -10,6 +10,16 @@ body.cco_body #header_branding {
   margin-left: 0;
 }
 
+.menu .center_logo {
+  padding: 8px;
+}
+
+.mobile .center_logo .margin_center {
+  background: url("https://chabadlittleneck.com/media/images/915/saeB9154707.png") no-repeat center center;
+  background-size: contain;
+  width: 100%;
+}
+
 .cco_body #header_branding {
   background-image: none;
   height: 118px;
