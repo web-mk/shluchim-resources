@@ -59,6 +59,10 @@ body.cco_body #header_branding {
   height: 100%;
 }
 
+.mobile #jli-promo {
+  display: block;
+}
+
 #jli-promo {
   background: black;
   margin-bottom: 15px;
@@ -76,4 +80,8 @@ body.cco_body #header_branding {
 #jli-promo #promo-video {
   padding: 20px;
   min-width: 470px;
+}
+
+.mobile #jli-promo #promo-video {
+  width: 100%;
 }
