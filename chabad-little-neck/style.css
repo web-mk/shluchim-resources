@@ -14,6 +14,10 @@ body.cco_body #header_branding {
   padding: 8px;
 }
 
+.center_logo a span {
+  text-indent: -9999em;
+}
+
 .mobile .center_logo .margin_center {
   background: url("https://chabadlittleneck.com/media/images/915/saeB9154707.png") no-repeat center center;
   background-size: contain;
