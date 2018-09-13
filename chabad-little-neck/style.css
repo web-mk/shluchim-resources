@@ -74,7 +74,8 @@ body.cco_body #header_branding {
 }
 
 #jli-promo #imagery {
-  width: 630px;
+  width: 100%;
+  max-width: 630px;
 }
 
 #jli-promo #promo-video {
@@ -83,5 +84,5 @@ body.cco_body #header_branding {
 }
 
 .mobile #jli-promo #promo-video {
-  width: 100%;
+  min-width: 100%;
 }
