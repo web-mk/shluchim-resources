@@ -50,3 +50,16 @@ body.cco_body #header_branding {
   margin-bottom: 15px;
   display: flex;
 }
+
+#jli-promo img {
+  max-width: 100%;
+}
+
+#jli-promo #imagery {
+  width: 630px;
+}
+
+#jli-promo #promo-video {
+  padding: 20px;
+  min-width: 470px;
+}
