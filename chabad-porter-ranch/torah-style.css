@@ -15,6 +15,11 @@ div#cco_body .content_tditle_container .overlay {
   border-top: 5px solid #e2d5b4;
 }
 
+.chabad_header img {
+  width: 100%;
+  max-width: 750px;
+}
+
 div.widget_header {
   display: none;
 }
