@@ -809,3 +809,12 @@ li#id_2 {
 .form-required {
   display: none;
 }
+
+.form-address-table {
+  width: 100%;
+  max-width: 100%;
+}
+
+.form-address-table .credit_card table {
+  width: 100%;
+}
