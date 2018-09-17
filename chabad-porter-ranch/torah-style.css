@@ -777,6 +777,8 @@ div#formContainer .form-label-top, .form-label-left label {
   text-transform: none;
   letter-spacing: 0;
   margin-left: 0;
+  width: 100%;
+  font-family: 'Chivo', sans-serif;
 }
 
 .form-line {
@@ -802,4 +804,8 @@ li#id_2 {
 
 .co_body .content .form-all li {
   font-family: 'Chivo', sans-serif;
+}
+
+.form-required {
+  display: none;
 }
