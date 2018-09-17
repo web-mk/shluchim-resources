@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Chivo:400,900');
 body, .co_body .content p {
   font-family: 'Chivo', sans-serif;
+  font-size: 16px;
 }
 
 div#cco_body .content_tditle_container .overlay {
