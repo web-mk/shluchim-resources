@@ -332,7 +332,7 @@ div#co_photo_gallery .co_photo_gallery_footer a {
 }
 
 body.mobile #menu li.item.parent:not(:first-child) {
-  display: block;
+  display: inline;
   margin-top: 10px;
 }
 
@@ -412,7 +412,7 @@ body.mobile .chabad_navigator_bar .chabad_menu_content li.custom_separator {
 }
 
 body.mobile .chabad_navigator_bar .chabad_menu_content li a {
-  font-size: 13px;
+  font-size: 18px;
   display: inline-block;
   font-weight: bold;
   text-decoration: none;
@@ -489,7 +489,7 @@ body.mobile .chabad_navigator_bar #menu .item.heading.expanded a, body.mobile .c
 }
 
 body.mobile #menu li.item.parent {
-  display: block;
+  display: inline;
   text-align: left;
 }
 
