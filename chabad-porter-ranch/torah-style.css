@@ -818,3 +818,19 @@ li#id_2 {
 .form-address-table .credit_card table {
   width: 100%;
 }
+
+
+.intro-bio {
+  line-height: 1.5;
+  margin-bottom: 50px;
+}
+
+.intro-bio p:first-child:first-letter {
+  display: block;
+  color: #282e55;
+  float: left;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+}
