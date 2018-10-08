@@ -1,5 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+body, p {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
 div#cco_body .content_tditle_container .overlay {
   display: none;
+}
+
+.chabad_header {
+  background: url(https://jewishnewton.com/media/images/1066/chLP10661272.jpg);
+  padding: 20px;
 }
 
 div.widget_header {
@@ -141,7 +152,6 @@ div#chabad_main_content {
   margin-right: auto;
   overflow: hidden;
   text-align: left;
-  width: 975px;
 }
 
 div.chabad_left_column {
