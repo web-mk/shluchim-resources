@@ -74,12 +74,15 @@ td.chabad_text_head img {
   padding: 0;
   position: relative;
   z-index: 2;
+  text-align: center;
 }
 
 #chabad_head .chabad_navigator_bar ul li {
   font-size: 13px;
   list-style: none;
   z-index: 2;
+  display: inline-block;
+  color: #e8d7a0;
 }
 
 #chabad_head .chabad_navigator_bar ul li .sub_menu {
@@ -98,6 +101,7 @@ td.chabad_text_head img {
   padding: 0 16px;
   text-decoration: none;
   color: #e8d7a0;
+  text-transform: uppercase;
 }
 
 .chabad_navigator_bar ul li a.selected,
