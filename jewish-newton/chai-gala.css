@@ -55,7 +55,7 @@ td.chabad_text_head img {
 
 #chabad_head .chabad_navigator_bar {
   background-size: 100%;
-  height: 36px;
+  background: #d0af41;
 }
 
 .mobile #chabad_head .chabad_navigator_bar {
@@ -87,6 +87,33 @@ td.chabad_text_head img {
   position: absolute;
   top: 36px;
 }
+
+#chabad_head .chabad_navigator_bar ul li:last-child {
+  border-right: none;
+}
+
+.chabad_navigator_bar ul li a {
+  font-weight: bold;
+  height: 100%;
+  padding: 0 16px;
+  text-decoration: none;
+  color: #e8d7a0;
+}
+
+.chabad_navigator_bar ul li a.selected,
+.chabad_navigator_bar ul li a:hover {
+  color: white;
+}
+
+.chabad_navigator_bar ul li a.arrow {
+  background: url("") no-repeat right center;
+  padding-right: 26px;
+}
+
+#chabad_head .chabad_navigator_bar ul li a.first {
+  padding-left: 0;
+}
+
 
 #chabad_head .chabad_navigator_bar ul li ul {
   padding: 0;
@@ -125,26 +152,6 @@ td.chabad_text_head img {
   background: none;
 }
 
-#chabad_head .chabad_navigator_bar ul li:last-child {
-  border-right: none;
-}
-
-.chabad_navigator_bar ul li a {
-  float: left;
-  font-weight: bold;
-  height: 100%;
-  padding: 0 16px;
-  text-decoration: none;
-}
-
-.chabad_navigator_bar ul li a.arrow {
-  background: url("") no-repeat right center;
-  padding-right: 26px;
-}
-
-#chabad_head .chabad_navigator_bar ul li a.first {
-  padding-left: 0;
-}
 #chabad_main_content {
   margin-left: auto;
   margin-right: auto;
@@ -175,10 +182,6 @@ div.chabad_right_column {
   padding: 1px;
 }
 
-#chabad_right_colum [class$="body"] {
-  font-size: 12px;
-}
-
 #chabad_body_content {
   float: left;
   padding-bottom: 15px;
@@ -191,8 +194,6 @@ div.chabad_right_column {
 .chabad_banner_content,
 .chabad_banner_content .chabad_image_content,
 .chabad_image_banner,
-#chabad_left_colum .content_page,
-div.chabad_left_colum .content_page,
 .chabad_box_content_first,
 .chabad_box_content_second,
 .chabad_box_content_third,
