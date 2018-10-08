@@ -4,6 +4,10 @@ body, p {
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
+.co_content_container {
+  padding-top: 0;
+}
+
 #cco_body .content_tditle_container .overlay {
   display: none;
 }
