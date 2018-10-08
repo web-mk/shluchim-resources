@@ -4,13 +4,14 @@ body, p {
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
-div#cco_body .content_tditle_container .overlay {
+#cco_body .content_tditle_container .overlay {
   display: none;
 }
 
 .chabad_header {
   background: url(https://jewishnewton.com/media/images/1066/chLP10661272.jpg);
   padding: 20px;
+  text-align: center;
 }
 
 div.widget_header {
@@ -19,7 +20,7 @@ div.widget_header {
 #border_bottom {
   width: 975px;
 }
-div#chabad_head {
+#chabad_head {
   float: none !important;
   width: initial !important;
 }
@@ -51,22 +52,22 @@ td.chabad_text_head {
 td.chabad_text_head img {
   float: right;
 }
-div#chabad_head .chabad_navigator_bar {
+
+#chabad_head .chabad_navigator_bar {
   background-size: 100%;
-  width: 975px;
   height: 36px;
 }
 
-.mobile div#chabad_head .chabad_navigator_bar {
+.mobile #chabad_head .chabad_navigator_bar {
   width: 100%;
   height: auto;
 }
 
-div#chabad_main_content .chabad_navigator_bar .chabad_menu_content {
+#chabad_main_content .chabad_navigator_bar .chabad_menu_content {
   height: 100%;
 }
 
-div#chabad_head .chabad_navigator_bar ul#menu {
+#chabad_head .chabad_navigator_bar ul#menu {
   height: 36px;
   line-height: 36px;
   margin: 0;
@@ -75,25 +76,23 @@ div#chabad_head .chabad_navigator_bar ul#menu {
   z-index: 2;
 }
 
-div#chabad_head .chabad_navigator_bar ul li {
-  float: left;
+#chabad_head .chabad_navigator_bar ul li {
   font-size: 13px;
   list-style: none;
-
   z-index: 2;
 }
 
-div#chabad_head .chabad_navigator_bar ul li .sub_menu {
+#chabad_head .chabad_navigator_bar ul li .sub_menu {
   display: none;
   position: absolute;
   top: 36px;
 }
 
-div#chabad_head .chabad_navigator_bar ul li ul {
+#chabad_head .chabad_navigator_bar ul li ul {
   padding: 0;
 }
 
-div#chabad_head .chabad_navigator_bar ul li ul li {
+#chabad_head .chabad_navigator_bar ul li ul li {
   border-bottom: 1px solid #ffffff;
   border-right: none;
   float: none;
@@ -104,15 +103,15 @@ div#chabad_head .chabad_navigator_bar ul li ul li {
   padding: 3px 0;
 }
 
-div#chabad_head .chabad_navigator_bar ul li.active .sub_menu {
+#chabad_head .chabad_navigator_bar ul li.active .sub_menu {
   display: block;
 }
 
-div#chabad_head .chabad_navigator_bar ul li ul li:last-child {
+#chabad_head .chabad_navigator_bar ul li ul li:last-child {
   border: none;
 }
 
-div#chabad_head .chabad_navigator_bar ul li ul li a {
+#chabad_head .chabad_navigator_bar ul li ul li a {
   display: inline-block;
   float: none;
   font-size: 12px;
@@ -122,17 +121,16 @@ div#chabad_head .chabad_navigator_bar ul li ul li a {
   padding: 2px 15px 0 15px;
 }
 
-div#chabad_head .chabad_navigator_bar ul li ul li a:hover {
+#chabad_head .chabad_navigator_bar ul li ul li a:hover {
   background: none;
 }
 
-div#chabad_head .chabad_navigator_bar ul li:last-child {
+#chabad_head .chabad_navigator_bar ul li:last-child {
   border-right: none;
 }
 
 .chabad_navigator_bar ul li a {
   float: left;
-  font-family: arial;
   font-weight: bold;
   height: 100%;
   padding: 0 16px;
@@ -144,10 +142,10 @@ div#chabad_head .chabad_navigator_bar ul li:last-child {
   padding-right: 26px;
 }
 
-div#chabad_head .chabad_navigator_bar ul li a.first {
+#chabad_head .chabad_navigator_bar ul li a.first {
   padding-left: 0;
 }
-div#chabad_main_content {
+#chabad_main_content {
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
@@ -171,7 +169,7 @@ div.chabad_right_column {
   margin-top: 15px;
   width: 245px;
 }
-div#chabad_right_colum > div {
+#chabad_right_colum > div {
   margin: 0 0 10px;
   overflow: visible;
   padding: 1px;
@@ -181,7 +179,7 @@ div#chabad_right_colum > div {
   font-size: 12px;
 }
 
-div#chabad_body_content {
+#chabad_body_content {
   float: left;
   padding-bottom: 15px;
   width: 975px;
@@ -189,11 +187,11 @@ div#chabad_body_content {
 
 #navigation,
 .chabad_menu_content,
-div#chabad_head .chabad_content_head,
+#chabad_head .chabad_content_head,
 .chabad_banner_content,
 .chabad_banner_content .chabad_image_content,
 .chabad_image_banner,
-div#chabad_left_colum .content_page,
+#chabad_left_colum .content_page,
 div.chabad_left_colum .content_page,
 .chabad_box_content_first,
 .chabad_box_content_second,
@@ -226,11 +224,8 @@ div.chabad_left_colum .content_page,
   overflow: hidden;
 }
 
-div#content_banner {
-}
-
-div#chabad_head .flowers,
-div#co_calendar
+#chabad_head .flowers,
+#co_calendar
   .co_calendar_body
   .co_calendar_gradient
   .co_calendar_text
@@ -271,45 +266,6 @@ div#co_calendar
   margin: 0 -1px;
 }
 
-.co_section_body,
-.co_photo_gallery_body,
-.chabad_updates_body,
-.co_calendar_body,
-.chabad_box_text_body {
-  margin: 10px;
-}
-
-.co_section_text .item:last-child,
-.co_photo_gallery_text .item:last-child,
-.chabad_updates_text .item:last-child,
-.co_calendar_text .item:last-child {
-  border-bottom: none !important;
-}
-#co_photo_gallery .co_photo_gallery_head {
-}
-
-.co_photo_gallery a {
-  display: block;
-  float: none !important;
-  margin: 0 5px 10px;
-  overflow: hidden;
-}
-
-.co_photo_gallery a:last-child {
-  margin-bottom: 0;
-}
-
-.co_photo_gallery a img {
-  border: none;
-  overflow: hidden;
-  width: 100%;
-  height: auto;
-}
-
-div#co_photo_gallery .co_photo_gallery_footer a {
-  float: right;
-}
-
 .chabad_logo p {
   margin: 0;
 }
@@ -335,23 +291,23 @@ div#co_photo_gallery .co_photo_gallery_footer a {
 body.mobile #menu li.item.parent:not(:first-child) {
   display: none;
 }
-body.mobile div#chabad_head .chabad_navigator_bar {
+body.mobile #chabad_head .chabad_navigator_bar {
   width: auto;
   height: auto;
   margin-top: 0;
   float: none;
 }
-body.mobile div#chabad_head .chabad_navigator_bar ul {
+body.mobile #chabad_head .chabad_navigator_bar ul {
   float: none;
   display: block;
 }
 
-body.mobile div#chabad_head .chabad_navigator_bar ul li {
+body.mobile #chabad_head .chabad_navigator_bar ul li {
   float: none;
   display: block;
   height: auto;
 }
-body.mobile div#chabad_head .chabad_navigator_bar ul li a {
+body.mobile #chabad_head .chabad_navigator_bar ul li a {
   float: none;
 }
 .mobile_menu_nav_button {
@@ -406,13 +362,13 @@ body.mobile .chabad_navigator_bar .chabad_menu_content li a {
   text-align: left;
 }
 body.mobile
-  div#chabad_head
+  #chabad_head
   .chabad_navigator_bar
   .chabad_menu_content
   li
   a.arrow,
 body.mobile
-  div#chabad_head
+  #chabad_head
   .chabad_navigator_bar
   .chabad_menu_content
   ul
@@ -522,18 +478,18 @@ body.mobile .chabad_header img {
   height: 100%;
 }
 body.mobile .chabad_banner_content,
-body.mobile div#chabad_body_content,
+body.mobile #chabad_body_content,
 body.mobile div.chabad_right_column,
-body.mobile div#chabad_box_text,
-body.mobile div#chabad_head .chabad_content_head,
+body.mobile #chabad_box_text,
+body.mobile #chabad_head .chabad_content_head,
 body.mobile .chabad_title_box.no_line {
   float: initial;
 }
-body.mobile div#chabad_main_content,
-body.mobile div#chabad_head .chabad_content_head,
-body.mobile div#chabad_body_content,
+body.mobile #chabad_main_content,
+body.mobile #chabad_head .chabad_content_head,
+body.mobile #chabad_body_content,
 body.mobile .chabad_banner_content,
-body.mobile div#chabad_right_colum,
+body.mobile #chabad_right_colum,
 body.mobile div.chabad_right_column {
   width: auto;
   box-sizing: border-box;
@@ -545,15 +501,15 @@ body.mobile div.chabad_left_colum {
   float: none;
   margin-bottom: 15px;
 }
-body.mobile div#chabad_body_content {
+body.mobile #chabad_body_content {
   padding: 0 7px;
   overflow: hidden;
 }
-body.mobile div#chabad_updates,
-body.mobile div#co_calendar,
+body.mobile #chabad_updates,
+body.mobile #co_calendar,
 body.mobile div.co_section,
-body.mobile div#chabad_box_text,
-body.mobile div#co_photo_gallery {
+body.mobile #chabad_box_text,
+body.mobile #co_photo_gallery {
   margin-top: 10px;
   margin-bottom: 0;
   vertical-align: top;
@@ -565,11 +521,11 @@ body.mobile .chabad_box_content_third {
   padding-right: 10px;
   padding-left: 10px;
 }
-body.mobile div#chabad_body_page,
+body.mobile #chabad_body_page,
 body.mobile.cco_templateless_page {
   padding-top: initial;
 }
-body.mobile div#chabad_body_page,
+body.mobile #chabad_body_page,
 body.cco_templateless_page {
   background: none;
   overflow-x: hidden;
@@ -577,27 +533,27 @@ body.cco_templateless_page {
 body.mobile .co_local_menu {
   margin-bottom: initial;
 }
-body.mobile div#chabad_head .chabad_logo a {
+body.mobile #chabad_head .chabad_logo a {
   text-decoration: none;
   display: inline-block;
 }
-body.mobile div#chabad_head .chabad_logo a div {
+body.mobile #chabad_head .chabad_logo a div {
   font-size: 27px;
 }
-body.mobile div#chabad_head {
+body.mobile #chabad_head {
   width: 100%;
   float: initial;
   height: auto;
 }
-body.mobile div#chabad_head table img {
+body.mobile #chabad_head table img {
   max-width: 100%;
   height: auto;
 }
-body.mobile div#chabad_head .chabad_content_head {
+body.mobile #chabad_head .chabad_content_head {
   position: relative;
   height: auto;
 }
-body.mobile div#chabad_head .chabad_logo {
+body.mobile #chabad_head .chabad_logo {
   margin: 0;
   position: relative;
   z-index: 1;
@@ -606,12 +562,12 @@ body.mobile div#chabad_head .chabad_logo {
   width: auto;
   box-sizing: border-box;
 }
-body.mobile div#chabad_head .logocell {
+body.mobile #chabad_head .logocell {
   padding: 0;
   display: block;
   margin: 0 20px 0 0;
 }
-body.mobile div#chabad_head .chabad_text_head {
+body.mobile #chabad_head .chabad_text_head {
   display: none;
 }
 body.mobile div.chabad_right_column {
@@ -619,14 +575,14 @@ body.mobile div.chabad_right_column {
   margin-bottom: 15px;
 }
 
-body.mobile div#chabad_updates,
-body.mobile div#co_calendar,
+body.mobile #chabad_updates,
+body.mobile #co_calendar,
 body.mobile div.co_section,
-body.mobile div#co_photo_gallery,
-body.mobile div#chabad_box_text {
+body.mobile #co_photo_gallery,
+body.mobile #chabad_box_text {
   text-align: initial;
 }
-body.mobile div#chabad_box_text .chabad_box_text_body {
+body.mobile #chabad_box_text .chabad_box_text_body {
   padding: 10px 15px;
   margin: 0;
 }
@@ -647,13 +603,13 @@ body.mobile #chabad_main_content img {
   height: auto;
 }
 
-body.mobile div#chabad_body_content,
+body.mobile #chabad_body_content,
 body.mobile .chabad_banner_content,
 body.mobile div.chabad_left_column,
-body.mobile div#chabad_left_column,
-body.mobile div#chabad_left_column .content_page,
+body.mobile #chabad_left_column,
+body.mobile #chabad_left_column .content_page,
 body.mobile div.chabad_left_column .content_page,
-body.mobile div#chabad_left_column .content_page_full,
+body.mobile #chabad_left_column .content_page_full,
 body.mobile div.chabad_left_column .content_page_full,
 body.mobile div.chabad_right_column {
   margin-left: 0;
