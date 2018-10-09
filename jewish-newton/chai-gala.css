@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
-body, p {
+body, p, .co_body .content .form-all li, .co_body .content p {
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
@@ -190,9 +190,9 @@ div.chabad_right_column {
 }
 
 #chabad_body_content {
-  float: left;
   padding-bottom: 15px;
   width: 975px;
+  margin: auto;
 }
 
 #navigation,
@@ -625,6 +625,13 @@ body.mobile div.chabad_right_column {
 }
 
 
+.co_body h2, .co_body h1 {
+  color: #d5af1c;
+  border-bottom: solid 1px #d5af1c;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  font-size: 25px;
+}
 
 #home-invite {
   width: 100vw;
