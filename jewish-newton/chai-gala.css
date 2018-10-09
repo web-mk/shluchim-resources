@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
-body, p, .co_body .content .form-all li, .co_body .content p, .co_body .content li, .co_body h2, .co_body h2 a {
+body, p, .co_body .content .form-all li, .co_body .content p, .co_body .content li, .co_body h2, .co_body h2 a, .co_body h1 {
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
@@ -647,4 +647,33 @@ body.mobile div.chabad_right_column {
   top: -15px;
   left: -15px;
   padding: 40px 0;
+}
+
+div#cid_4 label:after {
+  display: block;
+  font-style: italic;
+}
+
+#label_input_4_0:after {
+  content: 'Trustee journal page + Table of up to 10 dinner reservations';
+}
+
+#label_input_4_1:after {
+  content: 'Emerald  journal  page  +  Table  of  up  to  10  dinner  reservations';
+}
+
+#label_input_4_2:after {
+  content: 'Diamond  journal  page  +  Table  of  up    to  10  dinner  reservations';
+}
+
+#label_input_4_3:after {
+  content: 'Gold  Benefactor  journal  page  +  4  dinner  reservations';
+}
+
+#label_input_4_4:after {
+  content: 'Chai  Supporter  journal  page  +  2  dinner  reservations';
+}
+
+#label_input_4_5:after {
+  content: 'Silver  Patron  journal  page  +  2  dinner  reservations';
 }
