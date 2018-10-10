@@ -651,6 +651,13 @@ body.mobile div.chabad_right_column {
 
 /* FORM */
 
+.form-textbox {
+  box-shadow: none;
+  border-radius: 4px;
+  padding: 6px;
+  border-color: black;
+}
+
 #cid_4 .form-checkbox-item {
   margin-bottom: 25px;
 }
@@ -733,4 +740,21 @@ div#cid_4 label:after {
 
 .form-html {
   padding: 0;
+}
+
+/* OTHER AMOUNT */
+span[for="other_4"]:before {
+  content: 'Contribution: $';
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-size: 19px;
+  margin-right: 10px;
+}
+
+span[for="other_4"]:after {
+  content: 'Contributions are tax deductible to the extent allowed by law.';
+  display: block;
+  margin-left: 40px;
+  margin-top: 10px;
+  font-style: italic;
 }
