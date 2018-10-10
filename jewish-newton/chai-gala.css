@@ -758,3 +758,14 @@ span[for="other_4"]:after {
   margin-top: 10px;
   font-style: italic;
 }
+
+
+/* TOP HOME */
+.cco_templateless_template {
+  background: #7cb4b2;
+}
+
+.cco_templateless_template a {
+  font-family: 'Open Sans';
+  font-weight: normal;
+}
