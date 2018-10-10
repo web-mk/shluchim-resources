@@ -1107,12 +1107,12 @@ body.mobile .form-line {
 #id_3 .form-checkbox:after,
 #id_4 .form-checkbox:after,
 #id_5 .form-checkbox:after {
-  content: '\f111';
+  content: '\f10c';
   font-family: FontAwesome;
   background: #f8fbf4;
   font-size: 23px;
   position: relative;
-  color: #c8c8c8;
+  color: #f8c17c;
   bottom: 8px;
   left: -2px;
 }
@@ -1120,8 +1120,8 @@ body.mobile .form-line {
 #id_3 .form-checkbox:checked:after,
 #id_4 .form-checkbox:checked:after,
 #id_5 .form-checkbox:checked:after {
-  content: "\f10c";
-  color: #d0af41;
+  content: "\f058";
+  color: #1b5c5f;
 }
 
 #cid_3 label,

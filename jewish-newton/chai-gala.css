@@ -691,17 +691,17 @@ div#cid_4 label:after {
 }
 
 #id_4 .form-checkbox:after {
-  content: '\f10c';
+  content: '\f111';
   font-family: FontAwesome;
   background: #f8fbf4;
   font-size: 23px;
   position: relative;
-  color: #f8c17c;
+  color: #c8c8c8;
   bottom: 8px;
   left: -2px;
 }
 
 #id_4 .form-checkbox:checked:after {
-  content: "\f058";
-  color: #1b5c5f;
+  content: "\f10c";
+  color: #d0af41;
 }
