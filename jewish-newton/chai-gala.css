@@ -658,12 +658,16 @@ body.mobile div.chabad_right_column {
 #cid_4 .form-checkbox-item label {
   text-transform: uppercase;
   font-size: 19px;
+  margin-left: 20px;
 }
 
 div#cid_4 label:after {
   display: block;
   font-style: italic;
   text-transform: none;
+  margin-left: 40px;
+  font-size: 14px;
+  margin-top: 5px;
 }
 
 #label_input_4_0:after {
@@ -702,6 +706,20 @@ div#cid_4 label:after {
 }
 
 #id_4 .form-checkbox:checked:after {
-  content: "\f10c";
+  content: "\f192";
   color: #d0af41;
+}
+
+
+/* Title of sections */
+#label_4 label:first-of-type,
+#label_7 label:first-of-type {
+  font-size: 21px;
+}
+
+/* message beneatch it */
+#label_4 label:last-of-type {
+  font-size: 14px;
+  margin: 20px 0 30px;
+  color: black;
 }
