@@ -759,6 +759,10 @@ span[for="other_4"]:after {
   font-style: italic;
 }
 
+.form-address-table .other {
+  font-style: italic;
+}
+
 
 /* TOP HOME */
 .cco_templateless_template {
