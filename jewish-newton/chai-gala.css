@@ -630,7 +630,7 @@ body.mobile div.chabad_right_column {
   border-bottom: solid 1px #d5af1c;
   text-transform: uppercase;
   padding-bottom: 10px;
-  font-size: 25px;
+  font-size: 35px;
   font-weight: normal;
   margin-bottom: 25px;
 }
@@ -713,13 +713,24 @@ div#cid_4 label:after {
 
 /* Title of sections */
 #label_4 label:first-of-type,
-#label_7 label:first-of-type {
+#label_7 label:first-of-type,
+.co_body .content li p.form-sect-title {
   font-size: 21px;
+  font-weight: bold;
+  margin-bottom: 0;
 }
 
-/* message beneatch it */
+/* message beneath it */
 #label_4 label:last-of-type {
   font-size: 14px;
   margin: 20px 0 30px;
   color: black;
+}
+
+.form-line {
+  border-bottom: 0;
+}
+
+.form-html {
+  padding: 0;
 }
