@@ -649,6 +649,8 @@ body.mobile div.chabad_right_column {
   padding: 40px 0;
 }
 
+/* FORM */
+
 div#cid_4 label:after {
   display: block;
   font-style: italic;
@@ -676,4 +678,20 @@ div#cid_4 label:after {
 
 #label_input_4_5:after {
   content: 'Silver  Patron  journal  page  +  2  dinner  reservations';
+}
+
+#id_4 .form-checkbox:after {
+  content: '\f10c';
+  font-family: FontAwesome;
+  background: #f8fbf4;
+  font-size: 23px;
+  position: relative;
+  color: #f8c17c;
+  bottom: 8px;
+  left: -2px;
+}
+
+#id_4 .form-checkbox:checked:after {
+  content: "\f058";
+  color: #1b5c5f;
 }
