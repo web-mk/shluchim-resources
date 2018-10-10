@@ -651,9 +651,19 @@ body.mobile div.chabad_right_column {
 
 /* FORM */
 
+#cid_4 .form-checkbox-item {
+  margin-bottom: 25px;
+}
+
+#cid_4 .form-checkbox-item label {
+  text-transform: uppercase;
+  font-size: 19px;
+}
+
 div#cid_4 label:after {
   display: block;
   font-style: italic;
+  text-transform: none;
 }
 
 #label_input_4_0:after {
