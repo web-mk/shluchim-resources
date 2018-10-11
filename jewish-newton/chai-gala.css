@@ -656,7 +656,7 @@ body.mobile div.chabad_right_column {
 
 /* FORM */
 
-.form-textbox {
+.form-textbox, .form-textarea {
   box-shadow: none;
   border-radius: 4px;
   padding: 6px;
@@ -777,4 +777,19 @@ span[for="other_4"]:after {
 .cco_templateless_template a {
   font-family: 'Open Sans';
   font-weight: normal;
+}
+
+#home-invite a {
+  display: inline-block;
+  background: #d0ac19;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+#home-invite a:hover {
+  background: #a3860c;
+  text-decoration: none;
+  color: white;
 }
