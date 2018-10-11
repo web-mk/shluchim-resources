@@ -296,9 +296,6 @@ div.chabad_right_column {
 .mobile_menu.open .mobile_menu_nav_button:after {
   content: "\25b2";
 }
-body.mobile #menu li.item.parent:not(:first-child) {
-  display: none;
-}
 body.mobile #chabad_head .chabad_navigator_bar {
   width: auto;
   height: auto;
@@ -510,7 +507,8 @@ body.mobile div.chabad_left_colum {
   margin-bottom: 15px;
 }
 body.mobile #chabad_body_content {
-  padding: 0 7px;
+  padding: 0;
+  /* padding: 0 7px; */
   overflow: hidden;
 }
 body.mobile #chabad_updates,
@@ -647,6 +645,10 @@ body.mobile div.chabad_right_column {
   top: -15px;
   left: -15px;
   padding: 40px 0;
+}
+
+.mobile #home-invite {
+  left: 0;
 }
 
 /* FORM */
