@@ -74,6 +74,7 @@ function calculate() {
 
   $contribution.change(function() {
     jQuery(this).is(":checked") ? updateFields(0, false) : hideFields();
+  });
 }
 
 (function defer() {
