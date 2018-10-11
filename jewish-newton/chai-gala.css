@@ -349,9 +349,6 @@ body.mobile .chabad_navigator_bar .chabad_menu_content li {
   float: none;
   list-style: none;
 }
-body.mobile #navigation.chabad_navigator_bar #menu li:not(.heading) {
-  padding-left: 10px;
-}
 body.mobile .chabad_navigator_bar .chabad_menu_content li.last {
   border-right: none;
 }
@@ -649,6 +646,12 @@ body.mobile div.chabad_right_column {
 
 .mobile #home-invite {
   left: 0;
+}
+
+.mobile #chabad_head .chabad_navigator_bar ul#menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 /* FORM */
