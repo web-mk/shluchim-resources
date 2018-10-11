@@ -195,6 +195,10 @@ div.chabad_right_column {
   margin: 50px auto 0;
 }
 
+.mobile #content_page_full {
+  width: 100%;
+}
+
 #navigation,
 .chabad_menu_content,
 #chabad_head .chabad_content_head,
