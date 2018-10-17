@@ -752,7 +752,7 @@ div#cid_14 label:after {
 }
 
 /* OTHER AMOUNT */
-span[for="other_14"]:before {
+.form-radio-item.clear-left:last-child > span:before {
   content: 'Contribution: $';
   margin-left: 20px;
   text-transform: uppercase;
@@ -760,7 +760,7 @@ span[for="other_14"]:before {
   margin-right: 10px;
 }
 
-span[for="other_14"]:after {
+.form-radio-item.clear-left:last-child > span:after {
   content: 'Contributions are tax deductible to the extent allowed by law.';
   display: block;
   margin-left: 40px;
