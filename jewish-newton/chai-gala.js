@@ -21,11 +21,16 @@ function calculate() {
     $includedGuestCount.prop("max", numSeats);
     if (ad) {
       $adText.show("slow");
+    } else {
+      $adText.hide("slow");
     }
     
     if (numSeats) {
       $includedDinnerReservations.show("slow");
       $paidReservationsLabel.text("Additional Paid Dinner Reservations");
+    } else {
+      $includedDinnerReservations.hide("slow");
+      $paidReservationsLabel.text("Dinner Reservations");
     }
   }
 
