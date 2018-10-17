@@ -1,14 +1,14 @@
 function calculate() {
-  var $trusteeCircle = jQuery("#input_4_0");
-  var $emeraldSponsor = jQuery("#input_4_1");
-  var $diamondBuilder = jQuery("#input_4_2");
-  var $goldenBenefactor = jQuery("#input_4_3");
-  var $chaiSupporter = jQuery("#input_4_4");
-  var $silverPatron = jQuery("#input_4_5");
-  var $fullPageAd = jQuery("#input_4_6");
-  var $halfPageAd = jQuery("#input_4_7");
-  var $quarterPageAd = jQuery("#input_4_8");
-  var $contribution = jQuery("#input_4_9");
+  var $trusteeCircle = jQuery("#input_14_0");
+  var $emeraldSponsor = jQuery("#input_14_1");
+  var $diamondBuilder = jQuery("#input_14_2");
+  var $goldenBenefactor = jQuery("#input_14_3");
+  var $chaiSupporter = jQuery("#input_14_4");
+  var $silverPatron = jQuery("#input_14_5");
+  var $fullPageAd = jQuery("#input_14_6");
+  var $halfPageAd = jQuery("#input_14_7");
+  var $quarterPageAd = jQuery("#input_14_8");
+  var $contribution = jQuery("#input_14_9");
 
   var $includedGuestCount = jQuery("input#input_12");
   var $includedDinnerReservations = jQuery("#id_12");
