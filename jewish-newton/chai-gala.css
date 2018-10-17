@@ -667,11 +667,11 @@ body.mobile div.chabad_right_column {
   border-color: black;
 }
 
-#cid_14 .form-checkbox-item {
+#cid_14 .form-radio-item {
   margin-bottom: 25px;
 }
 
-#cid_14 .form-checkbox-item label {
+#cid_14 .form-radio-item label {
   text-transform: uppercase;
   font-size: 19px;
   margin-left: 20px;
@@ -710,7 +710,7 @@ div#cid_14 label:after {
   content: 'Silver  Patron  journal  page  +  2  dinner  reservations';
 }
 
-#id_14 .form-checkbox:after {
+#id_14 .form-radio:after {
   content: '\f111';
   font-family: FontAwesome;
   background: #f8fbf4;
@@ -721,7 +721,7 @@ div#cid_14 label:after {
   left: -2px;
 }
 
-#id_14 .form-checkbox:checked:after {
+#id_14 .form-radio:checked:after {
   content: "\f192";
   color: #d0af41;
 }
