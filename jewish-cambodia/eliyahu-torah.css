@@ -3,6 +3,10 @@ body, .co_body .content p {
   font-family: 'Chivo', sans-serif;
 }
 
+body {
+  background: white;
+}
+
 div#cco_body .content_tditle_container .overlay {
   display: none;
 }
