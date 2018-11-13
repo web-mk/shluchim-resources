@@ -17,6 +17,7 @@ div#cco_body .content_tditle_container .overlay {
   text-align: center;
   border-bottom: 10px solid #e2d5b4;
   border-top: 5px solid #e2d5b4;
+  padding-bottom: 20px;
 }
 
 div.widget_header {
@@ -803,6 +804,11 @@ li#id_2 {
 }
 
 #open-letter {
-  font-size: 16px;
+  font-size: 17px;
+  line-height: 1.4;
   margin-bottom: 50px;
+}
+
+.footer3 {
+  display: none;
 }
