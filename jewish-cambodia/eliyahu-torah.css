@@ -4,7 +4,7 @@ body, .co_body .content p {
 }
 
 body {
-  background: white;
+  background: white !important;
 }
 
 div#cco_body .content_tditle_container .overlay {
@@ -800,4 +800,9 @@ li#id_2 {
 
 .co_body .content .form-all li {
   font-family: 'Chivo', sans-serif;
+}
+
+#open-letter {
+  font-size: 16px;
+  margin-bottom: 50px;
 }
