@@ -8,6 +8,10 @@
   font-family: "Montserrat", sans-serif !important;
 }
 
+.co_content_container {
+	padding-top: 0;
+}
+
 #BodyContainer {
   width: 100% !important;
 }
@@ -1198,4 +1202,8 @@ h3.form-header {
     top: 80px;
     left: 30px;
   }
+}
+
+.page-tools {
+    display: none;
 }
