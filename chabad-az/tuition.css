@@ -928,13 +928,7 @@ div#bs-carousel {
   background-repeat: no-repeat;
 }
 .fade-carousel .slides .slide-1 {
-  background-image: url(http://jewishbrevard.com/media/images/979/sCmo9793160.jpg);
-}
-.fade-carousel .slides .slide-2 {
-  background-image: url(http://jewishbrevard.com/media/images/979/ONUf9793159.jpg);
-}
-.fade-carousel .slides .slide-3 {
-  background-image: url(http://jewishbrevard.com/media/images/979/ONUf9793159.jpg);
+  background-image: url('https://chabadaz.com/media/images/1070/DJiP10709583.jpg');
 }
 
 /********************************/
