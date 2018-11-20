@@ -1,11 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
 
-@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700italic,700,400italic');
-@import "https://fonts.googleapis.com/css?family=Montserrat:400,700";
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700|Source+Sans+Pro:400,700');
 
 * {
-  font-family: "Montserrat", sans-serif !important;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .co_content_container {
@@ -808,10 +807,10 @@ div#bs-carousel {
 
 .fade-carousel {
   position: relative;
-  height: calc(100vh - 175px);
+  height: calc(100vh - 160px);
 }
 .fade-carousel .carousel-inner .item {
-  height: calc(100vh - 175px);
+  height: calc(100vh - 160px);
 }
 .fade-carousel .carousel-indicators > li {
   margin: 0 2px;
@@ -916,6 +915,10 @@ div#bs-carousel {
   margin: 20px auto;
 }
 
+.btn-hero:first-of-type, .btn-hero:hover:first-of-type {
+  margin-right: 15px;
+}
+
 /********************************/
 /*       Slides backgrounds     */
 /********************************/
@@ -980,31 +983,35 @@ div.container img {
   margin-top: 60px;
   transition: 1s ease;
 }
-#need-col h4,
-#plans-col h4,
-#mikvah-col h4 {
-  font-size: 23px;
+
+#need-col h4, #plans-col h4, #mikvah-col h4 {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   font-weight: 700;
-  color: #40acbe;
+	color: #d31f27;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
 }
 
 #need-col p,
 #plans-col p,
 #mikvah-col p {
-  font-size: 17px;
+	font-size: 17px;
+	line-height: 1.5;
 }
 
-#need-col a.button,
-#plans-col a.button,
-#mikvah-col a.button {
-  padding: 5px 10px;
-  color: #40acbe;
+#need-col a.button, #plans-col a.button, #mikvah-col a.button {
+  padding: 8px 20px;
+  color: #c7dfe5;
   font-size: 17px;
   font-weight: bold;
   text-decoration: none;
   border-radius: 6px;
-  background: #f7e9d0;
-  border-bottom: 1px solid black;
+  display: inline-block;
+	background: #003065;
+	margin-top: 10px;
+  border-bottom: 1px solid #021b37;
 }
 
 div.container img:hover {
@@ -1017,7 +1024,7 @@ div.container img:hover {
 .g960 {
   width: 100%;
   margin-top: 50px;
-  background: #f7e9d0;
+	background: #c7dfe5;
   padding-top: 30px;
   margin-left: 0;
 }
@@ -1030,10 +1037,8 @@ div.container img:hover {
   margin-right: auto;
 }
 
-.footer3,
-.footer,
-.footer a {
-  color: #b7aa9d;
+.footer3, .footer, .footer a {
+  color: #003065;
 }
 
 .col-md-12 p {
