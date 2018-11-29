@@ -186,11 +186,11 @@ td.chabad_text_head img {
 .chabad_navigator_bar ul li a {
   float: left;
   height: 100%;
-  /*padding: 0 16px;*/
   padding-left: 6px;
   text-decoration: none;
+  font-family: 'Poppins', sans-serif;
   font-size: 1.4em;
-  color: #b7aa9d;
+  color: #002e6a;
   transition: border-top 0.3s ease;
   border-top: 0px solid #b7aa9d;
 }
@@ -204,8 +204,8 @@ td.chabad_text_head img {
 #chabad_head .chabad_navigator_bar ul li.active a.parent,
 #chabad_head .chabad_navigator_bar ul li a.selected,
 #chabad_head .chabad_navigator_bar ul li a:hover {
-  color: #40acbe;
-  border-top: 5px solid #f7e9d0;
+  color: #e60017;
+  border-top: 5px solid #c1e0e6;
   transition: border-top 0.3s ease;
 }
 
@@ -787,11 +787,11 @@ Image credits: unsplash.com
 }
 .hero h1 {
   font-size: 4em;
-  font-weight: normal;
+  font-weight: bold;
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
-  color: #e4d1af;
+  color: #c1e0e6;
   /*text-shadow: 0 1px 0 #B7AA9D,
                0 2px 0 #B7AA9D,
                0 3px 0 #B7AA9D,
@@ -812,7 +812,7 @@ Image credits: unsplash.com
               transform: translate3d(-50%,-50%,0);*/
 }
 .hero h1 .highlight {
-  color: #40acbe;
+  color: #4f9fab;
   font-weight: bold;
 }
 
@@ -852,17 +852,24 @@ Image credits: unsplash.com
   padding: 10px 40px;
 }
 .btn.btn-hero,
-.btn.btn-hero:hover,
 .btn.btn-hero:focus {
+  transition: background 0.5s ease;
   color: #f5f5f5;
-  background-color: #1abc9c;
-  border-color: #1abc9c;
+  background-color: #004a7a;
   outline: none;
   margin: 20px auto;
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 50px;
+}
+
+.btn.btn-hero:hover {
+  background: #002e6a;
+  color: #f5f5f5;
 }
 
 .btn-hero:first-of-type, .btn-hero:hover:first-of-type {
-  margin-right: 15px;
+  margin-right: 20px;
 }
 
 /********************************/
@@ -953,12 +960,26 @@ HOME PAGE - OTHER AREAS
   color: #c7dfe5;
   font-size: 17px;
   font-weight: bold;
+  transition: padding-right 0.2s ease;
   text-decoration: none;
   border-radius: 6px;
   display: inline-block;
 	background: #003065;
 	margin-top: 10px;
   border-bottom: 1px solid #021b37;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.cta-mod a.button:hover {
+  padding-right: 30px;
+}
+
+.cta-mod a.button:hover:after {
+  content: '\203A';
+  display: inline-block;
+  margin-left: 10px;
+  position: absolute;
 }
 
 .container img:hover {
