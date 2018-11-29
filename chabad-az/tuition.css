@@ -3,8 +3,12 @@
 
 @import url('https://fonts.googleapis.com/css?family=PT+Serif:400,700|Poppins:400,700');
 
-body.cco_body, .co_body .content p {
+body.cco_body, .co_body .content p, .co_body .content li {
   font-family: 'PT Serif', serif;
+}
+
+.co_body .content p, .co_body .content li {
+  font-size: 1.6rem;
 }
 
 .co_content_container {
