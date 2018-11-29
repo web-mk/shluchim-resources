@@ -914,7 +914,11 @@ Image credits: unsplash.com
 HOME PAGE - OTHER AREAS
 *************/
 #descrip-section {
-  background: #40acbe;
+  background-color: #40acbe;
+  background-image: url('https://chabadaz.com/media/images/1071/AgKg10717252.png');
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
 }
 
 #descrip-wrap {
