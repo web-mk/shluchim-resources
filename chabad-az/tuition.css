@@ -3,7 +3,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=PT+Serif:400,700|Poppins:400,700');
 
-body.cco_body {
+body.cco_body, .co_body .content p {
   font-family: 'PT Serif', serif;
 }
 
@@ -1018,9 +1018,11 @@ HOME PAGE - OTHER AREAS
 }
 
 .col-md-12 h1 {
-  color: #40acbe;
+  color: #002d6e;
   font-size: 35px;
   margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
 }
 
 .co_index .item {
