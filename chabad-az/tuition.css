@@ -3,7 +3,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=PT+Serif:400,700|Poppins:400,700');
 
-* {
+body {
   font-family: 'PT Serif', serif;
 }
 
@@ -185,7 +185,6 @@ td.chabad_text_head img {
 
 .chabad_navigator_bar ul li a {
   float: left;
-  font-family: "Montserrat", sans-serif;
   height: 100%;
   /*padding: 0 16px;*/
   padding-left: 6px;
@@ -923,6 +922,7 @@ HOME PAGE - OTHER AREAS
 .intro-text {
   font-size: 34px;
   font-weight: bold;
+  font-family: 'Poppins', sans-serif;
 }
 
 .container img {
@@ -939,7 +939,7 @@ HOME PAGE - OTHER AREAS
   margin-bottom: 20px;
   font-weight: 700;
 	color: #d31f27;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	text-transform: uppercase;
 }
 
