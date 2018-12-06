@@ -1,6 +1,10 @@
 function runJQueryJs() {
   const templateLess = jQuery('.cco_templateless_template');
   templateLess.remove();
+
+  jQuery('.footer3').prepend(
+    "<div>Notice: A school cannot award, restrict or reserve scholarships solely on the basis of donor recommendation. A Taxpayer may not claim a tax credit if the taxpayer agrees to swap donations with another taxpayer to benefit either taxpayer's own dependent.</div>"
+  );
 }
 
 (function defer() {
