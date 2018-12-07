@@ -3,7 +3,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=PT+Serif:400,700|Poppins:400,700');
 
-body.cco_body, .co_body .content p, .co_body .content li {
+body.cco_body, .co_body .content p, .co_body .content li, .co_body .content .form-all li, input, button, select, textarea {
   font-family: 'PT Serif', serif;
 }
 
@@ -1095,4 +1095,8 @@ h3.form-header {
 
 .page-tools {
     display: none;
+}
+
+.form-multiple-column .form-radio-item {
+  width: 250px;
 }
