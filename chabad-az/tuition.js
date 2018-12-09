@@ -1,10 +1,15 @@
-function runJQueryJs() {
+function init() {
   const templateLess = jQuery('.cco_templateless_template');
   templateLess.remove();
 
   jQuery('.footer3').prepend(
     "<div>Notice: A school cannot award, restrict or reserve scholarships solely on the basis of donor recommendation. <br />A Taxpayer may not claim a tax credit if the taxpayer agrees to swap donations with another taxpayer to benefit either taxpayer's own dependent.<br /><br /></div>"
   );
+
+  var script = document.createElement('script'); 
+  script.type = 'text/javascript'; 
+  script.src = 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js';
+  document.getElementsByTagName('head')[0].appendChild(script); 
 
   if (window.location.href.indexOf('3261625') > -1) {
     const hash = window.location.hash;
@@ -23,7 +28,7 @@ function runJQueryJs() {
 (function defer() {
   if (window.jQuery) {
     jQuery(document).ready(function(e) {
-      runJQueryJs();
+      init();
     });
   } else {
     setTimeout(function() {
