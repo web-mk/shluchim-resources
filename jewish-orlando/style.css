@@ -9,6 +9,11 @@ a.site_title {
   text-indent: -9999em;
   height: 108px;
 }
+
+div#header_branding img {
+  display: none;
+}
+
 body.cco_body #header_branding {
   background: url("https://jewishorlandocom.clhosting.org/media/images/877/gSns8772058.png")
     no-repeat left center;
