@@ -1021,10 +1021,10 @@ HOME PAGE - OTHER AREAS
   font-size: 18px;
 }
 
-.col-md-12 h1 {
+.article-header__title {
   color: #002d6e;
   font-size: 35px;
-  margin-bottom: 20px;
+  margin: 0 auto 20px auto;
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
 }
@@ -1042,26 +1042,27 @@ h3.form-header {
   font-size: 2em;
 }
 
+#cco_body {
+  margin: auto;
+}
+
 @media (min-width: 768px) {
-  #cco_body {
+  #cco_body, .article-header__title {
     width: 750px;
-    margin: auto;
   }
 }
 @media (min-width: 992px) {
-  #cco_body {
+  #cco_body, .article-header__title {
     width: 970px;
-    margin: auto;
   }
 }
 @media (min-width: 1200px) {
-  #cco_body {
+  #cco_body, .article-header__title {
     width: 1170px;
-    margin: auto;
   }
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
   #thermometer {
     display: none;
   }
