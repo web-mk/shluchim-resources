@@ -7,6 +7,10 @@ body.cco_body, .co_body .content p, .co_body .content li, .co_body .content .for
   font-family: 'PT Serif', serif;
 }
 
+.co_body h2, .co_body h2 a, .co_index {
+  font-family: 'Poppins', sans-serif;
+}
+
 .co_body .content p, .co_body .content li {
   font-size: 1.6rem;
 }
@@ -1094,7 +1098,7 @@ h3.form-header {
   }
 }
 
-.page-tools {
+.page-tools, .overlay {
     display: none;
 }
 
