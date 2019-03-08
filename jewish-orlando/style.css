@@ -270,6 +270,11 @@ body
   overflow: hidden;
 }
 
+.cycle-controlNav.no_selection {
+  text-align: left;
+  left: 25px;
+}
+
 /* MENU BAR */
 
 body .co_menu_container,
