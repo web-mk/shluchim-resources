@@ -224,50 +224,91 @@ body
 }
 
 /* BUTTON FOR NAV */
-.promo_slider .cycle-directionNav a {
-  background: url("https://jewishorlandocom.clhosting.org/media/images/877/gyNy8772061.png")
-    no-repeat 0 0;
+
+.promo_slider .cycle-directionNav a,
+.dir_rtl.mobile .promo_slider .cycle-directionNav a,
+.dir_rtl.mobile .promo_slider .cycle-directionNav a.cycle-prevNav,
+.mobile
+  .promo_slider
+  .cycle-directionNav
+  a.cycle-prevNav
+  .dir_ltr.mobile
+  .promo_slider
+  .cycle-directionNav
+  a.cycle-nextNav {
+  background: #009181 !important;
+  border-radius: 100%;
 }
-.promo_slider .cycle-controlNav a {
-  background: url("https://jewishorlandocom.clhosting.org/media/images/877/gyNy8772061.png")
-    no-repeat -447px -17px;
+
+.dir_ltr.mobile .promo_slider .cycle-directionNav a.cycle-nextNav {
+  margin-right: 10px;
+  padding: 10px;
+  width: 10px;
+  height: 10px;
 }
-.promo_slider .cycle-directionNav {
-  background: url("https://jewishorlandocom.clhosting.org/media/images/877/gyNy8772061.png")
-    no-repeat 0 0;
-  right: -10px !important;
-  left: auto;
-  background-position: -75px 0;
+
+.dir_ltr.mobile .promo_slider .cycle-directionNav a.cycle-prevNav {
+  margin-left: 10px;
+  padding: 10px;
+  width: 10px;
+  height: 10px;
 }
-.promo_slider .cycle-directionNav a {
-  background: url("https://jewishorlandocom.clhosting.org/media/images/877/gyNy8772061.png")
-    no-repeat 0 0;
+
+.promo_slider .cycle-directionNav a:hover {
+  background: #006571 !important;
 }
-.promo_slider .cycle-directionNav {
-  background: url("https://jewishorlandocom.clhosting.org/media/images/877/gyNy8772061.png")
-    no-repeat 0 0;
-  right: -10px !important;
-  left: auto;
-  background-position: -75px 0;
+
+.promo_slider .cycle-directionNav a:active {
+  background: #ffb200 !important;
 }
-.promo_slider a.cycle-nextNav {
-  background-position: -75px 0;
-}
-.promo_slider a.cycle-nextNav {
-  right: -10px !important;
-  left: auto;
-  background-position: -75px 0;
-}
-.promo_slider .cycle-directionNav a {
-  display: block;
+
+.promo_slider .cycle-directionNav a:before {
+  text-indent: 0;
   position: absolute;
-  width: 53px;
-  height: 53px;
-  top: 85px;
-  cursor: pointer;
-  text-indent: -99999px;
-  z-index: 2;
-  overflow: hidden;
+  top: 10px;
+  color: white;
+  font-size: 40px;
+  font-family: FontAwesome;
+  transform: translate(50%, 50%);
+}
+
+.mobile .promo_slider .cycle-directionNav a:before {
+  top: -2px;
+  font-size: 25px;
+}
+
+a.cycle-prevNav:before {
+  left: 10px;
+  content: "\f104";
+}
+
+a.cycle-nextNav:before {
+  left: 15px;
+  content: "\f105";
+}
+
+.mobile a.cycle-prevNav:before {
+  left: 5px;
+}
+
+.mobile a.cycle-nextNav:before {
+  left: 8px;
+}
+
+.promo_slider .cycle-controlNav a {
+  background: #006571;
+  border-radius: 100%;
+  margin-right: 10px;
+  height: 13px;
+  width: 13px;
+}
+
+.promo_slider .cycle-controlNav a.active {
+  background: #ffb200;
+}
+
+.promo_slider .cycle-controlNav a:last-child {
+  margin-left: 0;
 }
 
 .cycle-controlNav.no_selection {
