@@ -815,11 +815,14 @@ li#id_2 {
 
 #donors {
   margin-top: 20px;
+  border: 1px solid #e2d5b4;
 }
 
 #latest-donors {
   height: 400px;
   overflow: scroll;
+  margin-top: 10px;
+  padding: 10px;
 }
 
 .donor-wrap {
@@ -834,5 +837,6 @@ li#id_2 {
 #donors h3 {
   text-align: center;
   padding: 10px;
+  font-family: 'Abril Fatface';
   background: #e2d5b4;
 }
