@@ -782,6 +782,7 @@ div#formContainer .form-label-top, .form-label-left label {
   background-color: #f3f0ec;
   width: 600px;
   margin: 20px auto;
+  padding-left: 20px;
 }
 
 body.mobile .form-line {
