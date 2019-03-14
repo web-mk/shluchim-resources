@@ -862,3 +862,14 @@ li#id_2 {
   margin-bottom: 25px;
   font-size: 17px;
 }
+
+.dedication-item {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+
+.mobile .dedication-item {
+  display: block;
+}
