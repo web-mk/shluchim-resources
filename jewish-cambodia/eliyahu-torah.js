@@ -27,7 +27,10 @@
           data.feed.entry.forEach(function(entry) {
             const dedication = entry.gsx$dedication.$t;
             const donor = entry.gsx$donor.$t;
-            $article.append('<h3>' + dedication + '</h3><div class="donor-name'> + donor + '</div>');
+
+            const dedicationWrapped = '<h3>' + dedication + '</h3>';
+            const donorWrapped = '<div class="donor-name">' + donor + '</div>';
+            $article.append(dedicationWrapped + donorWrapped);
           });
         });
       }
