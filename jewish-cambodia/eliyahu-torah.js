@@ -8,13 +8,13 @@
       })
       .then((data) => {
           var $latestDonors = jQuery('#latest-donors');
+          $latestDonors.html('');
           // var currentAmount = data.feed.entry[0].gsx$thermometer.$t;
           // var amountNumber = parseInt(currentAmount);
           // var percentComplete = amountNumber / 150000 * 100;
           data.feed.entry.reverse().forEach((entry) => {
             const donor = entry.gsx$name.$t;
             const amount = entry.gsx$amount.$t;
-            console.log(donor, amount);
             $latestDonors.append('<div class="donor-wrap"><div class="donor">' + donor + '</div><div class="amount">' + amount + '</div></div>');
           });
           // var counter = 0;

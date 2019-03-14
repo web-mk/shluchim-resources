@@ -812,3 +812,27 @@ li#id_2 {
 .footer3 {
   display: none;
 }
+
+#donors {
+  margin-top: 20px;
+}
+
+#latest-donors {
+  height: 400px;
+  overflow: scroll;
+}
+
+.donor-wrap {
+  display: flex;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: solid #e2d5b4 1px;
+  justify-content: space-between;
+  font-weight: normal;
+}
+
+#donors h3 {
+  text-align: center;
+  padding: 10px;
+  background: #e2d5b4;
+}
