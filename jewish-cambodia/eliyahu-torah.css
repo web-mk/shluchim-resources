@@ -843,8 +843,3 @@ li#id_2 {
   text-transform: uppercase;
   font-size: 20px;
 }
-
-.donor:before {
-  content: '\f2bd';
-  font-family: FontAwesome, serif !important;
-}
