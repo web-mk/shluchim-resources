@@ -816,6 +816,7 @@ li#id_2 {
 #donors {
   margin-top: 20px;
   border: 1px solid #e2d5b4;
+  color: #292e52;
 }
 
 #latest-donors {
@@ -839,4 +840,11 @@ li#id_2 {
   padding: 10px;
   font-family: 'Abril Fatface';
   background: #e2d5b4;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.donor:before {
+  content: '\f2bd';
+  font-family: FontAwesome, serif !important;
 }
