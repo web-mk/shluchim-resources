@@ -6,7 +6,7 @@
         // with thanks to https://sandbox.idre.ucla.edu/sandbox/general/databasing-google-spreadsheets-to-json
         url: `https://spreadsheets.google.com/feeds/list/1QgwArSCumynvBVzzZAI9aiFrYyOvVJSqVGwcNMdLOv8/osbmf08/public/values?alt=json`,
       })
-      .then((data) => {
+      .then(function(data) {
           var $latestDonors = jQuery('#latest-donors');
           $latestDonors.html('');
           // var currentAmount = data.feed.entry[0].gsx$thermometer.$t;
@@ -31,6 +31,18 @@
           // jQuery('#current-text').text('$' + amountNumber.toLocaleString());
           // jQuery('#complete-percent').text(percentComplete.toString().split('.')[0] + '%');
           // jQuery('#current-wrapper').width(percentComplete + '%');
+      });
+
+      jQuery.ajax({
+        method: 'get',
+        url: `https://spreadsheets.google.com/feeds/list/1QgwArSCumynvBVzzZAI9aiFrYyOvVJSqVGwcNMdLOv8/os6qyge/public/values?alt=json`,
+      })
+      .then(function(data) {
+        data.feed.entry.forEach(function(entry) {
+          const dedication = entry.gsx$dedication.$t;
+          const donor = entry.gsx$donor.$t;
+          console.log(dedication, donor);
+        });
       });
 
     });
