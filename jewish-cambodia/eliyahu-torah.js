@@ -18,7 +18,8 @@
 
       if (Co.ArticleId === '1278448') {
         const $article = jQuery('article');
-        $article.html('');
+        $article.html('<div id="dedication-container"></div>');
+        const $container = jQuery('#dedication-container');
         jQuery.ajax({
           method: 'get',
           url: `https://spreadsheets.google.com/feeds/list/1QgwArSCumynvBVzzZAI9aiFrYyOvVJSqVGwcNMdLOv8/os6qyge/public/values?alt=json`,
@@ -30,7 +31,7 @@
 
             const dedicationWrapped = '<h3>' + dedication + '</h3>';
             const donorWrapped = '<div class="donor-name">' + donor + '</div>';
-            $article.append(dedicationWrapped + donorWrapped);
+            $container.append(dedicationWrapped + donorWrapped);
           });
         });
       }
