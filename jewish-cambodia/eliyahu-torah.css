@@ -730,7 +730,7 @@ body.mobile div#chabad_body_content, body.mobile .chabad_banner_content, body.mo
   background: #c5b793;
 }
 
-h1, .co_body h1, H2.form-header {
+h1, .co_body h1, H2.form-header, .article-header__title {
   font-family: 'Abril Fatface', sans-serif;
   color: #2a2f51;
   font-weight: normal;
