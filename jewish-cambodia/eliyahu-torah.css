@@ -844,3 +844,21 @@ li#id_2 {
   text-transform: uppercase;
   font-size: 20px;
 }
+
+#dedication-container h3 {
+  font-family: 'Abril Fatface', sans-serif;
+  background: #e2d5b4;
+  color: #292e52;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 10px 15px;
+  display: inline-block;
+  letter-spacing: 2px;
+  outline: 1px dotted #292e52;
+  outline-offset: -4px;
+}
+
+#dedication-container .donor-name {
+  margin-bottom: 25px;
+  font-size: 17px;
+}

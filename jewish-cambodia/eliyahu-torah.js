@@ -31,7 +31,7 @@
 
             const dedicationWrapped = '<h3>' + dedication + '</h3>';
             const donorWrapped = '<div class="donor-name">' + donor + '</div>';
-            $container.append(dedicationWrapped + donorWrapped);
+            $container.append('<div class="dedication-item">' + dedicationWrapped + donorWrapped + '</div>');
           });
         });
       }
