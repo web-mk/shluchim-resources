@@ -7,19 +7,15 @@
         url: `https://spreadsheets.google.com/feeds/list/1QgwArSCumynvBVzzZAI9aiFrYyOvVJSqVGwcNMdLOv8/osbmf08/public/values?alt=json`,
       })
       .then((data) => {
-          var $latestDonors = jQuery('#latest-donors-appear');
+          var $latestDonors = jQuery('#latest-donors');
           // var currentAmount = data.feed.entry[0].gsx$thermometer.$t;
           // var amountNumber = parseInt(currentAmount);
           // var percentComplete = amountNumber / 150000 * 100;
-          var donors = [];
           data.feed.entry.reverse().forEach((entry) => {
             const donor = entry.gsx$name.$t;
             const amount = entry.gsx$amount.$t;
             console.log(donor, amount);
-            donors.push({
-              donor: donor,
-              amount: amount
-            });
+            $latestDonors.append('<div class="donor-wrap"><div class="donor">' + donor + '</div><div class="amount">' + amount + '</div></div>');
           });
           // var counter = 0;
           // function change() {
