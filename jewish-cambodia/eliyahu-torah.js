@@ -16,15 +16,15 @@
           });
       });
 
-      if (Co.ArticleId === '1278448') {
-        const $article = jQuery('article');
-        $article.html('<div id="dedication-container"></div>');
+      if (Co.ArticleId === '4326095') {
+        const $dedicationPage = jQuery('#dedication-container');
         const $container = jQuery('#dedication-container');
         jQuery.ajax({
           method: 'get',
           url: `https://spreadsheets.google.com/feeds/list/1QgwArSCumynvBVzzZAI9aiFrYyOvVJSqVGwcNMdLOv8/os6qyge/public/values?alt=json`,
         })
         .then(function(data) {
+          $dedicationPage.html('');
           data.feed.entry.forEach(function(entry) {
             const dedication = entry.gsx$dedication.$t;
             const donor = entry.gsx$donor.$t;
