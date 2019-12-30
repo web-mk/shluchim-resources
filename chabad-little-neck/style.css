@@ -81,6 +81,8 @@ body.cco_body #header_branding {
 #jli-promo #promo-video {
   padding: 20px;
   min-width: 470px;
+  display: flex;
+  align-items: center;
 }
 
 .mobile #jli-promo #promo-video {
