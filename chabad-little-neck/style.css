@@ -47,7 +47,7 @@ body.cco_body #header_branding {
   padding-bottom: 42.15%;
   height: 0;
   overflow: hidden;
-  max-width: 100%;
+  width: 100%;
 }
 .embed-container iframe,
 .embed-container object,
