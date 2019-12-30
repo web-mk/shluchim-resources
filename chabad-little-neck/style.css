@@ -42,9 +42,9 @@ body.cco_body #header_branding {
 }
 
 /* JLI PROMO */
-.embed-container {
+#jli-promo .embed-container {
   position: relative;
-  padding-bottom: 56.25%;
+  padding-bottom: 42.15%;
   height: 0;
   overflow: hidden;
   max-width: 100%;
