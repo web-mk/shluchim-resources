@@ -1,4 +1,4 @@
-form[id='4045463'] .form-label-auto label, form[id='4045463'] .form-label-top label, form[id='4045463'] .form-label-left label, form[id='4045463'] .form-label-right label {
+form[id='4434106'] .form-label-auto label, form[id='4434106'] .form-label-top label, form[id='4434106'] .form-label-left label, form[id='4434106'] .form-label-right label {
   font-family: Arial;
   text-transform: uppercase;
   font-size: 20px;
@@ -14,11 +14,11 @@ form[id='4045463'] .form-label-auto label, form[id='4045463'] .form-label-top la
   margin-left: -35px;
 }
 
-form[id='4045463'] div#formContainer .form-label-top, form[id='4045463'] .form-label-left label {
+form[id='4434106'] div#formContainer .form-label-top, form[id='4434106'] .form-label-left label {
   font-size: 20px;
 }
 
-form[id='4045463'] .form-all .label-message {
+form[id='4434106'] .form-all .label-message {
   font-family: Arial;
   background: none;
   font-weight: bold;
@@ -30,23 +30,23 @@ form[id='4045463'] .form-all .label-message {
   color: #835603;
 }
 
-form[id='4045463'] .form-line {
+form[id='4434106'] .form-line {
   background-color: #fff6e5;
   width: 600px;
   margin: 20px auto;
 }
 
-body.mobile form[id='4045463'] .form-line {
+body.mobile form[id='4434106'] .form-line {
   width: 95vw;
 }
 
-form[id='4045463'] div#text_1 img {
+form[id='4434106'] div#text_1 img {
   max-width: 100%;
 }
 
 /*HIDE BG FOR CERTAIN AREAS*/
 
-form[id='4045463'] li#id_2, form[id='4045463'] li#id_1, form[id='4045463'] li#id_3 {
+form[id='4434106'] li#id_2, form[id='4434106'] li#id_1, form[id='4434106'] li#id_3 {
   background: rgba(255, 255, 255, 0);
   border-bottom: 0;
   margin: 0;
@@ -54,7 +54,7 @@ form[id='4045463'] li#id_2, form[id='4045463'] li#id_1, form[id='4045463'] li#id
   width: 100%;
 }
 
-form[id='4045463'] h2.form-header {
+form[id='4434106'] h2.form-header {
   font-family: Arial;
   font-size: 2em;
   font-weight: bold;
@@ -62,11 +62,11 @@ form[id='4045463'] h2.form-header {
   color: #835603;
 }
 
-form[id='4045463'] img.form-image {
+form[id='4434106'] img.form-image {
   width: 100%;
 }
 
-form[id="4045463"] div#raffle-deets {
+form[id="4434106"] div#raffle-deets {
   width: 80%;
   background: #fff6e5;
   color: #835603;
@@ -76,11 +76,11 @@ form[id="4045463"] div#raffle-deets {
   border: white double 11px;
 }
 
-form[id="4045463"] div#raffle-deets p {
+form[id="4434106"] div#raffle-deets p {
   color: #835603;
 }
 
-form[id="4045463"] div#raffle-deets p:nth-child(1) {
+form[id="4434106"] div#raffle-deets p:nth-child(1) {
   font-size: 20px;
   border-bottom: 1px solid white;
 }
