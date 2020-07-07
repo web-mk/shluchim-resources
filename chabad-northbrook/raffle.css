@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Raleway&display=swap');
+
 form[id='4434106'] .form-label-auto label, form[id='4434106'] .form-label-top label, form[id='4434106'] .form-label-left label, form[id='4434106'] .form-label-right label {
-  font-family: Arial;
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-size: 20px;
   letter-spacing: 1px;
@@ -19,7 +21,7 @@ form[id='4434106'] div#formContainer .form-label-top, form[id='4434106'] .form-l
 }
 
 form[id='4434106'] .form-all .label-message {
-  font-family: Arial;
+  font-family: 'Raleway', sans-serif;
   background: none;
   font-weight: bold;
   text-transform: uppercase;
