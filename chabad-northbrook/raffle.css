@@ -5,6 +5,15 @@
   font-size: 16px;
 }
 
+.aid-4434106 header.article-header.cf {
+  display: none;
+}
+
+.aid-4434106 li#id_20 {
+  width: 100%;
+  background: none;
+}
+
 .aid-4434106 .article-header h1,
 form[id='4434106'] button {
   font-family: 'Montserrat', sans-serif;
