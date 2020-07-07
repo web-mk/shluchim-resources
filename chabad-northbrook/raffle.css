@@ -99,17 +99,24 @@ form[id="4434106"] div#raffle-deets p:nth-child(1) {
 
 /*4 tickets bold */
 
-label#label_input_4_2 {
+.aid-4434106 label#label_input_4_2 {
   font-weight: bold;
 }
 
 /* Footnote Disclaimer */
 
-#id_10 {
+.aid-4434106 #id_10 {
   background: none;
   border: 0;
   padding: 0;
   margin: 0;
   width: 100%;
   text-align: center;
+}
+
+.aid-4434106 label#label_input_19_5:after {
+  content: '24 tickets, gift, and dinner for 2 at Mizrahi Grill';
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 14px;
 }
