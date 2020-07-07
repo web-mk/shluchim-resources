@@ -11,7 +11,12 @@
 
 .aid-4434106 li#id_20 {
   width: 100%;
+  max-width: 765px;
   background: none;
+}
+
+.aid-4434106 li#id_20 img {
+  height: auto !important;
 }
 
 .aid-4434106 .article-header h1,
