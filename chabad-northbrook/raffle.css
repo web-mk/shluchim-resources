@@ -1,8 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Raleway:wght@400;700&display=swap');
 
 .aid-4434106 .co_body .content .form-all li {
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
+}
+
+.aid-4434106 #label_input_19_2 {
+  font-weight: bold;
 }
 
 .aid-4434106 div#text_21 p {
