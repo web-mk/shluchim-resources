@@ -1,7 +1,7 @@
 /* TOP LINKS, SITE HEADER IMAGE etc. */
 
 body {
-  background: url("https://jewishorlandocom.clhosting.org/media/images/877/KCiS8772056.jpg") !important;
+  background: url("https://www.jewishorlando.com./media/images/877/KCiS8772056.jpg") !important;
   background-size: cover !important;
   background-attachment: fixed !important;
 }
@@ -553,4 +553,26 @@ a.otherquicklinks:hover {
     padding: 10px;
     border-radius: 10px;
   }
+}
+
+/* Donate Form */
+#donate-wrapper main form .content-box .row .col .field-wrapper select, 
+#donate-wrapper main form .content-box .row .col .field-wrapper textarea,
+.field-wrapper input[type=email], .field-wrapper input[type=text] {
+  border-radius: 4px;
+}
+
+div#confirm-wrapper::after, div#donate-wrapper::after {
+  display: none;
+}
+
+#confirm-wrapper #confirm, #donate-wrapper #donate {
+  background-color: rgb(225 230 233 / 84%);
+  box-shadow: 4px 4px 16px -4px rgb(39 165 180)
+}
+
+#donate-wrapper #donate .monthly-note {
+  font-size: 15px;
+  font-style: italic;
+  font-family: inherit;
 }
