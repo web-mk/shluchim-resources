@@ -8,6 +8,7 @@
 // @icon         https://consumer-tools.dowjones.net/assets/img/favicon.png
 // @grant        GM_registerMenuCommand
 // @downloadURL  https://web-mk.github.io/shluchim-resources/tampermonkey.js
+// @run-at       document-start
 
 // ==/UserScript==
 function c() {
