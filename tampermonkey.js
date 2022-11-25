@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Servo <> NR
-// @namespace    http://tampermonkey.net/
+// @namespace    https://web-mk.github.io/
 // @version      0.1
 // @description  try to take over the world!
 // @author       You
