@@ -5,7 +5,6 @@
 // @version      0.1
 // @description  try to take over the world!
 // @author       You
-// @match        https://**/*
 // @icon         https://consumer-tools.dowjones.net/assets/img/favicon.png
 // @grant        GM_registerMenuCommand
 // @downloadURL  https://consumer-tools.dowjones.net/bookmarklets.user.js
