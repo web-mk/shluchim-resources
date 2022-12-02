@@ -44,9 +44,11 @@ body {
   margin-left: auto;
   width: 960px;
   margin-right: auto;
+  max-width: 100%;
 }
 #chabad_body_content {
   width: 960px;
+  max-width: 100%;
 }
 #chabad_head .chabad_header {
   border-top: medium none;
@@ -64,12 +66,14 @@ body {
   border-left: medium none;
   margin-top: 0px;
   width: 960px;
+  max-width: 100%;
   background-color: #270f0d;
   text-align: center !important;
 }
 #chabad_head .chabad_navigator_bar .chabad_menu_content {
   float: center;
   width: 960px;
+  max-width: 100%;
   text-align: center !important;
 }
 #chabad_head .chabad_navigator_bar ul {
@@ -209,6 +213,10 @@ _height:23px;*/
   font-weight: bold;
   color: white;
   text-decoration: none;
+}
+
+img {
+    max-width: 100%;
 }
 
 form[id="5724146"] #cid_1 label,
