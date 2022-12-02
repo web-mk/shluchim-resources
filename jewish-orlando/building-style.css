@@ -298,3 +298,16 @@ form[id="5724146"] #id_4 .form-checkbox:checked:after {
   content: "\f058";
   color: #735255;
 }
+
+a.deds {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+    background: #286b92;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
