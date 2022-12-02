@@ -198,7 +198,6 @@ _height:23px;*/
 }
 .cco_templateless_template {
   font-size: 10px;
-  font-family: tahoma;
   text-transform: uppercase;
   font-weight: bold;
   color: white;
@@ -206,9 +205,79 @@ _height:23px;*/
 }
 .cco_templateless_template a {
   font-size: 10px;
-  font-family: tahoma;
   text-transform: uppercase;
   font-weight: bold;
   color: white;
   text-decoration: none;
 }
+
+form[id="5724146"] #cid_1 label,
+form[id="5724146"] #cid_3 label,
+form[id="5724146"] #cid_4 label {
+  font-size: 20px;
+  margin-left: 12px;
+}
+
+form[id="5724146"] #id_1,
+form[id="5724146"] #id_3,
+form[id="5724146"] #id_4 {
+  background: none;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.form-label-auto label,
+.form-label-top label,
+.form-label-left label,
+.form-label-right label {
+  text-transform: uppercase;
+  font-size: 24px;
+  letter-spacing: 3px;
+  color: black;
+  font-weight: bold;
+  background: #f7c17c;
+  padding: 5px;
+  width: 109%;
+  display: inline-block;
+  margin-bottom: 4px;
+  padding-left: 14px;
+  margin-left: -36px;
+}
+
+.form-line {
+  background-color: #f5efea;
+  width: 600px;
+  margin: 20px auto;
+}
+
+form[id="5724146"] #id_1 .form-checkbox:after,
+form[id="5724146"] #id_3 .form-checkbox:after,
+form[id="5724146"] #id_4 .form-checkbox:after {
+  background: white;
+}
+
+form[id="5724146"] #id_1 .form-checkbox:after,
+form[id="5724146"] #id_3 .form-checkbox:after,
+form[id="5724146"] #id_4 .form-checkbox:after {
+  content: "\f10c";
+  font-family: FontAwesome;
+  font-size: 23px;
+  position: relative;
+  color: #c5a985;
+  /* bottom: 4px; */
+  left: -2px;
+}
+
+form[id="5724146"] #id_1 .form-checkbox:after,
+form[id="5724146"] #id_3 .form-checkbox:after,
+form[id="5724146"] #id_4 .form-checkbox:after {
+  background: #f5efea;
+}
+
+form[id="5724146"] #id_1 .form-checkbox:checked:after,
+form[id="5724146"] #id_3 .form-checkbox:checked:after,
+form[id="5724146"] #id_4 .form-checkbox:checked:after {
+  content: "\f058";
+  color: #735255;
+}
+
