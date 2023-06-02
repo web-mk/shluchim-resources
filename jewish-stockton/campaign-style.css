@@ -328,3 +328,11 @@ body h1 .small {
 .fs-partners>div {
   border-top-color: var(--color-pastel-blue);
 }
+
+.fs-header-top .fs-logo-container .fs-logo {
+    height: 115%;
+}
+
+.fs-left-border-triangle polygon {
+    fill: #609acb;
+}
