@@ -302,6 +302,7 @@ body h1 .small {
 }
 
 
+.fs-donate .fs-donate-amounts,
 .fs-matchers .fs-matchers-intro strong,
 .fs-goal .fs-goal-graph-container .fs-goal-graph-text,
 .fs-goal .fs-goal-text strong,
@@ -317,4 +318,8 @@ body h1 .small {
 
 .fs-donate {
   background-color: var(--color-pastel-blue);
+}
+
+.fs-countdown {
+    background-color: #112435;
 }
