@@ -324,3 +324,7 @@ body h1 .small {
 .fs-countdown {
     background-color: #112435;
 }
+
+.fs-partners>div {
+  border-top-color: var(--color-pastel-blue);
+}
