@@ -301,7 +301,8 @@ body h1 .small {
   color: var(--color-black);
 }
 
-
+.fs-partners .fs-partner-container .fs-partner .fs-partner-donation-amount,
+.fs-partners h3,
 .fs-donate .fs-donate-amounts,
 .fs-matchers .fs-matchers-intro strong,
 .fs-goal .fs-goal-graph-container .fs-goal-graph-text,
@@ -315,7 +316,7 @@ body h1 .small {
   background-color: var(--color-black);
 }
 
-
+.fs-partners .fs-partner-container .fs-partner,
 .fs-donate {
   background-color: var(--color-pastel-blue);
 }
