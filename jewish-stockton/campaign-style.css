@@ -1,0 +1,320 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@400;700&family=Rubik+Glitch&display=swap');
+
+
+:root {
+  --color-pastel-blue: #76b0e2;
+  --color-light-green: #c0f5a8;
+  --color-dark-green: #408224;
+  --color-black: black;
+  --font: 'Anek Devanagari', sans-serif;
+  --font-power: 'Rubik Glitch', cursive;
+}
+
+body {
+  font-size: 17px;
+}
+
+.fs-header .page-header h1,
+body h1 span {
+  font-family: var(--font-power);
+  font-weight: normal;
+}
+
+body .team-up span,
+.donate-A span,
+.donate-members .donates_user .description, .progress-flex .S-label,
+.btns-flex .view-btn,
+html body.cco_body .fs-about-text p,
+body .fs-about-text p,
+.fs-countdown .fs-countdown-widget .fs-countdown-sep,
+.team-members .team-users .donor-team .D-amount,
+.team-members .team-users .donor-team span,
+.progress-flex .S-label span,
+.team-members .team-users .user-name, .team-members .team-users .user-name a,
+.fs-matchers .fs-matcher .fs-matcher-title,
+.fs-countdown .fs-countdown-widget .fs-countdown-unit .fs-countdown-description,
+.fs-countdown .fs-countdown-widget .fs-countdown-unit .fs-countdown-number,
+.donar-section .nav-tabs .nav-link, .donate-members .donates_user .left_userd .time, .donate-members .donates_user .left_userd .user-name, .fs-countdown h3 strong, .fs-partners h3,
+body input,
+body label span,
+body select,
+#fs-donate-form .infield-label label, #fs-donate-form input, #fs-donate-form select, .fs-footer .fs-copyright, .team-donor-detail .description, .team-members .team-header,
+.fs-original-goal,
+.dir_ltr a, .dir_ltr div, .dir_ltr h1, .dir_ltr h2, .dir_ltr h3, .dir_ltr p, .dir_ltr strong, .dir_rtl a, .dir_rtl div, .dir_rtl h1, .dir_rtl h2, .dir_rtl h3, .dir_rtl p, .dir_rtl strong, .fs-goal .fs-goal-graph-container .fs-goal-graph-text, .fs-header .page-header h1, .fs-header .page-header h1 small,
+.fs-goal .fs-goal-graph-container .fs-goal-graph-text span,
+.cancel-btn, .fs-about h3, .fs-about h4,
+.modal .modal-header .modal-title,
+.fs-full-donate-form .fs-donate-body .fs-donate-section h3,
+.fs-full-donate-form .fs-donate-body .fs-effective-donation-container .fs-effective-donation-description,
+.fs-full-donate-form .fs-donate-body .fs-effective-donation-container .fs-effective-donation-amount-container,
+.fs-full-donate-form .fs-donate-body .fs-donation-options .fs-donation-option span.fs-option-name>*,
+.fs-full-donate-form .fs-btn-donate,
+body *,
+body h3 span,
+body span,
+body .reservation_input_select,
+body .co_form_input,
+body .co_body .content .form-all p,
+body .banner .widget_content.index_format .item .subtitle,
+body .co_body .content .form-all,
+body .co_body .content p,
+body .cps-container p,
+body .form-all,
+body a,
+body abbr,
+body acronym,
+body address,
+body applet,
+body article,
+body aside,
+body audio,
+body b,
+body big,
+body blockquote,
+body,
+body canvas,
+body caption,
+body center,
+body cite,
+body code,
+body dd,
+body del,
+body details,
+body dfn,
+body div,
+body dl,
+body dt,
+body em,
+body embed,
+body fieldset,
+body figcaption,
+body figure,
+body footer,
+body form,
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body header,
+body hgroup,
+body html,
+body html body.cco_body,
+body html body.cco_body p,
+body i,
+body iframe,
+body img,
+body ins,
+body kbd,
+body label,
+body legend,
+body li,
+body mark,
+body menu,
+body nav,
+body object,
+body ol,
+body output,
+body pre,
+body q,
+body ruby,
+body s,
+body samp,
+body section,
+body small,
+body strike,
+body strong,
+body sub,
+body summary,
+body sup,
+body table,
+body tfoot,
+body time,
+body tt,
+body u,
+body ul,
+body var,
+body video,
+body .co_body .small_header,
+body .co_body .small_header a,
+body .co_body .small_header_alt,
+body .co_body .small_header_alt a,
+body .co_body .small_header_light,
+body .co_body .small_header_light a,
+body .co_content_container .small_header,
+body .co_body .light_grey a,
+body .light_grey,
+body .light_grey a,
+body .blue,
+body .blue a,
+body .co_body .content .blue a,
+body .chabad_text_box .gray,
+body .chabad_text_box div,
+body .chabad_text_box div.blue,
+body .chabad_text_box span,
+body div#chabad_head .chabad_navigator_bar ul li a,
+body .message .wrapper .widget_content .readMore,
+body .icon .chabad_updates .widget_content .item .title,
+body .icon .chabad_updates .widget_content .item .title a,
+body .icon .widget_content .item .title,
+body .icon .widget_content .item .title a,
+body .donate-body .stage.one p,
+body .donate-body .stage.one *,
+body .ctct-form-button,
+body #co_body_container div.ctct-form-embed div.ctct-form-defaults h2.ctct-form-header,
+body #co_body_container div.ctct-form-embed div.ctct-form-defaults p.ctct-form-text,
+body div#chabad_box_text .chabad_box_text_body .chabad_box_text_gradient .chabad_box_text_comment .item div,
+body .hp-table .hp-row-first .promo_slider .slider .cycle-caption .readMore,
+body #donate-wrapper main .amounts button,
+body #donate-wrapper main .custom-amount-wrapper input.custom-amount,
+body .black,
+body .black a,
+body .arial_11,
+body .black_11,
+body .black_11 a,
+body .light_grey_11,
+body .light_grey_11 a,
+body .small_links,
+body .co_body .below-article__title,
+body .co_body .inlinecopyright,
+body .co_body .inlinecopyright a,
+body .co_body .sneak_peek h6 a,
+body .co_body .content li,
+body .message .wrapper .widget_content.message_format div,
+.dir_ltr a,
+body .dir_ltr div,
+body .dir_ltr h1,
+body .dir_ltr h2,
+body .dir_ltr h3,
+body .dir_ltr p,
+body .dir_ltr strong,
+body .dir_rtl a,
+body .dir_rtl div,
+body .dir_rtl h1,
+body .dir_rtl h2,
+body .dir_rtl h3,
+body .dir_rtl p, .dir_rtl strong, .fs-goal .fs-goal-graph-container .fs-goal-graph-text, .fs-header .page-header h1, .fs-header .page-header h1 small {
+  font-family: var(--font);
+}
+
+.fs-header-top,
+.fs-header-top .fs-logo-container {
+  border-color: var(--color-pastel-blue);
+}
+
+.fs-header-top .fs-logo-container .fs-bottom-triangle-border svg polygon {
+  fill: var(--color-pastel-blue);
+}
+
+.fs-header {
+  background-image: url(https://webmk.co/sites/jewish-stockton/campaign-header.jpg);
+  background-position-y: bottom;
+  background-size: cover;
+  border-bottom-color: white;
+}
+
+.fs-header:before {
+  background: none;
+}
+
+.fs-header .page-header {
+  display: none;
+}
+
+.jumbotron.fs-header {
+  padding-bottom: 30%;
+  position: relative;
+}
+
+.jumbotron.fs-header .container.text-center {
+  background: url(https://webmk.co/sites/jewish-stockton/campaign-header-text.png) #76b0e2;
+  width: 100%;
+  background-position: center;
+  height: 140px;
+  background-repeat: no-repeat;
+  border-top: 4px solid white;
+  position: absolute;
+  bottom: 0;
+}
+
+.btns-flex .view-btn,
+.fs-goal {
+  background-color: var(--color-pastel-blue);
+}
+
+.progress-flex .progress .progress-bar,
+.donate-button .donate-button-text:hover {
+  background-color: var(--color-pastel-blue);
+}
+
+button.btn.fs-btn.fs-btn-read-more.js-btn-read-more {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .jumbotron .h1, .jumbotron h1 {
+    font-size: 83px;
+  }
+}
+
+.fs-header .page-header h1 small,
+body h1 .small {
+  font-size: 30px;
+}
+
+.donate-members .donates_user .team-up,
+.fs-about h4,
+.fs-header .page-header h1 small,
+.fs-full-donate-form .fs-donate-body .fs-effective-donation-container .fs-effective-donation-amount-container,
+.fs-countdown .fs-countdown-widget .fs-countdown-sep,
+.fs-footer .row>div:nth-of-type(2) h3 {
+  color: var(--color-pastel-blue);
+}
+
+
+.donar-section {
+  background: var(--color-pastel-blue);
+}
+
+.fs-logo-container {
+  /* display: none; */
+}
+
+.fs-header-top {
+
+}
+
+.fs-matchers .fs-matcher .fs-matcher-title {
+  color: var(--color-pastel-blue);
+}
+
+
+.btns-flex .donate-btns {
+  background-color: var(--color-black);
+}
+
+.fs-footer .row>div:nth-of-type(1) h3,
+.donar-section .nav-tabs .nav-item.active .nav-link,
+.team-members .team-users .user-name, .team-members .team-users .user-name a {
+  color: var(--color-black);
+}
+
+
+.fs-matchers .fs-matchers-intro strong,
+.fs-goal .fs-goal-graph-container .fs-goal-graph-text,
+.fs-goal .fs-goal-text strong,
+.fs-about h3 {
+  color: var(--color-black);
+}
+
+.fs-btn,
+.fs-goal .fs-goal-graph-container .fs-goal-graph .fs-goal-graph-fill {
+  background-color: var(--color-black);
+}
+
+
+.fs-donate {
+  background-color: var(--color-pastel-blue);
+}
