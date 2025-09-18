@@ -451,9 +451,9 @@ body.cco_body.sites-article #tabContentMain .co_menu_item.hover span.parent a {
   color: var(--color-black);
 }
 .co_menu_item .co_menu_content {
-  /* top: 0px;
-  padding-top: 65px; */
-  top: 65px;
+  top: 0px;
+  padding-top: 65px;
+  /* top: 65px; */
 }
 .co_submenu_container {
   opacity: 1 !important;
@@ -2963,7 +2963,7 @@ body.sites-article #content {
 }
 
 .footer3:after {
-  content: "100% of all donations benefit Chabad of Cary · Morrisville Jewish Center";
+  content: "100% of all donations benefit Chabad of Cary Â· Morrisville Jewish Center";
   margin-top: 20px;
   display: block;
   font-style: italic;
