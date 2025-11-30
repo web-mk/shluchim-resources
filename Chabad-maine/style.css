@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Sequel Sans";
-  src: url("https://cheder-sheini.github.io/website/assets/fonts/Sequel%20Sans%20Light%20Disp.woff");
+  src: url("./Sequel%20Sans%20Light%20Disp.woff");
   font-weight: 300;
 }
 @font-face {
@@ -1626,8 +1626,10 @@ fieldset {
 
 /* Index Page */
 body.sites-article:has(.article_index .synopsis_icon) #content {
-  margin-top: 0;
   background: var(--color-offwhite);
+}
+body.sites-article #content {
+  margin-top: 0;
 }
 body:has(.article_index .synopsis_icon) #BodyContainer
   #co_content_container
@@ -1757,7 +1759,7 @@ body:has(.article_index .synopsis_icon) .article_index_container
 }
 body:has(.article_index .synopsis_icon) .article_index_container
   .co_index.article_index
-  .row:nth-child(1)
+  .row:nth-child(3n + 1)
   .item
   .synopsis_icon
   a.synopsis_icon {
@@ -1765,7 +1767,7 @@ body:has(.article_index .synopsis_icon) .article_index_container
 }
 body:has(.article_index .synopsis_icon) .article_index_container
   .co_index.article_index
-  .row:nth-child(2)
+  .row:nth-child(3n + 2)
   .item
   .synopsis_icon
   a.synopsis_icon {
@@ -1773,7 +1775,7 @@ body:has(.article_index .synopsis_icon) .article_index_container
 }
 body:has(.article_index .synopsis_icon) .article_index_container
   .co_index.article_index
-  .row:nth-child(3)
+  .row:nth-child(3n + 3)
   .item
   .synopsis_icon
   a.synopsis_icon {
