@@ -1536,7 +1536,30 @@ fieldset {
   transform: all 0.3s;
 }
 
-
+body.sites-article #content {
+    margin-top: 0;
+}
+#BodyContainer #co_content_container>.clearfix>.g960:not(.categorized) .article-header {
+    width: 100%;
+    max-width: 1180px;
+}
+#BodyContainer #co_content_container>.clearfix>.g960:not(.categorized) .article-header, .body_wrapper.co_body {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.body_wrapper.co_body {
+    width: 100%;
+    max-width: 1180px;
+}
+#BodyContainer .no-hero-image #co_content_container .master-content-wrapper.master-content-wrapper {
+    background: none!important;
+    border: none!important;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+#BodyContainer #co_content_container>.clearfix>.g960:not(.categorized) .article-header {
+    position: relative;
+}
 #BodyContainer
   #co_content_container
   > .clearfix
